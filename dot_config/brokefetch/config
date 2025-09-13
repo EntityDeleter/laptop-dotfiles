@@ -1,6 +1,0 @@
-# Available COLOR_NAME options: RED, GREEN, BLUE, CYAN, WHITE
-# Set RAM_MB to your desired memory size in MB
-# If you have any issues with brokefetch, try to remove this config and run brokefetch again
-RAM_MB=128
-UPTIME_OVERRIDE=16
-COLOR_NAME=CYAN
