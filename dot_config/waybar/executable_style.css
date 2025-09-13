@@ -1,0 +1,212 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Jetbrains Mono";
+    font-feature-settings: '"zero", "calt", "ss02", "cv03", "cv04", "cv09", "cv12", "cv18", "cv19"';
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+    padding: 0px 10px;
+    margin: 7px 3px 0px 5px;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0;
+}
+
+#window {
+    color: #ffffff;
+    padding: 0px 10px;
+    margin: 7px 5px 0px 5px;
+    background-color: #000000;
+    border: 3px solid #33CCFF; border-radius: 10px;
+}
+
+#workspaces button {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0px 0px;
+    border: 0px solid #33CCFF; border-radius: 6px;
+}
+
+#workspaces button.active {
+    background: #ffffff;
+    color: #000000;
+    border: 0px solid #33CCFF; border-radius: 6px;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border: 0px solid #33CCFF; border-radius: 6px;
+}
+
+#workspaces {
+    padding: 0px 0px;
+    margin: 7px 5px 0px 5px;
+    border: 3px solid #33CCFF; border-radius: 10px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 5;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 5;
+}
+
+#clock {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#battery {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: #26A65B;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#bluetooth {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 27px;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#bluetooth.connected {
+    background-color: #26A65B;
+}
+
+#cpu {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#memory {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#backlight {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#network {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#network.disconnected {
+    background-color: #f53c3c;
+}
+
+#privacy {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#wireplumber {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px;
+}
+
+#wireplumber.muted {
+    background-color: #992222;
+}
+
+#tray {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 0px 10px 10px 0px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #eb4d4b;
+}
+
+#idle_inhibitor {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33CCFF; border-radius: 10px 0px 0px 10px;
+}
+
+#idle_inhibitor.activated {
+    background-color: #26a65b;
+}
+
+#custom-power {
+     font-size: 27;
+     padding: 0px 10px;
+     margin: 7px 0px 0px 0px;
+}
