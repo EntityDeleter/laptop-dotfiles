@@ -1,0 +1,4792 @@
+grep microcode /proc/cpuinfo
+yay wget
+pacman -R yay-debug
+sudo pacman -R yay-debug
+unzip
+uzip
+yay unzip
+pacman -Qn
+file BIOS_Acer_1.53_A_A.zip
+sudo nano BIOS_Acer_1.53_A_A.zip
+sudo rm BIOS_Acer_1.53_A_A.zip
+mount /dev/sda4 /mnt
+sudo mount /dev/sda4 /mnt
+cp Z8Y_153.exe /mnt
+sudo cp Z8Y_153.exe /mnt
+sudo mkinticpio -P
+btrfs filesystem du -s @snapshot*
+btrfs filesystem du -s /.snapshot*
+sudo btrfs filesystem du -s /.snapshot*
+sudo btrfs filesystem du -s /.snapshot/*
+sudo btrfs filesystem du -s /.snapshots/*
+sudo snapper list
+sudo snapper status 1..133 >> ~/snapper
+sudo snapper status 1..133 | grep "/etc" >> ~/snapper
+sudo snapper status 1..133 | grep "/boot" >> ~/snapper
+sudo snapper status 1..133 | grep "/home" >> ~/snapper
+nano snapper
+locale -a
+cat /etc/locale.conf
+python print(1/32)
+ls /boot
+ls loader
+ls /boot/loader
+sudo rfkill list all
+ip link set wlan0 up
+iwct;
+pign google.con
+ping google.con
+sudo cp /boot/EFI/refind/refind.conf /home/sudar/
+sudo snapper status 1..133 | grep /boot
+cat snapper
+cat /etc/mkinitcpio.d/linux-zen.preset
+cat /etc/cmdline.d/boot.conf
+cat /etc/initcpio/post/REFInd.sh
+cat /etc/makepkg.conf.d/rust.conf
+sudo ip link set enp1s0 up
+sudo nano /etc/systemd/network/20-wired.network
+ping bing
+ping bing.com
+ping aur.archlinux.org
+pacman -S lynx
+sudo pacman -S lynx
+sudo ip link set enp1s0 down
+cat .histfile | grep watch
+watch -c -n 60 -p fastfetch
+watch -c -n 20 -p fastfetch
+cat /sys/class/backlight/intel_backlight/max_brightness
+sudo chmod 766 /sys/class/backlight/intel_backlight/brightness
+cat 96000 > /s/c/b/i/b
+cat 96000 > /sys/class/backlight/intel_backlight/brightness
+echo 96000 > /sys/class/backlight/intel_backlight/brightness
+echo 5000 > /sys/class/backlight/intel_backlight/brightness
+echo 50000 > /sys/class/backlight/intel_backlight/brightness
+sudo systemctl enable --now systemd-backlight@backlight:intel_backlight
+sudo systemctl enable --now systemd-backlight@
+sudo systemctl enable systemd-backlight@backlight:intel_backlight
+sudo mkinitcpio -P && sudo shutdown now
+cat .histfile | grep wget
+wget https://global-download.acer.com/GDFiles/BIOS/BIOS/BIOS_Acer_1.53_A_A.zip
+sudo rm BIOS_Acer_1.53_A_A.zip.1
+sudo rm refind.conf
+sudo rm snapper
+sudo rm Z8Y_153.exe
+unzip BIOS_Acer_1.53_A_A.zip
+yay 7z
+7z x Z8Y_153.exe -oOutputDir
+cd OutputDir
+ls | grep bin
+yay unetbootin
+fdisk /dev/nvme0n1
+unetbootin
+sudo pacman -Rsunc unetbootin
+cat /etc/vconsole.conf
+which nano
+which clear
+/usr/bin/clear
+which yay
+which df
+which du
+sudo dmidecode -t 2
+cat /sys/devices/virtual/dmi/id/board_name
+cat /sys/devices/virtual/dmi/id/board_version
+cat /sys/devices/virtual/dmi/id/board_asset_tag
+cat /sys/devices/virtual/dmi/id/board_serial
+sudo cat /sys/devices/virtual/dmi/id/board_serial
+sudo cat /sys/class/dmi/id/bios_version
+cat .histfile | grep grep
+sudo cat /sys/devices/system/cpu/intel_pstate/status
+sudo cat /sys/devices/system/cpu/intel_pstate/min_perf_pct
+sudo cat /sys/devices/system/cpu/intel_pstate/hwp_dynamic_boost
+sudo cat /sys/devices/system/cpu/intel_pstate/max_perf_pct
+sudo cat /sys/devices/system/cpu/intel_pstate/turbo_pct
+sudo cat /sys/devices/system/cpu/intel_pstate/num_pstates
+sudo cat /sys/devices/system/cpu/intel_pstate/no_turbo
+sudo cat /sys/devices/system/cpu/microcode
+sudo cat /sys/devices/system/cpu/microcode/*
+sudo cat -r . /sys/devices/system/cpu/microcode/
+sudo cat -r /sys/devices/system/cpu/microcode/
+sudo cat --help /sys/devices/system/cpu/microcode/
+sudo grep -r . /sys/devices/system/cpu/microcode
+sudo grep -r . /sys/devices/system/cpu/modalias
+sudo grep -r . /sys/devices/system/cpu/kernel_max
+sudo grep -r . /sys/devices/system/cpu/enabled
+lspci | grep Celeron
+lspci | grep -i Celeron
+lspci | grep -i cpu
+lscpu
+lscpu --help
+lscpu --help > lscpu
+lscpu > lscpu
+nano lscpu
+rm lscpu
+sudo rm *
+sudo rm -r *
+sudo cat /sys/devices/virtual/dmi/id/bios_date
+sudo cat /sys/devices/virtual/dmi/id/bios_vendor
+sudo nano /usr/lib/systemd/systemd-sleep/ssd-freeze.sh
+sudo nano /usr/lib/systemd/system-sleep/ssd-freeze.sh
+yay gpm
+gpm -m /dev/input/mice
+sudo gpm -m /dev/input/mice
+lspci | grep elan
+lspci | grep touch
+lsmod
+cd input
+sudo dmesg | grep touch
+sudo journalctl | grep touch
+yay libinput
+devname
+cat /p/b/i/d
+cat /proc/bus/input/devices
+cat /proc/bus/input/devices | grep touch
+cat /proc/bus/input/devices | grep elan
+cat /proc/bus/input/devices > tou
+cat /proc/bus/input/devices > touch
+nano touch
+rm -r *
+sudo gpm -m /dev/input/event10 
+sudo gpm -m /dev/input/mouse1
+libinput
+sudo libinput list-devices | grep -i elan
+sudo gpm -m /dev/input/event10
+sudo gpm -m /dev/input/event9 -t ps2
+sudo libinput --help
+  GNU nano 8.5                                                                       lib
+Tap-and-drag:            n/a
+Tap button map:          n/a
+Tap drag lock:           n/a
+Left-handed:             disabled
+Nat.scrolling:           disabled
+Middle emulation:        n/a
+Calibration:             n/a
+Scroll methods:          *button
+Scroll button:           BTN_RIGHT
+Scroll button lock:      disabled
+Click methods:           none
+Clickfinger button map:  n/a
+Disable-w-typing:        n/a
+Disable-w-trackpointing: n/a
+Accel profiles:          flat *adaptive custom
+Rotation:                n/a
+sudo gpm --help
+sudo gpm -m  -t ps2
+arch-laptop% sudo gpm
+arch-laptop% sudo gpm --help
+gpm: invalid option -- '-'
+arch-laptop% sudo gpm -h
+Usage: gpm [options]
+  Valid options are (not all of them are implemented)
+    -a accel         sets the acceleration (default 2)
+    -A [limit]       start with selection disabled (`aged')\
+    -b baud-rate     sets the baud rate (default 1200)\
+    -B sequence      allows changing the buttons (default '123')\
+    -d delta         sets the delta value (default 25) (must be 2 or more)\
+    -D               debug mode: don't auto-background\
+    -g tap-button    sets the button (1-3) that is emulated by tapping on\
+                     a glidepoint mouse, none by default. (mman/ps2 only)\
+    -i interval      max time interval for multiple clicks (default 250)\
+    -k               kill a running gpm, to start X with a busmouse\
+    -l charset       loads the inword() LUT (default '-a-zA-Z0-9_./âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€')\
+    -m mouse-device  sets mouse device\
+    -M               enable multiple mice. Following options refer to\
+                     the second device. Forces "-R"\
+    -o options       decoder-specific options (e.g.: "dtr", "rts")\
+    -p               draw the pointer while striking a selection\
+    -q               quit after changing mouse behaviour\
+    -r number        sets the responsiveness (default 10)\
+    -R mouse-type    enter repeater mode. X should read /dev/gpmdata\
+                     like it was a mouse-type device.  Default is MouseSystems.\
+                     You can also specify "raw" to relay the raw device data.\
+    -s sample-rate   sets the sample rate (default 100)\
+    -S [commands]    enable special commands (see man page)\
+    -t mouse-type    sets mouse type (default 'ms')\
+                     Use a non-existent type (e.g. "help") to get a list\
+    -T               test: read mouse, no clients\
+    -v               print version and exit\
+    -V verbosity     increase number of logged messages\
+\
+\
+    Examples:\
+\
+    gpm -m /dev/misc/psaux -t ps2    to start with a ps2 mouse\
+    gpm -m /dev/tts/0 -t mman        to use mouse man on COM1\
+\
+arch-laptop% sudo gpm -m /dev/input/mouse1 -t ps2
+bquote>                      a glidepoint mouse, none by default. (mman/ps2 only)
+bquote>     -i interval      max time interval for multiple clicks (default 250)
+bquote>     -k               kill a running gpm, to start X with a busmouse
+bquote>     -l charset       loads the inword() LUT (default '-a-zA-Z0-9_./âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€')
+    -A [limit]       start with selection disabled (`aged')\
+    -b baud-rate     sets the baud rate (default 1200)\
+    -B sequence      allows changing the buttons (default '123')\
+    -d delta         sets the delta value (default 25) (must be 2 or more)\
+    -D               debug mode: don't auto-background\
+    -g tap-button    sets the button (1-3) that is emulated by tapping on\
+                     a glidepoint mouse, none by default. (mman/ps2 only)\
+    -i interval      max time interval for multiple clicks (default 250)\
+    -k               kill a running gpm, to start X with a busmouse\
+    -l charset       loads the inword() LUT (default '-a-zA-Z0-9_./âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€')\
+    -m mouse-device  sets mouse device\
+    -M               enable multiple mice. Following options refer to\
+                     the second device. Forces "-R"\
+    -o options       decoder-specific options (e.g.: "dtr", "rts")\
+    -p               draw the pointer while striking a selection\
+    -q               quit after changing mouse behaviour\
+    -r number        sets the responsiveness (default 10)\
+    -R mouse-type    enter repeater mode. X should read /dev/gpmdata\
+                     like it was a mouse-type device.  Default is MouseSystems.\
+                     You can also specify "raw" to relay the raw device data.\
+    -s sample-rate   sets the sample rate (default 100)\
+    -S [commands]    enable special commands (see man page)\
+    -t mouse-type    sets mouse type (default 'ms')\
+                     Use a non-existent type (e.g. "help") to get a list\
+    -T               test: read mouse, no clients\
+    -v               print version and exit\
+    -V verbosity     increase number of logged messages\
+\
+\
+    Examples:\
+\
+    gpm -m /dev/misc/psaux -t ps2    to start with a ps2 mouse\
+    gpm -m /dev/tts/0 -t mman        to use mouse man on COM1\
+\
+arch-laptop% sudo gpm -m /dev/input/mice -t ps2
+arch-laptop% sudo gpm -m /dev/input/mice -t ps2
+arch-laptop% sudo gpm -m /dev/input/mouse0 -t ps2
+ls /dev/input | grep mouse
+arch-laptop%
+sudo gpm -m /dev/input/mouse0 -t help
+sudo nano /etc/modprobe.d/psmouse.conf
+sudo nano /etc/cmdline.d/psmouse.conf
+sudo gpm /dev/input/event10 -t ps2
+sudo gpm -m /dev/input/event10 -t ps2
+sudo gpm -m /dev/input/mouse0 -t ps2
+sudo gpm -m /dev/input/mouse1 -t ps2
+sudo gpm -m /dev/input/mice -t ps2
+sudo gpm -m /dev/input/mouse3 -t ps2
+sudo rm /etc/modprobe.d/psmouse.conf
+sudo rm /etc/cmdline.d/psmouse.conf
+sudo gpm -m /dev/input/mouse2 -t ps2
+sudo gpm -m /dev/input/mouse2
+sudo gpm -m /dev/input/event0
+ls /dev/input
+sudo gpm -m /dev/input/event5
+sudo gpm -a 5
+sudo gpm -a 20
+sudo gpm -a 0
+sudo gpm -r 10
+sudo gpm -r 1
+sudo gpm -r 100
+sudo gpm -h
+sudo gpm -m /dev/input/event5 -t ps2 -a 5
+sudo gpm -m /dev/input/event5 -t ps2 -a 100
+sudo gpm -m /dev/input/mice -t ps2 -a 100
+sudo gpm -m /dev/input/mice -t ps2 -r 100
+libinput list-devices
+sudo libinput list-devices
+sudo libinput list-devices > lib
+nano lib
+sudo gpm -m /dev/input/event11 -t ps2 -a 100
+sudo gpm -m /dev/input/event11 -t ps2 -a 100 -r 100
+sudo gpm -m /dev/input/mouse0 -t ps2 -a 100 -r 100
+sudo gpm -m /dev/input/mouse1 -t ps2 -a 100 -r 100
+sudo gpm -m /dev/input/mouse2 -t ps2 -a 100 -r 100
+sudo gpm -m /dev/input/mouse3 -t ps2 -a 100 -r 100
+sudo gpm -m /dev/input/mouse10 -t ps2 -a 100 -r 100
+sudo gpm -m /dev/input/mouse10 -t ps2 -d 2 -a 100 -r 100
+sudo gpm -m /dev/input/mouse10 -t ps2 -d 2 -a 100000 -r 100000
+sudo systemctl enable --now gpm
+sudo gpm -a 10
+cifs
+cfis
+gio
+sudo cp /mnt/iMac/ssd-freeze.sh /usr/lib/systemd/system-sleep
+sudo rm /mnt/iMac/ssd-freeze.sh
+cat /mnt/iMac/dunstrc
+sudo rm /mnt/iMac/dunstrc
+ls -k
+ls "-k"
+sudo rm -rf ./*
+sudo nano /usr/lib/systemd/system-sleep/
+cd /usr/lib/systemd/system-sleep/
+nano ssd-freeze.sh
+sudo nano ssd-freeze.sh
+hdparm
+yay hdparm
+sudo rm ssd-freeze.sh
+yay apparmor
+sudo systemctl enable --now apparmor.service
+reboot
+sudo minitcpio -P && sudo reboot
+yay -S lkrg-dkms-git
+sudo systemctl enable --now lkrg
+sudo systemctl enable lkrg
+yay linux-zen
+sudo systemctl start lkrg
+sudo dkms autoinstall
+sudo systemctl status lkrg
+dkms status
+sudo journalctl | grep lkrg
+sudo pacman -Rsunc lkrg-dkms-git
+sudo pacman -Rsun lkrg-dkms-git
+sudo pacman -Rsuc lkrg-dkms-git
+sudo pacman -Rsnc lkrg-dkms-git
+iwd
+sudo systemctl disable lkrg
+sudo pacman -Runc lkrg
+sudo pacman -Runc lkrg-dkms-git
+sudo aa-status | grep profiles
+mkdir /etc/pacman.d/hooks
+sudo mkdir /etc/pacman.d/hooks
+sudo nano /etc/pacman.d/hooks/firejail.hook
+yay -Syyuu
+sudo pacman -Runc 7zip
+pacman -Q dkms
+yay resolvconf
+resolvconf -h
+sudo mkdir /etc/resolvconf
+sudo mkdir /etc/resolvconf/resolv.conf.d
+sudo nano /etc/resolvconf/resolv.conf.d/tail
+sudo dmesg | grep -i fail |& grep -vi lynx |& grep -vi cifs
+sudo dmesg | grep -i fail |& grep -vi lynx
+lynx wiki.archlinux.org/title/Firejail
+yay lynx
+lynx --help
+which lynx
+lynx https://wiki.archlinux.org/title/Firejail
+sudo pacman -Syyuu $(pacman -Qeq) --ignore krathalans-apparmor-profiles-git
+systemd-analyze list-jobs
+sudo systemctl list-jobs
+watch sudo systemctl list-jobs
+sudo systemctl --failed
+sudo systemctl edit systemd-networkd-wait-online.service
+sudo systemctl restart systemd-networkd-wait-online.service
+sudo systemctl status systemd-networkd-wait-online.service
+sudo systemctl reboot
+sudo dmesg | grep err |& grep -vi interrupt
+sudo dmesg | grep -i err |& grep -vi interrupt
+sudo chmod 776 /etc/pkglist.txt
+sudo cp /mnt/iMac/pkglist.hook /etc/pacman.d/hooks
+more
+yay reflector
+sudo cp /mnt/iMac/reflector.conf /etc/xdg/reflector/
+cat /etc/xdg/reflector/reflector.conf
+sudo systemctl enable --now reflector.service
+sudo systemctl enable --now reflector.timer
+yay -S pacman-contrib
+sudo cp --help
+curl cheat.sh/cp
+sudo cp -r /mnt/iMac/hooks/* /etc/pacman.d/hooks/
+ls /e/p/h
+cat /etc/pacman.d/hooks/*
+yay -Syu archlinux-contrib
+sudo checkservices
+pacman -Qe | grep a
+sudo mkinitcpio -p linux-zen
+sudo pacman -Rsunc powertop
+cd /etc/pacman.d/hooks
+sudo rm orphans.hook
+sudo rm paccache.hook
+sudo lynx https://google.com
+cat /sys/devices/system/cpu/intel_pstate/status
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
+cat /sys/devices/system/cpu/cpu0/cpufreq
+cat /sys/devices/system/cpu/cpu1/online
+cat /sys/devices/system/cpu/cpu1/cpufreq/scaling_driver
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep hwp
+cat /proc/cpuinfo | grep energy_performance
+tlp-stat -p -v
+cat /sys/devices/system/cpu/cpu1/power/energy_perf_bias
+cat /sys/firmware/acpi/platform_profice
+tlp-stat -b
+sudo tlp-stat -b
+cat /sys/devices/system/cpu/cpu1/cpufreq/energy_performance_available_preferences
+cat /sys/devices/system/cpu/cpu1/cpufreq/energy_performance_preference
+dmesg | grep ASPM
+sudo dmesg | grep ASPM
+sudo dmesg | grep err
+cat /etc/fstab 
+cat /etc/fstab | grep mmc0
+sudo journalctl -b -x -e -u -p 3
+sudo journalctl -b -x -e -p 3 -u
+sudo journalctl -b -x -e -p 3
+sudo journalctl -b -x -e -p 4
+sudo journalctl -b -x -e -p 7
+sudo journalctl -b -x -e -p 8
+sudo journalctl -b -x -e -p 6
+which fsck
+ay m-tools
+yay m-tools
+git clone https://aur.archlinux.org/m-tools.git
+cd m-tools
+sudo pacman -U m-tools
+sudo pacman -U m-tools/PKGBUILD
+tar -h
+tar --help
+curl cheat.sh/tar
+curl cheat.sh/tar | grep zst
+tar --zstd -cf mtools.tar.zst ~/m-tools
+tar --zstd -cf mtools.tar.zst /home/sudar/m-tools
+tar --zstd -cf mtools.tar.zst home/sudar/m-tools
+tar --zstd -cf mtools.tar.zst m-tools
+tar -xvf mtools.tar.zst
+tar -xzf mtools.tar.zst
+sudo pacman -U ~/m-tools.tar.zst
+sudo pacman -U /home/m-tools.tar.zst
+cp ~/mtools.tar.zst /home
+sudo cp ~/mtools.tar.zst /home
+ls /home
+sudo pacman -U /home/mtools.tar.zst
+sudo rm /home/mtools.tar.zst
+sudo rm /home/sudar/mtools.tar.zst
+sudo rm /home/sudar/m-tools
+sudo rm -rf /home/sudar/m-tools
+cat .histfile | grep bright
+sudo chmod 777 /sys/class/backlight/intel_backlight/brightness
+sudo echo 40000 > /sys/class/backlight/intel_backlight/brightness
+echo 90000 > /sys/class/backlight/intel_backlight/brightness
+echo 45000 > /sys/class/backlight/intel_backlight/brightness
+pacman -Rsunc sof-firmware
+sudo pacman -Rsunc sof-firmware
+udevadm monitor --property
+/usr/bin/systemctl hibernate
+sudo /usr/bin/systemctl hibernate
+cat /sys/power/mem_sleep
+yay intel-media
+yay libvpl
+yay vpl-gpu-rt
+sudo pacman -Rsunc vpl-gpu-rt
+yay intel-media-sdk
+lsmod | grep snd_hda_intel
+grep Codec /proc/asound/card*/codec*
+yay evtest
+evtest
+sudo evtest
+c3ear
+s4d6 dmesg | grep "Unknown key"
+sudo dmesg | grep "Unknown key"
+sudo nano /etc/udev/rules.d/99-via.rules
+udevadm control --reload
+sudo udevadm control --reload
+sudo udevadm trigger
+cat /etc/cmdline.d
+ls /etc/cmdline.d
+lynx
+sudo lynx wiki.archlinux.org/title/Laptop/Acer
+sudo lynx wiki.archlinux.org/title/Template:Laptops_table_header
+sudo pacman -S alsa-utils
+sudo journalctl -b -p 3
+sudo journalctl -b -p 4
+sudo journalctl -b | grep sof
+sudo journalctl -b | grep sound
+sudo pacman -S sof-firmware
+sudo pacman -Rsunc evtest alsa-utils
+pacman -Qi evtest
+amixer
+yay -S --asdeps alsa-utils
+pacman -Qtdq
+amixaer sset Master unmute
+amixer sset Master unmute
+amixer sset Speaker unmute
+amixer sset Headphone unmute
+sudo systemd-analyze --critical-chain
+sudo dmesg | grep fail
+sudo dmesg | grep -i fail
+sudo dmesg | grep -i err
+sudo rm -rf /var/log/journal
+sudo journalctl | grep -i err
+sudo journalctl | grep -i err |& grep -vi tailscaled
+sudo journalctl | grep -i fail |& grep -vi tailscaled
+sudo systemctl status dbus-org.freedesktop.timedate1.service
+sudo systemctl enable systemd-homed.service
+sudo systemctl enable systemd-homed-firstboot.service
+sudo journalctl | grep -i fail |& grep -vi tailscaled |& grep -vi reflector
+sudo systemd-analyze blame
+sudo systemd-analyze blame | grep 1.
+sudo systemd-analyze blame | grep 5.
+sudo systemd-analyze blame | head 10
+sudo systemd-analyze blame | head --help
+sudo systemd-analyze blame | head
+sudo systemd-analyze critical-chain
+sudo systemd-analyze blame | head -n 20
+sudo systemd-analyze blame | head -n 30
+sudo systemd-analyze blame |& grep -vi dev
+sudo systemd-analyze blame |& grep -vi dev | head
+sudo nano ~/.pacmanrepofiles/multilib-testing.conf
+clearf
+sudo systemctl shutdown now
+sudo systemd shutdown now
+sudo system shutdown now
+sudo systemd-analyze
+sudo systemctl enable pacman-filesdb-refresh.timer
+yay fish | grep zsh
+yay zsh | grep fish
+pacman -Ss zsh
+tailscale set ssh
+sudo pacman -Rsunc openssh
+sudo tailscale set --accept-dns=true
+sudo nano /etc/pkglist.txt
+yay ssh
+ssh
+ping 100.123.163.14
+ip link set tailscale0 uo
+sudo pacman -F zsh-autocomplete.plugin.zsh
+clear && sudo reboot
+sudo systemctl status tailscaled.service
+sudo lynx https://github.com/zsh-users/zsh-autosuggestions
+timedatectl
+ls /home/sudar/.zsh
+sudo pacman -F zsh-autosuggestions.zsh
+ls usr/share/zsh/plugins/
+sudo pacman -S zsh-autosuggestions
+ls usr/share/zsh/plugins/zsh-autosuggestions
+sudo nano /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+sudo journalctl -p 3
+sudo journalctl -p 4
+cat /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_available_preferences
+cat /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference
+cat /sys/devices/system/cpu/cpu*/cpufreq/energy_perf_bias
+cat /sys/devices/system/cpu/cpu0/power/energy_perf_bias
+cpupower
+sudo cpupower info
+tlp
+tlp start
+tlp-stat --graphics
+sudo tlp-stat --graphics
+sudo tlp-stat --processor
+sudo tlp-stat -s
+pacman -Qi firmare-realtek
+yay firmware-realtek
+sudo nano /etc/cmdline.d/nvme.conf
+sudo dmesg | grep spi-nor spi0.0
+sudo dmesg | grep "spi-nor spi0.0"
+sudo dmesg | grep "spi"
+sudo nano /etc/udev/rules.d/99-lowbat.rules:2
+chmod --help
+ls -lR
+getent
+getent wheel
+getent group wheel
+sudo nano /etc/fonts
+sudo journalctl -p 4 > journal
+nano journal
+sudo rm journal
+pacman -Fy zsh-completions
+sudo pacman -Fy zsh-completions
+sudo pacman -F zsh-completions
+sudo pacman -F "_archlinux-java"
+cd /usr/share/zsh/site-functions
+sudo rm -f /home/sudar/.zcompdump; compinit
+sudo nano /etc/systemd/journald.conf
+sudo nano    journal                                                                      Modified
+sudo nano /etc/udev/rules.d/99-lowbat.rules
+pacman -F _archlinux-java
+cd scripts
+nano newuser
+cd site-functions
+cd functions
+sudo nano zsh-autosuggestions.plugin.zsh
+sudo nano zsh-autosuggestions.zsh
+pacman -Qe | grep zsh
+sudo pacman -Rsunc zsh-history-substring-search
+yay zsh
+ls /usr/share/zsh/plugins/zsh-autosuggestions/
+ls /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+cat /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.zsh
+cat /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+cat /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+journalctl | grep azsh
+journalctl | grep zsh
+sudo pacman -Rsunc zsh-autosuggestions
+sudo lynx https://github.com/morlonrichert/zsh-autocomplete
+sudo lynx https://github.com/marlonrichert/zsh-autocomplete
+sudo nano ~/.packages/annotations.txt
+sudogh auth login
+yay github-cli
+sudo gh auth login
+sudo nano /etc/cmdline.d/boot.conf
+sudo pacman -Rsunc cpupower
+sudo pacman -Qqe > /etc/pkglist.txt
+yay color
+pacman Ss colord
+pacman -Ss colord
+pacman -Si colord
+mkdir packages
+cd packages
+mv packages .packages
+sudo nano annotations.txt
+sudo nano packages.txt
+sudo nano /etc/pacman.d/hooks/pkglist.hook
+diff
+sudo cp /etc/pkglist.txt /home/sudar/.packages/ packages.txt
+sudo cp /etc/pkglist.txt /home/sudar/.packages/packages.txt
+sudo diff -u /etc/pkglist.txt /home/sudar/.packages/packages.txt
+sudo nano /etc/deskpkg.txt
+diff /etc/pkglist.txt /etc/deskpkg.txt
+efibootmgr
+efibootmgr -o 0002,0001
+sudo efibootmgr -o 0002,0001
+pacman -Qi efibootmgr
+pacman -Qi nano
+pacman -Qi apparmor.d
+pacman -Qi apparmor
+yay lkrg
+pacman --asexplicit dkms
+pacman -S --asexplicit dkms
+sudo pacman -S --asexplicit dkms
+sudo pacman -Rsuncss lkrg-dkms
+sudo pacman -Runc lkrg-dkms
+sudo pacman -S --asdeps make gcc awk libelf
+git clone https://github.com/lkrg-org/lkrg
+cd lkrg
+sudo nano /var/lib/dkms/lkrg/0.9.9/build/make.log
+grep timer_delete_sync /usr/src/linux-zen/include/linux/timer.h
+sudo nano src/p_lkrg_main.c
+sudo insmod output/lkrg.ko kint_enforce=1
+find . seccomp
+find . seccomp.c
+find --help
+find . -name seccomp
+sudo rm -rf lkrg
+ls ~/.dotfiles
+ls ~/.dotfiles --help
+ls ~/.dotfiles --color=always
+cd hooks
+nano config
+nano HEAD
+nano description
+git config --global user.name "sudar"
+dotfiles branch
+less
+dotfiles
+dotfiles branch laptop
+dotfiles branch master
+/usr/bin/git branch laptop --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"
+cd ~/.dotfiles
+git branch laptop
+/usr/bin/git branch laptop --git-dir="$HOME/.dotfiles/" --work-tree="$HOME" branch laptop
+sudo rm -rf .dotfiles
+git remote add origin git@github.com:$GITHUB_USERNAME/dotfiles.git
+git branch -M laptop
+echo $GITHUB_USERNAME
+git remote add origin git@github.com:EntityDeletr/dotfiles.git
+git remote remove origin git@github.com:EntityDeleter/dotfiles.git
+git remote remove git@github.com:EntityDeleter/dotfiles.git
+git remote remove dotfiles
+git remote remove dotfiles.git
+git remote remove git@github.com:$GITHUB_USERNAME/dotfiles.git
+yay chezmoi
+chezmoi
+chezmoi init
+git remote set-url origin https://github.com:EntityDeleter/dotfiles.git
+git remote set-url origin https://github.com/EntityDeleter/dotfiles.git
+git pull 
+git pull remote main
+chezmoi purge
+sudo pacman -Rsunc chezmoi
+git init
+git config --list
+git rm
+sudo rm -rf .git
+sudo mkdir .dotfiles
+cd .dotfiles
+sudo git init --bare ~/.dotfiles
+alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+sudo dotfiles config status.showUntrackedFiles no
+sudo chmod a --help
+sudo chmod -R 766 ~/.dotfiles
+cd /home/sudar/.dotfiles
+mkdir .dotfiles
+mkdir ~/.dotfiles
+git init --bare ~/.dotfiles
+dotfiles config status.showUntrackedFiles no
+sudo rm -rf ~/.dotfiles
+sudo mkdir ~/.zshrc.d
+mkdir ~/.zshrc.d
+mv ~/.zshrc.d/plugins.zsh ~/.zshrc.d/topplugins.zsh
+nano bottomplugins.zsh
+nano ~/.zshrc.d/plugins.zsh
+nano topplugins.zsh
+chmod u+x .listupdate.sh
+sudo chmod u+x .listupdate.sh
+./listupdate.sh
+sudo ./.listupdate.sh
+chown sudar:wheel /home/sudar/.
+sudo chown sudar:wheel /home/sudar/.listupdates.sh
+sudo chown sudar:wheel /home/sudar/.listupdate.sh
+sudo nano ~/.listupdate.sh
+diff --rcs /e/pk.t
+diff --rcs /etc/pkglist.txt ~/.zshrc
+diff --rcs /etc/pkglist.txt /home/sudar/.packages
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi {a-z}
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi a
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi {1,2,3}
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -viG {1,2,3}
+diff --help | grep "-s"
+diff --help | grep "s"
+diff --help | grep "s "
+diff --help | grep "s,"
+diff /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi " 1"
+diff -r /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi " 1"
+diff -c /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi " 1"
+diff -s /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi " 1"
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi " 1"
+diff -cs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi " 1"
+diff --rs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi " 1"
+diff -rs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -vi " 1"
+diff -rs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -i <
+pacman -Qqe | grep dkms
+sudo pacman -Rsunc dkms
+cat /home/sudar/.packages/pkglist.txt | tail
+cat /home/sudar/.packages/pkglist.txt
+diff -rs <(sort /etc/pkglist.txt) <(sort /home/sudar/.packages/pkglist.txt) | grep -i "<" | awk -F " " '{print $2}'
+diff -rs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -i "<" | awk -F " " '{print $2}'
+cat .packages/annotations.txt
+column packages.txt
+column packages.txt -c 200
+column packages.txt -c 50
+cat packages.txt
+sort packages.txt
+./.diff.sh;
+cat ~/.packages/pkglist.txt
+cat ~/.packages/packages.txt
+nano .packages/packages.txt
+cat .packages/packages.txt | grep -vi OTBC
+pign google.com
+yay zsh | grep autocorrect
+yay autocorrect
+cp .zshrc .zshrc.bak
+compinstall
+setopt
+setopt interactive
+setopt nointeractive
+sudo setopt nointeractive
+setopt correctt
+setoptt correct
+suddo nano .zshrc
+setopt correct
+suddo nano
+diff /etc/pkglist.txt ~/.packages/packages.txt
+diff /etc/pkglist.txt ~/.packages/packages.txt --left-column
+diff /etc/pkglist.txt ~/.packages/packages.txt | grep -vi PT
+diff /etc/pkglist.txt ~/.packages/packages.txt | grep -vi OT > pkg
+nano pkg
+cat /etc/pkglist.txt | wc -l
+cat ~/.packages/packages.txt | wc -l
+nano ~/.packages/packages.txt
+diff -EwburqN /etc/pkglist.txt ~/.packages/packages.txt
+diff -EwburN /etc/pkglist.txt ~/.packages/packages.txt
+wc --lines /etc/pkglist.txt
+wc --lines ~/.packages/packages.txt
+cat ~/.packages/packages.txt | grep lkrg
+cat ~/.packages/packages.txt | grep chez
+cat ~/.packages/packages.txt | awk -F'-' '{print $1}
+cat ~/.packages/packages.txt | awk -F'-' '{print $1}'
+cat ~/.packages/packages.txt | awk -F "- O" '{print $1}'
+cat ~/.packages/packages.txt | awk -F "/011" '{print $1}'
+cat ~/.packages/packages.txt | awk -F /011 '{print $1}'
+cat ~/.packages/packages.txt | awk -F " -" '{print $1}'
+cat ~/.packages/packages.txt | awk -F "\t" '{print $1}'
+diff /etc/pkglist.txt ~/.packages/pkglist.txt
+./.listupdate.sh
+sudo nano .listupdate.sh
+sudo rm -rf ./.listupdate.sh
+sudo rm pkg
+ls .packages
+nano annotations.txt
+cat .histfile | grep cp
+cat ~/.histfile | grep cp
+diff /etc/pkglist.txt ~/.packages/packages.txt | grep -vi OT
+cd ~/.packages
+diff pkglist.txt /etc/pkglist.txt
+cat ~/.packages/packages.txt | awk -F "\t" '{print $1}' > /home/sudar/.packages/pkglist.txt
+chown sudar:wheel ./.diff.sh
+chmod 755 ./.diff.sh
+sudo chmod 755 ./.diff.sh
+sudo ./.diff.sh
+cat /home/sudar/.packages/packages.txt | awk -F "\t" '{print $1}' > /home/sudar/.packages/pkglist.txt
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -i "<" #| awk -F " " '{print $2}'
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -i "<"
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -i ">"
+diff --rcs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt
+diff -rs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -i "<" #| awk -F " " '{print $2}'
+diff -rs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -i "<"
+diff -rs /etc/pkglist.txt /home/sudar/.packages/pkglist.txt | grep -i ">"
+sudo chown sudar:wheel --recursive /home/sudar/.packages
+sudo chmod 755 --recursive /home/sudar/.packages
+cat /home/sudar/.packages/packages.txt
+nano /home/sudar/.packages/packages.txt
+nano /home/sudar/.packages/pkglist.txt
+sort /home/sudar/.packages/packages.txt
+./.diff.sh;./.diff.sh
+sudo nano /home/sudar/.packages/pkglist.txt
+column -c 3 /home/sudar/.packages/packages.txt | head
+column -s, /home/sudar/.packages/packages.txt 
+column -s"-" /home/sudar/.packages/packages.txt 
+column -s- /home/sudar/.packages/packages.txt 
+column -c 3 /home/sudar/.packages/packages.txt
+column /home/sudar/.packages/packages.txt -c 3
+column /home/sudar/.packages/packages.txt -c 10
+column /home/sudar/.packages/packages.txt
+column -c 5 /home/sudar/.packages/packages.txt
+column /home/sudar/.packages/pkglist.txt
+column /home/sudar/.packages/pkglist.txt -c 5
+column /home/sudar/.packages/pkglist.txt -c 100
+column /home/sudar/.packages/pkglist.txt -c 50
+column /home/sudar/.packages/pkglist.txt -c 400
+column /home/sudar/.packages/pkglist.txt -c 300
+column /home/sudar/.packages/pkglist.txt -s-
+column /home/sudar/.packages/packages.txt -s"-"
+column /home/sudar/.packages/packages.txt -s-
+sudo nano /home/sudar/.packages/packages.txt
+gh browse
+git remote add origin git@github.com:EntityDeleter/dotfiles.git
+suddo nanno .zshrc
+cat ~/.zshrc
+sudo pacman -S
+sudo pacman -Sy
+sudo pacman -Su
+echo %t
+cat %t
+echo PS1=%t
+echo $PS1
+echo $PS1=%t
+echo $PS1==%t
+t
+%~
+%
+%t
+% t
+cat ~/.zshrc | auto
+cat ~/.zshrc | grep auto
+~/.pacmanrepofiles
+sudo nanno
+sudo nanoo
+sudo nan
+sudo pamcan -S
+sudo pacnan -S
+sudo
+pacman
+sudo nano /home/sudar/.zshrc.d/topplugins.zsh
+sudo nano /home/sudar/.zshrc.d/bottomplugins.zsh
+sudo nano /home/sudar/.zshrc.d/options.zsh
+sudo nano autosuggestions
+yay autosuggestions
+cat /usr/share/zsh/plugins/zsh-autosuggestions
+cat /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+export $ZSH_AUTOSUGGEST_STRATEGY=2
+export $ZSH_AUTOSUGGEST_STRATEGY=(
+export $ZSH_AUTOSUGGEST_STRATEGY=(completions:history)
+export $ZSH_AUTOSUGGEST_STRATEGY=(completion)
+export $ZSH_AUTOSUGGEST_STRATEGY=(1)
+export $ZSH_AUTOSUGGEST_STRATEGY=1
+$ZSH_AUTOSUGGEST_STRATEGY=(completion)
+$ZSH_AUTOSUGGEST_STRATEGY=completion
+export $ZSH_AUTOSUGGEST_STRATEGY=completion
+export ZSH_AUTOSUGGEST_STRATEGY=completion
+export ZSH_AUTOSUGGEST_STRATEGY=(completion)
+export ZSH_AUTOSUGGEST_STRATEGY=(completion history)
+echo $ZSH_AUTOSUGGEST_STRATEGY
+zpty
+zmodload zsh/zpty
+locate zpty
+source ~/.zshrc
+sudo nano /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+sudo nano /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestion.zsh
+sudo nano /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+sudo nano .zshrc
+yay zcolors
+yay zcolor
+mkdir .applications
+cd .applications
+gh marlonrichert/zcolors
+l
+cd zcolors
+autoload -Uz ~/.applications/zcolors/functions/zcolors
+zcolors ${(q+)LS_COLORS} >| ${$XDG_CACHE_HOME:=~/.cache}/zcolors
+zcolors ${(q+)LS_COLORS} >| ${$XDG_CACHE_HOME:=/home/sudar/.cache}/zcolors
+zcolors "$LS_COLORS" >| "${$XDG_CACHE_HOME:-$HOME/.cache}/zcolors"
+zcolors "$LS_COLORS" >| "/home/sudar/.cache/zcolors"
+exec bash
+chdir ~
+zle --help
+zle
+zle ~/.zshrc
+yay powerlevel
+cd .applications/zcolors/functions
+cd /usr/share/zsh/plugins/zsh-autosuggestions
+sudo nano ./.update.sh
+sudo nano ~/.packages/packages.txt
+snapper list | tail
+sudo nano ~/.zshrc.d/plugins.zsh
+pacman -Qqe | grep power
+snapper list | tail -n 20
+snapper list | grep "Sat 20"
+snapper list | grep "Sat 19"
+snapper list | grep "Sat 19" |& grep -vi "zsh--autosuggestions"
+snapper list | grep "Sat 19" |& grep -vi "zsh--autosuggestions" |& grep -vi timeline |& grep -vi pacman
+scp ~/.update.sh sudar@100.69.242.6:/home/sudar/
+scp ~/.diff.sh sudar@100.69.242.6:/home/sudar/
+snapper list | grep "Fri 19"
+snapper list | grep "Fri 18" |& grep -vi "zsh--autosuggestions" |& grep -vi timeline |& grep -vi pacman |& grep -vi boot
+snapper list | grep "Fri 18" |& grep -vi "zsh--autosuggestions"
+snapper list | grep "Fri 18"
+snapper list | grep "github"
+snapper list | grep "Sun 20" |& grep -vi "zsh--autosuggestions" |& grep -vi timeline |& grep -vi pacman |& grep -vi boot
+snapper list | grep "Fri 19" |& grep -vi "zsh--autosuggestions" |& grep -vi timeline |& grep -vi pacman |& grep -vi boot
+snapper list | grep "Sat 19" |& grep -vi "zsh--autosuggestions" |& grep -vi timeline |& grep -vi pacman |& grep -vi boot
+date
+sudo update
+watch --help
+watch -c -n 2 -p clear
+watch -c -n 0.1 -p clear
+watch -c -n 0.1 clear
+watch -c -n 0.3 clear
+watch -c -n 0.3 fastfetch
+    -A [limit]       start with selection disabled (`aged')\
+    -b baud-rate     sets the baud rate (default 1200)\
+    -B sequence      allows changing the buttons (default '123')\
+    -d delta         sets the delta value (default 25) (must be 2 or more)\
+    -D               debug mode: don't auto-background\
+    -g tap-button    sets the button (1-3) that is emulated by tapping on\
+                     a glidepoint mouse, none by default. (mman/ps2 only)\
+    -i interval      max time interval for multiple clicks (default 250)\
+    -k               kill a running gpm, to start X with a busmouse\
+    -l charset       loads the inword() LUT (default '-a-zA-Z0-9_./âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€')\
+    -m mouse-device  sets mouse device\
+    -M               enable multiple mice. Following options refer to\
+                     the second device. Forces "-R"\
+    -o options       decoder-specific options (e.g.: "dtr", "rts")\
+    -p               draw the pointer while striking a selection\
+    -q               quit after changing mouse behaviour\
+    -r number        sets the responsiveness (default 10)\
+    -R mouse-type    enter repeater mode. X should read /dev/gpmdata\
+                     like it was a mouse-type device.  Default is MouseSystems.\
+                     You can also specify "raw" to relay the raw device data.\
+    -s sample-rate   sets the sample rate (default 100)\
+    -S [commands]    enable special commands (see man page)\
+    -t mouse-type    sets mouse type (default 'ms')\
+                     Use \
+
+fastfetch --config windows
+fastfetch --logo Windows\ 11
+fastfetch --logo Windows\ 10
+fastfetch --logo Windows\ 7
+fastfetch --logo Windows\ 8
+fastfetch --logo Windows\ 8.1
+fastfetch --logo Windows\ 95
+fastfetch --logo Amazon
+fastfetch --logo Haiku
+sudo nano
+ls -a /home/sudar/ | grep game
+cd root
+export PS1="%n@%m %1~:"
+emulate bash
+emulate sh
+cat /etc/zsh/zprofile
+cat /home/sudar/.zshrc
+cat /home/sudar/.zshrc.bak
+cat /home/sudar/.zshrc.ini
+cat /home/sudar/.zshrc.zni
+echo $SHELL
+if [[ -o login ]] ..
+if [[ -o login ]]; then\
+print yes\
+else\
+print no\
+fi
+-o login
+zsh -o login
+ls /usr/share/vulkan/icd.d
+yay vulkan-tools
+vulkaninfo
+vulkaninfo | grep Intel
+sudo pacman -Rsunc vulkan-tools
+sudo lynx wiki.archlinux.org/title/Zsh#Dirstack
+sudo lynx https://wiki.archlinux.org/title/Zsh#Dirstack
+sudo lynx "https://wiki.archlinux.org/title/Zsh#Dirstack"
+sudo nano ~/.zshrc.d/dirhist.zsh
+cd -3
+cd 15
+cd +15
+cd +4
+sudo nano ~/.zshenv
+sudo rm ~/.zshenv
+dirs -v
+cd 6
+cd +6
+cd /usr/bin
+cd .zshrc.d
+sudo nano ~/.zshrc.d/options.zsh
+sudo nano ~/.zshrc.d/rehash.zsh
+sudo nano ~/.zshrc.d/filekeybinds.zsh
+sudo nano ~/.zshrc.d/terminaltitle.zsh
+sudddo
+curl -s https://ohmyposh.dev/install.sh | bash -s
+oh-my-posh
+ls ~/bin
+ls ~/.local/bon
+ls ~/.local/bin
+yay oh-my-posh
+oh-my-posh font install
+cd .packages
+sudo nano ~/.zshrc.d/ohmyposh.json
+nano ~/.zshrc.d/ohmyposh.json
+sudo lynx "ohmyposh.dev/docs/configuration/general"
+nano ~/.zshrc.d/ohmyposh.yaml
+oh-my-posh print primary --config ~/.zshrc.d/ohmyposh.yaml --shell uni
+cat .histfile | grep 100.69.242.6
+scp ~/.zshrc.d/terminaltitle.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+scp ~/.zshrc.d/filekeybinds.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+scp ~/.zshrc.d/rehash.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+scp ~/.zshrc.d/dirhist.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+sudo scp ~/.zshrc.d/options.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+scp ~/.zshrc.d/options.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+scp ~/.zshrc.d/aliases.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+scp ~/.zshrc.d/bottomplugins.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+scp ~/.zshrc.d/topplugins.zsh sudar@100.69.242.6:/home/sudar/.zshrc.d
+scp /etc/pacman.d/hooks/zsh.hook sudar@100.69.242.6:/etc/pacman.d/hooks/
+sudo scp /etc/pacman.d/hooks/zsh.hook sudar@100.69.242.6:/etc/pacman.d/hooks/
+sudo nano /etc/pacman.d/hooks/zsh.hook
+sudo nano ~/.zshrc.d/topplugins.zsh
+sudo nano ~/.zshrc.d/bottomplugins.zsh
+ls /home/sudar/.zshrc.d/
+cp ~/.p10k.zsh ~/.p10k.zsh.bak
+cp ~/.p10k.zsh.bak ~/.p10k.zsh
+sudo nano ~/.zshrc
+sudo nano ~/.p10k.zsh
+scp ~/.zshrc.d/* ~/.zshrc.d/
+sudo tailscale set --ssh=false
+scp ~/.zshrc.d/* sudar@100.69.242.6:/home/sudar/.zshrc.d/
+scp ~/.zshrc sudar@100.69.242.6:/home/sudar/.zshrc
+scp ~/.p10k.zsh sudar@100.69.242.6:/home/sudar/
+ssh-keygen
+ssh-copy-id 100.69.242.6
+scp /etc/ssh/sshd_config.d/20-force_publickey_auth.conf sudar@100.69.242.6:/etc/ssh/sshd_config.d/
+scp /etc/ssh/sshd_config.d/20-force_publickey_auth.conf sudar@100.69.242.6:~
+sudo nano /etc/ssh/sshd_config.d/20-force_publickey_auth.conf
+sudo lynx wiki.archlinux.org/title/OpenSSH
+ssh -p 3090 sudar@100.69.242.6
+curl cheat.sh/ufw
+sudo ufw allow from 100.118.150.32 to any port 39901
+sudo lynx wiki.archlinux.org/title/ufw
+\ssh sudar@100.69.242.6
+sudo nano ~/.ssh/config
+sudo nano /etc/ssh/sshd_config
+sudo ufw allow from 192.168.0.0/24 to any port 39901
+yay -S pipewire
+yay -S wireplumber
+yay -S pipewire-audio
+yay -S pipewire-alsa
+yay -S pipewire-pulse
+sudo systemctl start --now pipewire
+systemctl start --now pipewire
+systemctl start --now --user pipewire-pulse.service
+systemctl start --now --user pipewire-pulse.socket
+systemctl start --now --user pipewire-pulse
+systemctl start --now --user pipewire
+systemctl enable --now --user pipewire
+systemctl enable --now --user pipewire-pulse.service
+systemctl enable --now --user pipewire-pulse.socket
+lspci | grep 1f.3
+yay -S pipewire-jack
+yay pipewire > pipe
+nano pipe
+snapper list | grep "Tue 22" |& grep -vi "zsh--autosuggestions" |& grep -vi timeline |& grep -vi pacman |& grep -vi boot
+cat /etc/pkglist.txt | grep pipe
+cat /etc/pkglist.txt | grep wire
+pipewire-docs
+sudo pipewire
+pacman -Q | grep polkit
+systemctl status --user pipewire.service
+yay alsa
+cat .histfile | grep sin
+speaker-test -t sine -p 1
+speaker-test -t sine -p 2
+speaker-test
+speaker-test -t sine
+speaker-test --help
+speaker-test -t sine -c
+speaker-test -t sine -c 2
+yay util
+yay util | grep pipewire
+pacman -Rsunc evtest alsa-utils
+sudo pacman -Rsunc alsa-utils
+_samba
+_samba --help
+_samba -h
+sudo nano ~/pipe
+yay carbonyl
+yay browsh
+yay elinks
+elinks --help
+elinks -long-help
+elinks --long-help
+elinks google.com
+curl cheat.sh/elinks
+elinks
+sudo pacman -Rsunc elinks
+yay pipewire | grep -i gstreamer
+yay firmware
+yay firmware | grep sound
+yay firmware | grep alsa
+cat .histfile | grep alsa
+alsamixer
+pactl get-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo
+pactl set-default-sink alsa_output.pci-0000_00_1f.3.analog-stereo
+pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo
+pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo 100%
+pactl set-sink-input-volume alsa_output.pci-0000_00_1f.3.analog-stereo 100%
+pactl set-sink-input-volume
+pactl set-sink-input-volume @DEFAULT_SINK@ 100%
+pactl set-sink-formats 180
+pactl help
+pw-jack
+pw-jack --help
+pw-jack -h
+yay qpwgraph
+wpctl set-default @DEFAULT_SINK@
+wpctl set-profile @DEFAULT_SINK@
+wpctl set-profile @DEFAULT_SINK@ 3
+wpctl set-profile @DEFAULT_SINK@ 2
+wpctl set-profile @DEFAULT_SINK@ 0
+wpctl set-profile @DEFAULT_SINK@ 1
+yay gst-plugin-pipewire
+pw-v412
+pw-play
+pw-play test.wav
+tailscale set --ssh
+sudo tailscale set --ssh
+wget https://download.samplelib.com/wav/sample-3s.wav
+wpctl get-volume
+wpctl set-volume @DEFAULT_SINK@ 0.5
+cat game.txt
+sudo rm game.txt
+sudo lynx
+lynx wiki.archlinux.org/title/pipewire
+yay easyeffects
+yay noise-supperession-for-voice
+yay for-voice
+mkdir ~/.config/pipewire/pipewire.conf.d/
+mkdir -p ~/.config/pipewire/pipewire.conf.d/
+cd ~/.config/pipewire/pipewire.conf.d/
+sudo nano 99-input-denoising.conf
+pacman -F librnnoise_ladspa.so
+scp 99-input-denoising.conf sudar@100.69.242.6:~
+scp --help
+scp -h
+curl cheat.sh/scp
+curl cheat.sh/scp | grep port
+scp -P 39901 99-input-denoising.conf sudar@100.69.242.6:~
+sudo nano ~/.config/pipewire/pipewire.conf.d/99-input-denoising.conf
+lynx wiki.archlinux.org/title/hyprland
+lynx google.com
+sudo lynx google.com
+sudo pacman -S hyprland
+pacman -Q | grep git
+yay krathalans
+sudo nano .histfile
+cat pipe
+sudo rm pipe
+sudo rm .applications
+sudo rm -r .applications
+modinfo -915 | grep enable_fbc
+modinfo i915 | grep enable_fbc
+yay kitty
+yay -S uwsm libnewt
+sudo rm -rf ~/.config/hypr
+ip -a
+sudo rm -rf ~/.config/hypr/nvidia.conf
+yay -S sddm
+uwsm Hyprland
+sudo systemctl enable --now sddm
+curl -f -s -S -L https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh > setup.sh;
+chmod +x setup.sh
+cat setup.sh
+curl -fsS https://dl.brave.com/install.sh | sh
+yay brave-beta
+sudo killall Hyprland
+brave-beta &
+nano ~/.config/hypr/monitor.conf
+sudo systemctl start sddm
+brave-beta > /dev/null 2>&1 &
+iwctl station list
+iwctl adapter list
+iwctl adapter set-property Powered on
+iwctl adapter phy0 set-property Powered on
+iwctl station wlan9 set-property Powered on
+ls /usr/share/sddm
+mkdir /usr/share/themes
+mkdir /usr/share/sddm/themes
+sudo mkdir /usr/share/sddm/themes
+sudo chmod 755 --recursive /usr/share/sddm/themes
+sudo rm -rf /usr/share/sddm/themes
+./setup.sh
+sudo ./setup.sh
+sudo rm -rf /usr/share/sddm/themes/sddm-astronaut-theme
+chmod 755 /usr/share/sddm/themes
+sudo chmod 755 /usr/share/sddm/themes
+sudo chown sudar:wheel --recursive /usr/share/sddm/themes
+sudo nano /usr/share/sddm/themes/sddm-astronaut-theme/Themes/black_hole.conf
+sudo pacman -Rsunc brightnessctl
+yay brightnessctl
+1
+yay -S brightnessctl
+brightnessctl set 25%
+scp -r /etc/tlp.conf 100.69.242.6:~
+tlp-stat -p
+tlp-stat -s
+cat /sys/block/nvme0n1/numa_nodes
+cat /sys/block/nvme0n1/queue
+cat /sys/block/nvme0n1/queue/iosched/write_lat_nsec
+cat /sys/block/nvme0n1/queue/iosched/read_lat_nsec
+tlp-stat -g
+sudo tlp-stat -g
+tlp-stat --disk
+sudo tlp-stat --disk
+sudo tlp-stat
+yay blue
+yay bluetoothctl
+lsmod | grep btusb
+lsmod | grep blue
+sudo systemctl enable --now bluetooth.service
+yay bluez
+wireplumber --help
+pipewire --help
+pipewire
+wireplumber
+pipewire linst sinks
+pipewire list sinks
+wireplumber list sinks
+pactl
+sudo systemctl status pipewire
+sudo systemctl --user status pipewire
+systemctl --user status pipewire
+systemctl --user status wireplumber.service
+pactl get-default-source
+pactl stat
+systemctl --user enable --now wireplumber@.service
+systemctl --user enable --now wireplumber
+systemctl --user enable --now pipewire
+systemctl --user list-units
+systemctl --user list-units --all > units
+systemctl --user list-unit-files --all > units
+nano units
+sudo rm sddm-astronaut-theme
+ls sddm-astronaut-theme
+sudo rm -rf sddm-astronaut-theme
+sudo rm -rf units
+sudo systemctl --user restart pipewire
+systemctl --user restart wireplumber.service
+systemctl --user restart pipewire-pulse
+systemctl --user restart pipewire-pulse.socket
+systemctl --user restart pipewire.socket
+systemctl --user restart pipewire
+pactl list cards
+pactl status
+pactl info
+pactl get-sink-mute
+pactl get-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo
+pw-record
+pw-record list targets
+pactl get-sinks
+watch -c -n 0.3 "pactl list sinks\
+"
+pactl list sinks |
+pactl list sinks
+pactl list sink-inputs
+watch -c -n 0.3 "pactl list sinks | grep -B1 -A9 State"
+bluetoothctl scan on
+which sudo
+which ssh
+which openssh
+bluetoothctl connect 8C:E0:42:97:F0:C0
+nano /etc/bluetooth/main.conf
+tlp-stat --battery
+sudo tlp-stat --battery
+bluetoothctl --version--version
+bluetoothctl --version
+pacman -S bluez
+sudo pacman -Q bluez
+sudo pacman -S scx-scheds
+cat /sys/kernel/sched_ext/state /sys/kernel/sched_ext/*/ops 2>/dev/null
+scx_simple --monitor 0,5
+scx_simple
+sudo scx_simple
+scx_bpfland
+sudo scx_bpfland
+sudo pacman -Rsunc scx-scheds
+pacman -Q libvdpau
+pacman -Q libvdpau-va-gl
+yay libvdapu
+yay libvdapu-va-gl
+pacman -Ss libvdapau
+pacman -Ss libvdpau
+yay libvdpau
+export LIBVA_DRIVER_NAME=nvidia
+echo $LIBVA_DRIVER_NAME
+setfont --help
+setfont -o
+setfont -ofont
+setfont -o font
+showconsolefont
+sudo showconsolefont
+nano /etc/vconsole.conf
+setfont NotoSansMono-Regular
+sudo setfont NotoSansMono-Regular
+sudo setfont -h12
+sudo setfont -h19
+sudo setfont -h11
+sudo setfont -h11 NotoSans
+sudo systemctl restart tlp
+scp -r 100.69.242.6:/home/sudar/.config/hypr/* /home/sudar/.config/hypr/
+scp -r 100.69.242.6:/home/sudar/.config/hypr/ /home/sudar/.config/hypr/
+ls ~/.config/hypr
+cd hype
+cd hypr
+cp * ../
+watch -c -n 0.3 "brightnessctl -l"
+brightnessctl -d intel_backlight set 50%
+nano ~/.config/hypr/look.conf
+sudo systemctl hibernate
+scp -r 100.69.242.6:/home/sudar/.config/hypr/ /home/sudar/.config/
+sudo rm nvidia.conf
+nano ~/.zshenv
+nano input.conf
+hyprctl monitors list
+nano monitor.conf
+yay hyprland-qt
+yay bibata
+nano look.conf
+diff generalandlook.conf look.conf
+sudo rm look.conf
+nano graphics.conf
+nano env.conf
+exec Hyprland
+hyprctl setcursor Bibata-Modern-Ice 28
+yay -S hyprpaper
+scp
+tailssh
+sudo pacman -Rsunc oh-my-posh-bin
+scp -r 100.69.242.6:~/.zshrc ~
+exec zash
+nano hyprland.conf
+sudo rm autostart.conf
+systemctl --user enable --now hyprpaper
+scp -r 100.69.242.6:~/.config/hypr/bind.conf ~/.config/hypr/
+yay hypridle
+systemctl --user enable --now hypridle
+brightnessctl -l
+yay hyprlock
+sudo systemctl restart reflector.service
+pactl list sinks | grep -B1 -A9 State
+pw-play sample-3s.wav
+yay downgrade
+nano /home/sudar/.config/hypr/permissions.conf
+yay -S hyprlock hypridle
+pacman -S xdg-desktop-portal-hyprland
+sudo pacman -S xdg-desktop-portal-hyprland
+wpctl get-volume @DEFAULT_SINK@
+yay less
+sudo nano /etc/pacman.conf
+sudo pacman -Rsunc chaotic-keyring chaotic-mirrorlist
+pacman -Qmq > yay -Syu -
+cat id_ed25519
+cat id_ed25519.pub
+sudo systemctl restart sshd
+scp -r ./id_ed25519 100.69.242.6:~
+nano authorized_keys
+cat ~/.ssh/config
+sudo ufw reset
+sudo ufw allow from 100.0.0.0/24 to any port 39901
+sudo ufw limit ssh
+sudo ufw allow cifs
+sudo ufw delete 2
+sudo ufw limit SSH
+sudo ufw allow CIFS
+sudo ufw status
+nano ~/.config/hypr/env.conf
+nano /home/sudar/.config/uwsm/env
+mkdir uwsn
+m
+sudo rm uwsm
+sudo rm uwsn
+sudo rm -rf uwsn
+mkdir uwsm
+cd uwsm
+nano env
+sudo rm ~/.config/hypr/env.conf
+sudo nano ~/.config/hypr/hyprland.conf
+yay -S hyprsunset hyprpolkitagent hyprshot
+update && yay -S hyprsunset hyprpolkitagent hyprshot
+hyprpolkitagent
+systemctl --user enable --now hyprpolkitagent
+pkexec
+cat aplcomp.txt
+sudo rm aplcomp.txt
+sudo rm -rf aplcomp.txt
+sudo rm -rf -elinks
+sudo rm -rf .elinks
+sudo rm -rf .gitconfig
+cat list
+sudo rm -rf list
+sudo rm -rf pkg yay pkglist.txt setup.sh sample-3s.wav
+pacman -Q noto
+pacman -Q | grep notot
+pacman -Q | grep noto
+yay -S --asdeps meson cpio cmake
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm enable hyprexpo
+pacman -Qi meson
+dunstify "It works:
+dunstify "It works"
+sudo pacman -Rsunc dunst
+sudo pacman -S swaync
+scp -r 100.69.242.6:/home/sudar/.config/hypr/autostart.conf /home/sudar/.config/hypr/
+scp -r 100.69.242.6:/home/sudar/.config/hypr/hyprland.conf /home/sudar/.config/hypr/
+exec hyprpm -r
+nano autostart.conf
+exec hyprpm reload
+~/.diff.sh
+cat ~/pkglist.txt | grep sway
+yay -S qt5-wayland ttf-dejavu ttf-liberation ttf-noto-nerd waybar
+nano permissions.conf
+snapper status 1..
+snapper status 1..667 > snapper1
+grep -vE "/(bin|dev
+grep -vE "/(bin|dev|lib64|opt|root|sbin|swap|tmp|var|lib|mnt|proc|run|srv|sys|usr|wluma)" snapper1 > snapper2
+grep -vE "/.cache/Brave" snapper2 > snapper1
+grep -vE "/.config/BraveSoftware" snapper1 > snapper2
+grep -vE "/home/sudar/(go|yay)" snapper2 > snapper1
+grep -vE "/etc/(apparmor.d|firejail)" snapper1 > snapper2
+scp -r 100.69.242.6:~/snapper ~
+diff snapper snapper2
+diff snapper snapper2 > diff
+nano diff
+nano snapper2
+sudo rm -rf /home/sudar/.config/hypr/hypr
+cat /etc/irqbalance.env
+scp -r 100.69.242.6:/etc/modprobe.d/camera.conf /etc/modprobe.d/
+sudo scp -r 100.69.242.6:/etc/modprobe.d/camera.conf /etc/modprobe.d/
+ls /etc/pacman.d
+ls /etc/pacman.d/hooks
+nano /etc/udev/rules.d/99-via.rules
+sudo rm /etc/udev/rules.d/99-via.rules
+nano ~/.config/arch-update/arch-update.conf
+nano ~/.config/autostart/arch-update-tray.desktop
+rm -r *.save
+rm diff
+rm ~/.packages/annotations.txt
+sudo rm diff
+sudo rm pkglist.txt
+sudo rm snapper*
+update && ./.diff.sh
+pacman -Qqe > /etc/pkglist.txt
+yay libreoffice-fresh libreoffice-fresh-bn-in libreoffice-fresh-ta otf-font-awesome
+yay -S libreoffice-fresh libreoffice-fresh-bn-in libreoffice-fresh-ta otf-font-awesome
+rm ~/pkglist.txt
+du
+bleachbit --clean system.cache system.localizations system.trash
+sudo bleachbit --clean system.cache system.localizations system.trash
+bleachbit --help
+scp -r 100.69.242.6:/home/sudar/.config/waybar/config.jsonc ~/.config/waybar/
+scp -r 100.69.242.6:/home/sudar/.config/waybar/config.jsonc ~/.config/waybar/config.jsonc
+scp -r 100.69.242.6:/home/sudar/.config/waybar/config.jsonc ~
+cp config.jsonc ~/.config/waybar
+rm ~/.config/waybar
+mkdir /home/sudar/.config/waybar
+scp -r 100.69.242.6:/home/sudar/.config/waybar/config.jsonc ~/.config/waybar
+scp -r 100.69.242.6:/home/sudar/.config/waybar/style.css ~/.config/waybar
+waybar
+nano .
+nano *
+diff /etc/pkglist.txt 100.69.242.6:/etc/pkglist.txt
+diff /etc/pkglist.txt sudar@100.69.242.6:/etc/pkglist.txt
+diff /etc/pkglist.txt ssh@100.69.242.6:/etc/pkglist.txt
+ssh sudar@100.69.242.6 cat foo
+diff -r /home/sudar/.config/hypr/* <(ssh 100.69.242.6 cat /home/sudar/.config/hypr/*)
+diff -r /home/sudar/.config/hypr/ <(ssh 100.69.242.6 cat /home/sudar/.config/hypr/)
+diff -r /home/sudar/.config/hypr/generalandlook.conf <(ssh 100.69.242.6 cat /home/sudar/.config/hypr/generalandlook.conf)
+scp -r 100.69.242.6:/home/sudar/.config/hypr ~
+scp -r 100.69.242.6:/home/sudar/.config/waybar ~
+scp -r 100.69.242.6:/home/sudar/.config/swaync ~
+cd
+rm config.jsonc
+systemctl --user enable --now waybar
+wpctl set-volume @DEFAULT_SINK@ 100000
+wpctl set-volume @DEFAULT_SINK@ 100
+wpctl set-volume @DEFAULT_SINK@ 1000
+wpctl set-volume @DEFAULT_SINK@ 1
+wpctl set-volume @DEFAULT_SOURCE@ 1
+cd ~/.config/waybar
+cp config.jsonc config.jsonc.bak
+yay intel-ucode
+yay noto
+source ~/.p10k.zsh
+sudo pacman -Rsunc noto-fonts noto-fonts-emoji
+sudo journalctl -k --grep='microcode:'
+cd /sys
+cd devices
+cd class
+ls | grep bat
+ls | grep power
+cd power_supply
+cd BAT1
+ls -color
+cat capacity
+cat capacity_level
+cat -r *
+cd power
+cat charge_full
+cat charge_full_design
+mkdir Shravan
+rm -rf Shravan
+diff -r ~/hypr ~/.config/hypr
+nano ~/.config/hypr/cursor.conf
+yay btrfs assitant
+sudo btrfs-assistant
+pkexec env QT_QPA_PLATFORM=wayland btrfs-assistant\
+
+pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland btrfs-assistant\
+
+pkexec btrfs-assistant
+pacman -Fy kitty.conf
+sudo pacman -Fy kitty.conf
+find . -name kitty.conf
+find /etc -name kitty.conf
+find / -name kitty.conf
+find / -name kitty.conf 2>&1
+find / -name kitty.conf 2> /dev/null
+nano /usr/share/doc/kitty/kitty.conf
+gio to browser
+yes
+git ignore
+diagnose
+shutdown
+shutdown -c
+bye
+zzz
+logout
+cp ~/waybar/power_menu.xml ~/.config/waybar
+du -sh ~/.cache/*
+yay bleachbit
+bleachbit --gui
+sudo bleachbit --gui
+pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland bleachbit --gui
+pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland bleachbit
+bleachbit
+sudo pacman -Rsunc bleachbit
+chmod +x brokefetch.sh
+watch -c -n 0.3 "./brokefetch.sh"
+lspci | grep -Eio 'nvidia|intel|amd' | head -1
+watch -c -n 0.3 "./brokefetch_EDGE.sh"
+nano ./brokefetch_EDGE.sh
+lspci | grep -iE 'nvidia|intel|amd' | head -1 | grep -oE 'nvidia|intel|amd'
+lspci | grep -io "nvidia|intel|amd" | head -1
+lspci | grep -io "nvidia|intel|amd | head -1
+mv ~/Downloads/brokefetch_EDGE.sh ~/brokefetch/brokefetch_EDGE.sh
+chmod +x brokefetch_EDGE.sh
+cat /random
+cat /dev/null
+cat /dev/zero
+command -v pacman
+command -h
+command --help
+command -V pacman
+which update
+mv brokefetch .brokefetch
+cd .brokefetch
+brokefetch
+uname
+uname -rs
+iwctl station wlan0 connect Airtel_mani_4523
+notify-send "Hello Shravan"
+notify-send "Come to the bedroom if you can see this"
+users
+vasudha
+sudo rm -rf ~/.brokefetch
+git clone https://github.com/Szerwigi1410/brokefetch
+./brokefetch_EDGE.sh
+sudo rm -rf ~/brokefetch
+git clone https://github.com/EntityDeleter/brokefetch
+nano brokefetch_BAK.sh
+diff brokefetch_BAK.sh
+diff brokefetch_BAK.sh brokefetch_EDGE.sh
+mv brokefetch_BAK.sh brokefetch_EDGE.sh
+uname -r
+pacman -Fy lts1-1
+sudo pacman -Fy lts1-1
+sudo pacman -F linux-lts
+uname -s
+echo $PRETTY_NAME
+echo $NAME
+echo $UNAME
+sudo find -mtime 1 -print | egrep -i '\.save$|\.save\.[1-90]*$'
+sudo find -mtime 1 -print | grep -iE '\.save$|\.save\.[1-90]*$'
+sudo find -mtime 1 -print | grep -iE '\.save$|\.save\.[1-90]*$' 2> /dev/null
+sudo find -mtime 1 -print | grep -iE '\.save$|\.save\.[1-90]*$' 2>& /dev/null
+sudo find -mtime 1 -print | grep -iE '\.save$|\.save\.[1-90]*$' 2>&1
+nano brokefetch_EDGE.sh
+chmod +x ~/brokefetch/brokefetch_EDGE.sh
+uname -r | grep -Eio 'zen|lts|rt|realtime' | head -1
+cd ~/brokefetch
+git push
+install.sh
+curl -sSL https://raw.githubusercontent.com/Szerwigi1410/brokefetch/refs/heads/main/install.sh > install.sh
+nano install.sh
+chmod +x ~/install.sh
+curl -sSL https://raw.githubusercontent.com/Szerwigi1410/brokefetch/refs/heads/main/install.sh | chmod +x install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Szerwigi1410/brokefetch/refs/heads/main/install.sh > install.sh | chmod +x install.sh | bash | rm install.sh
+curl -sSL https://raw.githubusercontent.com/Szerwigi1410/brokefetch/refs/heads/main/install.sh | bash
+rm pkglist.txt
+curl -sSL https://raw.githubusercontent.com/Szerwigi1410/brokefetch/refs/heads/main/install.sh > install.sh ; chmod +x install.sh | bash -c "./install.sh" | rm install.sh
+curl -sSL https://raw.githubusercontent.com/Szerwigi1410/brokefetch/refs/heads/main/install.sh > install.sh ; chmod +x install.sh ; bash -c "./install.sh" ; rm install.sh
+nano ~/brokefetch/brokefetch_EDGE.sh
+echo #XDG_CURRENT_WM
+echo $XDG_CURRENT_WM
+echo "$XDG_SESSION_TYPE" | tr '[:upper:]' '[:lower:]'
+echo $*
+if [ -n "$XDG_CURRENT_WM" ]; then\
+ WINDOW_MANAGER="$XDG_CURRENT_WM"\
+WINDOW_MANAGER="$XDG_CURRENT_WM"\
+WINDOW_MANAGER="$XDG_CURRENT_WM"
+if [ -n "$XDG_CURRENT_WM" ]; then\
+ WINDOW_MANAGER="$XDG_CURRENT_WM"; fi
+~/brokefetch/brokefetch_EDGE.sh -h
+~/brokefetch/brokefetch_EDGE.sh -v
+~/brokefetch/brokefetch_EDGE.sh -l
+clear; ~/brokefetch/brokefetch_EDGE.sh
+watch -c -n 0.3 "~/brokefetch/brokefetch_EDGE.sh"
+zsh
+echo $TERM
+cat $SHELL | head
+$SHELL
+chsh --hlep
+chsh --help
+printf "$SHELL"
+printf "$SHELL" | awk --help
+cat $SHELL
+echo $SHELL | grep zsh
+echo $SHELL | grep -Eio 'bash|sh|zsh|fish|tcsh|ksh|csh|dash'
+echo $SHELL | grep -Eio sh
+echo $SHELL | grep -Eio *sh
+echo $SHELL | grep -Eio $sh
+echo $SHELL | grep -Eio "$sh"
+echo $SHELL | grep -Eio "sh"
+echo $SHELL | grep -Eio "bash"
+echo $SHELL | grep -Eio "zsh"
+echo $SHELL | grep -Eio "$_sh"
+echo $SHELL | grep -i "$_sh"
+echo $SHELL | grep -i "_sh"
+echo $SHELL | grep -i "$_sh^"
+echo $SHELL | grep -i "$sh^"
+echo $SHELL | grep -i "$/bin/_sh^"
+echo $SHELL | grep -Eio "/bin
+echo $SHELL | grep -Eio "/bin"
+echo $SHELL | grep -Ei "/bin"
+echo $SHELL | grep -Ei "/bin" | awk bin
+curl cheat.sh/awk
+echo $SHELL | grep -Ei "/bin" | awk -F "\t" '{print $1}'
+echo $SHELL | grep -Ei "/bin" | awk -F "\e" '{print $1}'
+echo $SHELL | grep -Ei "/bin" | awk -F "\" '{print $1}'
+echo $SHELL | grep -Ei "/bin" | awk -F "/bin/" '{print $1}'
+echo $SHELL | grep -Ei "/bin" | awk -F "/bin/" '{print $2}'
+chsh
+echo /usr/bin/bash | grep -Ei "/bin" | awk -F "bin/" '{print $2}'
+echo /usr/bin/bash | grep -Ei "/bin" | awk -F "bin/" '{print $1}'
+which awk
+which grep
+which cd
+which which
+which cat
+which ls
+which su
+pacman -Q | grep su
+chmod +x ~/brokefetch/brokefetch.sh
+~/brokefetch/brokefetch.sh
+ln -s /bin/sh /bin/zsh
+ln -s /bin/zsh /bin/sh
+ln -sf /bin/zsh /bin/sh
+sudo ln -sf /bin/zsh /bin/sh
+file /bin/sh
+SHELL=idksh ~/brokefetch/brokefetch_EDGE.sh
+~/brokefetch/brokefetch_EDGE.sh
+scp -r /home/sudar/.config/waybar 100.69.242.6:/home/sudar/.config/
+scp -r 100.69.242.6:/etc/pkglist.txt ~
+yay btrfs assistant
+diff ~/pkglist.txt /etc/pkglist.txt
+scp -r ~/.brokefetch 100.69.242.6:~
+scp -r ~/.zshrc.d/aliases.zsh 100.69.242.6:~/zshrc.d/
+scp -r ~/.zshrc.d/aliases.zsh 100.69.242.6:~
+nano 100.69.242.6:~/.zshrc
+nano ssh@100.69.242.6:~/.zshrc
+hyprctl reload
+grep -r "font" /sys/devices/system/cpu/vulnerabilities
+grep -r cat .histfile
+grep -r font ~/.config/waybar
+exec hyprlock
+grep -r font ~/.config/hypr
+pacman -Q | grep font
+pacman -Qe | grep font
+scp -r ~/Downloads 100.69.242.6:~
+unzip JetBrainsMono-2.304.zip
+cd fonts
+mv fonts/* ~/.local/share/fonts/
+mkdir -p ~/.local/share/fonts
+mv fonts/ ~/.local/share/
+setfont "Jetbrains Mono"
+setfont Jetbrains-monp
+setfont Jetbrains-mono
+nano generalandlook.conf
+grep -r font ~/.config/
+nano BeforeTheSunAnalysis.txt
+diff -r ~/.config/waybar/style.css <(ssh 100.69.242.6 cat ~/.config/waybar/style.css)
+nano ~/.config/hypr/graphics.conf
+nano ~/.config/hypr/input.conf
+cd /var/log
+sudo rm -rf *.old
+df
+update && diff -r /etc/pkglist.txt <(ssh 100.69.242.6 cat /etc/pkglist.txt)
+pacman brave
+for i in {0..300}; do echo $i; wpctl set-volume $i 0;done
+sudo sudo @@
+sudo pacman -F kitty.conf
+uwsm start
+yay spark mail
+yay mail
+pacman -Syu --ignore uwsm
+sudo pacman -Syu --ignore uwsm
+scp -r 100.69.242.6:~/.config/waybar ~/.config
+scp -r ~/.config/waybar 100.69.242.6:~/.config/
+pacman -Qi linux-zen
+systemctl restart tlp
+free
+lspci | grep blue
+lspci | grep -i blue
+lspci
+lspci | grep -i net
+rfkill unblock bluetooth
+systemctl --user reset-failed waybar
+cd /sys/class/thermal
+upower
+upower --dump
+pacman -Qi upower
+systemctl disable upower
+cat /sys/class/power_supply/<bat>/status
+cat /sys/class/power_supply/BAT0/status
+cat /sys/class/power_supply/BAT1/status
+rebar
+hidebar
+which hidebar
+which killall
+nano /home/sudar/.config/swaync/
+mkdir swaync
+cp /etc/xdg/swaync/config.json .
+ls /etc/xdg/swaync
+cp /etc/xdg/swaync/* .
+nano config.json
+killall -SIGUSR9 swaync
+hyprctl notify "Hi"
+hyprctl notify 5 "Hi"
+notify-send "Hello, World
+swaync
+rm -rf ~/swaync
+rm -rf hist
+rm -rf pkglist.txt
+rm -rf hypr
+rm -rf waybar
+yay avizo
+avizo
+pacman -Fy avizo
+sudo pacman -Fy avizo
+volumectl -u up
+volumectl -u 5
+volumectl -h
+volumectl -u +5
+volumectl +5
+sudo volumectl up
+killall avizo
+top | grep avizo
+avizo-service
+volumectl up
+sudo pacman -Rsunc avizo
+yay swaync
+exec swaync
+swaync &
+nano hyprlock.conf
+cd ~/.config/hypr && nano hyprlock.conf
+cd swaync
+nano ~/.config/swaync/configSchema.json
+sudo pacman -Syyuu
+downgrade uwsm
+sudo downgrade uwsm
+./.update.sh
+systemctl --user status swaync
+diff -r /etc/xdg/swaync/config.json ~/.config/swaync/config.json
+cp /etc/xdg/swaync/* ~/.config/swaync
+nano ~/.config/swaync/config.json
+systemctl --user reset-failed swaync
+systemctl --user restart swaync
+nano ~/.config/swaync/style.css
+killall swaync
+systemctl --user disable swaync
+systemctl --user stop swaync
+yay dunst
+pacman -F dunstrc
+nano /etc/dunst/dunstrc
+sudo pacman -Rsunc swaync
+mkdir -p ~/.config/dunst
+sudo cp /etc/dunst/dunstrc ~/.config/dunst
+chmod 777 ~/.config/dunst/dunstrc
+sudo chmod 777 ~/.config/dunst/dunstrc
+sudo chown sudar:wheel --recursive /home/sudar/.config/dunst
+systemctl --user enable --now dunst
+pacman -F dunst.service
+cd /usr/lib/systemd/user
+nano dunst.service
+killall dunst
+dunstctl clear
+dunstctl close-all
+dunstify $(grep "data" $(dunstctl history))
+dunstify $(grep $(dunstctl history) "data")
+grep "hehe" $(cat test.sh)
+grep "zsh" $(cat ./.zshrc)
+grep "zsh" $(cat .zshrc)
+grep --help
+dunstify $(dunstctl history | grep data)
+dunstify
+dunstify history
+dunstify history | grep data
+dunstctl history | grep data
+dunstctl history | grep data |& grep -vi '"data" : '
+dunstctl history | grep data | grep -vi '"data" : '
+dunstctl history |& grep data |& grep -vi '"data" : '
+dunstctl history | grep -vi '"data" : '
+dunstctl history |& grep data |& grep -vio '"data" : '
+dunstctl history |& grep data | awk -F " : " '{print $1}'
+dunstify $(dunstctl history)
+dunstctl history | grep -vi "-"
+dunstctl history |& grep data | awk -F " : " '{print $2}'
+dunstify "$(dunstctl history |& grep data | awk -F " : " '{print $2}')"
+dunstify "$(dunstctl history |& grep data | awk -F " : " '{print $2}' | head)"
+for i in {0..300}; do dunstify $i;done
+dunstify clear
+dunstify close
+nano /etc/udev/rules.d/99-lowbat.rules
+make -j2
+dunstctl --help
+dunst
+dunstify "hello"
+dunstify "hello1"
+dunstify "hello2"
+dunstctl history-pop
+dunstify $(dunstctl history | grep -vi "-")
+dunstify "$(dunstctl history | grep -vi "-")"
+nano ~/.diff.sh
+dunstify $(dunstctl history | grep data | awk -F " : " '{print $2}')
+dunstify "$(dunstctl history | grep data | awk -F " : " '{print $2}')"
+dunstify "$(dunstctl history | grep data | awk -F " : " '{print $2}' | head)"
+dunstctl history | grep data | awk -F " : " '{print $2}' | tail
+dunstctl history | grep data | awk -F " : " '{print $2}' | head -n1
+dunstctl history | grep data | awk -F " : " '{print $2}' | head -n4
+dunstctl history | grep data | awk -F " : " '{print $2}' | head -n5
+dunstctl history | grep data | awk -F " : " '{print $2}' | head -n7
+dunstctl history | grep data | awk -F " : " '{print $2}' | head -n10
+dunstctl history | grep data | awk -F " : " '{print $2}' | head
+dunstify "hello3"
+dunstify "hello55"
+dunstctl history
+notify-send --help
+killall waybar
+dunstify -h int:value:12
+dunstify -h int:value:12 "Hello"
+dunstify -h int:value:2 "Hello"
+systemctl --user restart dunst && dunstify -h int:value:80 "Hello"
+nano ~/.config/hypr/autostart.conf
+rm ~/.config/hypr/autostart.conf
+cp .p10k.zsh .p10k.zsh.bak
+p10k configure
+diff -r .p10k.zsh .p10k.zsh.bak
+nano .p10k.zsh.bak
+cp .p10k.zsh.bak .p10k.zsh
+dunstify -h int:value:80 "Hello"
+sudo rm -rf ~/.config/autostart/arch-update-tray.desktop
+systemctl --user edit --full arch-update.timer
+pacman -Fy kitty.desktop
+sudo pacman -Fy kitty.desktop
+journalctl -fx
+sudo aa-status | grep pro
+sudo groupadd -r audit
+gpasswd -a sudar audit
+sudo gpasswd -a sudar audit
+nano /etc/audit/auditd.conf\
+
+usermod -aG wheel root
+sudo usermod -aG wheel root
+sudo cat /etc/passwd
+gpasswd -d wheel root
+sudo gpasswd -d wheel root
+sudo gpasswd -d root wheel
+pacman -Q | grep python
+pacman -Qii apparmor
+pacman -Syu --asdeps python-gobject python-notify2 python-psutil
+sudo pacman -Syu --asdeps python-gobject python-notify2 python-psutil
+pacman -Qi python-psutil
+nano ~/.config/autostart/apparmor-notify.desktop
+systemd-analyze blame
+/etc/apparmor/parser.conf
+nano /etc/apparmor/parser.conf
+cat .histfile | head -n2
+cat /etc/pkglist.txt | head -n2
+cat .histfile | grep nano > hist
+nano hist
+aa-log
+cd /etc/apparmor.d/tunables/xdg-user-dirs.d/apparmor.d.d/local
+sudo systemctl reload apparmor.service &
+pacman -Qi arch-update
+which libnotify
+systemctl --user enable --now arch-update-tray.service
+nano .config/arch-update/arch-update.conf
+systemctl status apparmor
+cat /etc/pkglist.txt | head -n5
+cat /etc/pkglist.txt | head -n10
+yay arch-update-bin
+yay bibata-cursor-theme-bin
+yay bibata-cursor-theme
+sudo systemctl enable --now obex
+pacman -Q | grep bluez
+systemctl --user enable --now obex
+sudo systemctl enable --now bluetooth
+sudo nano /etc/udev/rules.d/91-bluetooth-wakeup.rules\
+
+mkdir /etc/systemd/system/bluetooth.service.d/
+sudo mkdir /etc/systemd/system/bluetooth.service.d/
+sudo nano /etc/systemd/system/bluetooth.service.d/override.conf
+sudo systemctl restart bluetooth
+ls /sys/class/backlight/
+pacman -Syx
+pacman -Syc
+yay wluma
+yay clight
+sudo nano /etc/udev/rules.d/backlight.rules
+cd dunst
+rm ~/Downloads/dunstrc2
+rm hist
+notify-send "Hello, World"
+hi
+notify-send "HELP MEhi
+notify-send "HELP ME"
+cd /sys/class
+C;2~
+killall -SIGUSR1 waybar
+killall -SIGUSR2 waybar
+nano ~/.config/dunst/dunstrc
+dunstify -u low "Hello"
+dunstify -u normal "Hello"
+dunstify "Hello"
+systemctl --user restart dunst
+diff -r ~/Downloads/dunstrc2 ~/.config/dunst/dunstrc
+dunstify -u critical "Hello"
+dunstify -u critical "Hello.\nHow are you?
+dunstify -u critical "Hello.\nHow are you?"
+dunstify -u critical --title "hello" --body "how"
+faillock --reset
+dunstify -u critical
+    -A [limit]       start with selection disabled (`aged')\
+    -b baud-rate     sets the baud rate (default 1200)\
+    -B sequence      allows changing the buttons (default '123')\
+    -d delta         sets the delta value (default 25) (must be 2 or more)\
+    -D               debug mode: don't auto-background\
+    -g tap-button    sets the button (1-3) that is emulated by tapping on\
+                     a glidepoint mouse, none by default. (mman/ps2 only)\
+    -i interval      max time interval for multiple clicks (default 250)\
+    -k               kill a running gpm, to start X with a busmouse\
+    -l charset       loads the inword() LUT (default '-a-zA-Z0-9_./âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€âƒ¶ƒ€-âƒ¶ƒ€')\
+    -m mouse-device  sets mouse device\
+    -M               enable multiple mice. Following options refer to\
+                     the second device. Forces "-R"\
+    -o options       decoder-specific options (e.g.: "dtr", "rts")\
+    -p               draw the pointer while striking a selection\
+    -q               quit after changing mouse behaviour\
+    -r number        sets the responsiveness (default 10)\
+    -R mouse-type    enter repeater mode. X should read /dev/gpmdata\
+                     like it was a mouse-type device.  Default is MouseSystems.\
+                     You can also specify "raw" to relay the raw device data.\
+    -s sample-rate   sets the sample rate (default 100)\
+    -S [commands]    enable special commands (see man page)\
+    -t mouse-type    sets mouse type (default 'ms')\
+                     Use \
+\
+'\
+'\
+'\
+'\
+'\
+'
+dunstify --help
+dunstify "Hello" "How are you?"
+pacman -Qi fastfetch
+fastfetch --gen-config-full
+fastfetch -l small
+fastfetch --logo kitty
+fastfetch --logo kitty-direct --logo-width 100 --logo-height 100
+watch -c -n 0.3 "fastfetch"
+while true; do fastfetch; clear; sleep 1;done
+while true; do fastfetch; sleep 1; clear; done
+ss
+while true; do fastfetch; clear; done
+git clone https://github.com/fastfetch-cli/fastfetch.wiki.git
+cd fastfetch.wiki
+nano Configuration.md
+nano Json-Schema.md
+rm -rf fastfetch.wiki
+fastfetch --c all
+fastfetch -c all.jsonc -l none > ff2.txt
+nano ff2.txt
+cat ff.txt
+fastfetch -c all.jsonc -l none | awk -F " : " '{print $2}' > ff3.txt
+fastfetch -c all.jsonc -l none | awk -F ": " '{print $1}' > ff3.txt
+fastfetch -l none | awk -F ": " '{print $1}' > ff4.txt
+nano ff*
+diff ff4.txt ff3.txt
+diff ff4.txt ff2.txt
+diff ff4.txt ff.txt
+nano ff4.txt
+fastfetch -c all.jsonc -l none
+print -n "\e[H"
+while true; do fastfetch; sleep 1; done
+clear;fastfetch -c ~/.config/fastfetch/left.jsonc;print -n "\e[H";fastfetch -c /home/sudar/.config/fastfetch/right.jsonc
+diff ~/.config/fastfetch/left.jsonc ~/.config/fastfetch/right.jsonc
+diff ~/.config/fastfetch/left.jsonc ~/.config/fastfetch/right.jsonc | grep -i ">"
+cp left.jsonc right.jsonc
+nano right.jsonc
+clear; cd ~/.config/fastfetch; fastfetch -c left.jsonc; print -n "\e[H"; fastfetch -c right.jsonc
+nano ff3.txt
+nano ff.txt
+cd ~/.config/fastfetch; fastfetch -c left.jsonc; print -n "\e[H"; fastfetch -c right.jsonc
+while true; fastfetch -c left.jsonc; print -n "\e[H"; fastfetch -c right.jsonc; done
+while while true; do fastfetch -c left.jsonc; print -n "\e[H"; fastfetch -c right.jsonc; done
+while true; do fastfetch -c left.jsonc; print -n "\e[H"; fastfetch -c right.jsonc; done
+rm -rf ff*
+nano ~/.config/fastfetch/right.jsonc
+fastfetch -c ~/.config/fastfetch/left.jsonc
+fastfetch -c ~/.config/fastfetch/right.jsonc
+nano ~/.config/fastfetch/test.jsonc
+fastfetch -c ~/.config/fastfetch/test.jsonc
+fastfetch -c all.jsonc
+dunstctl history-clear
+zjcdjafcjnkkdesdjfwqxvvd jxshwdx
+which astronaut-theme
+pacman -Fy astronaut-theme
+sudo pacman -Fy astronaut-theme
+sudo pacman -Fy astronaut_theme
+sudo pacman -Fy sddm
+find / -name sddm.conf
+find /etc -name sddm.conf
+pacman -Fy sddm-astronaut-theme
+sudo pacman -Fy sddm-astronaut-theme
+sudo pacman -Fy sddm-astronaut-theme.conf
+find /etc -name sddm-astronaut-theme
+cd /etc
+cd sddm
+nano /usr/share/sddm/themes/sddm-astronaut-theme/Themes/astronaut.conf
+cd sddm-astronaut-theme_1753443735
+nano astronaut.conf
+cd /usr/share/sddm/themes/
+cd /usr/lib/sddm/sddm.conf.d
+nano default.conf
+sudo nano default.conf
+pacman -Fy theme.conf
+sudo pacman -Fy theme.conf
+nano /usr/share/sddm/themes/maya/theme.conf
+nano /usr/share/sddm/themes/maldives
+nano /usr/share/sddm/themes/maldives/theme.conf
+which shutdown
+which reboot
+yay man
+man sddm
+man 1 sddm
+man w sddm
+man 2 sddm
+man 3 sddm
+man 4 sddm
+man 5 sddm
+sudo pacman -Rsunc man-db
+cd /home/sudar/.wallpapers
+mv ~/Downloads/14* /home/sudar/.wallpapers
+mv ~/Downloads/binary-code-falling.1920x1080.mp4 ~/.wallpapers
+mv ~/Downloads/matrix-raining-particles.1920x1080.mp4 ~/.wallpapers
+mv ~/Downloads/matrix-rain-codes.1920x1080.mp4 ~/.wallpapers
+cd ~/Downloads
+rm Gr\ 8\ T1-SEA-Instructions\ for\ students-25-26.pdf
+rm JetBrainsMono-2.304.zip
+rm Gr_10_Weekend_Assignment_-7th_August..docx
+rm AUTHORS.txt
+nano OFL.txt
+rm OFL.txt
+cd .wallpapers
+~rm *
+ls ~/Downloads
+mv /home/sudar/Downloads/* ~/.wallpapers
+sudo pacman -Rsuncdb sddm
+sudo pacman -Rsunc sddm
+sudo find -name sddm
+sudo find / -name *sddm*
+sudo find / -name sddm
+cd /usr/share/sddm/
+hyprpaper
+systemctl restart hyprpaper
+killall hyprpaper
+systemctl --user status hyprpaper
+sudo nano /etc/sddm.conf
+systemctl --user restart waybar
+nano ~/.config/fastfetch/config.jsonc
+cp ~/.config/fastfetch/left.jsonc ~/.config/fastfetch/config.jsonc
+nano ~/.config/fastfetch/left.jsonc
+nano /home/sudar/.config/fastfetch/right.jsonc
+nano /home/sudar/.config/fastfetch/config.jsonc
+grep -r sddm /etc
+grep -r sddm /etc | grep -vi apparmor
+grep -r sddm /etc | grep -vi apparmor | grep -vi Permission
+grep -r sddm /etc |& grep -vi apparmor |& grep -vi Permission
+find /etc -name *sddm
+find /etc -name sddm*
+find /etc -name sddm
+find /etc -name "*sddm*"
+find /etc -name "*sddm*" |& grep -vi "Permission"
+find /usr -name "*sddm*" |& grep -vi "Permission"
+nano /usr/lib/sysusers.d/sddm.conf
+nano /usr/lib/tmpfiles.d/sddm.conf
+find / -name "*sddm*" |& grep -vi "Permission"
+find / -name "*sddm*" |& grep -vi "Permission" |& grep -vi ".snapshots"
+cd ~/.local/share/sddm
+nano /etc/sddm.conf
+sudo rm /etc/sddm.conf
+systemctl restart iwctl
+systemctl restart iwd
+systemctl restart systemd-resolved.service
+nano /etc/resolv.conf
+nano /etc/resolvconf/resolv.conf.d/tail
+nano /etc/resolvconf/resolv.conf
+pacman -Fy resolved.conf
+sudo pacman -Fy resolved.conf
+nano /etc/systemd/resolved.conf
+systemctl restart systemd-networkd.service
+sudo pacman -Rsunc sddm.conf
+ls /etc
+nano /usr/lib/sddm/sddm.conf.d/default.conf
+nano /etc/sddm.conf.d/
+mkdir /etc/sddm.conf.d
+sudo mkdir /etc/sddm.conf.d
+cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf.d
+sudo cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf.d
+chmod 777 /etc/sddm.conf.d/default.conf
+sudo chmod 777 /etc/sddm.conf.d/default.conf
+cd elarun
+sddm-greeter
+sudo sddm-greeter
+pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland sddm-greeter
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/maya
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/maldives
+cd /home/sudar/.wallpapers/
+sudo nano theme.conf
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/elarun
+ls images
+yay sddm
+pacman -Fl sddm
+pacman -Fl sddm-astronaut-theme
+yay sddm astronaut
+yay -Fl sddm-astronaut-theme
+mkdir matrix-rain
+sudo mkdir matrix-rain
+chown sudar:wheel ./matrix-rain
+sudo chown sudar:wheel ./matrix-rain
+cd matrix-rain
+nano theme.conf
+git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm
+sudo mv ~/simple-sddm /usr/share/sddm/themes/
+cd /usr/share/sddm/themes
+cd simple-sddm
+sudo git clone -b master --depth 1 https://github.com/keyitdev/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
+cd sddm-astronaut-theme
+yay -Syu --asdeps qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
+pacman -Qe | grep qt5
+cd /usr/share/sddm/themes/sddm-astronaut-theme
+cd Themes
+nano jake_the_dog.conf
+nano ../metadata.desktop
+sudo nano ../metadata.desktop
+sudo nano jake_the_dog.conf
+ls .wallpapers
+echo $VDPAU_DRIVER
+grep -r VDPAU_DRIVER ~/.config
+echo $VDPAU_QUIRKS
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/simple-sddm
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/matrix-rain
+sddm-greeter-qt6 --test-mode
+systemctl restart
+systemctl restart sddm
+systemctl reboot
+sudo nano /usr/share/sddm/themes/sddm-astronaut-theme/Themes/purple_leaves.conf
+ls /usr/share/sddm/themes/sddm-astronaut-theme
+mv ~/.wallpapers/* /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds
+sudo mv ~/.wallpapers/* /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds
+ls ~/.wallpapers
+rm ~/.wallpapers
+rm -rf .wallpapers
+ls /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds
+nano /usr/share/sddm/themes/sddm-astronaut-theme/Themes/jake_the_dog.conf
+sudo nano /usr/share/sddm/themes/sddm-astronaut-theme/Themes/jake_the_dog.conf
+killall sddm
+sddm
+sudo sddm
+nano /etc/sddm.conf.d/default.conf
+sudo systemctl restart sddm
+sudo killall sddm
+nano ~/.config/hypr/hyprlock.conf
+cd /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds/
+nano ~/.config/hypr/hyprpaper.conf
+systemctl --user restart hyprpaper
+pacman -Fl find-the-command-git
+nano ~/.zshrc.d/topplugins.zsh
+nano /usr/share/doc/find-the-command/ftc.zsh
+cd /usr/share/doc/find-the-command
+nano $(dirname $0)/ftc.bash
+nano ftc.bash
+# systemctl enable pacman-files.timer
+systemctl enable pacman-files.timer
+nano ~/.zshrc.d/bottomplugins.zsh
+sudo pacman -Rsunc find-the-command-git
+sudo chmod 400 /.snapshots
+firejail brave-betas
+firejail brave-browser-beta.desktop
+sudo firejail brave-browser-beta.desktop
+sudo firejail brave
+firejail kitty
+sudo nano /etc/apparmor.d/firejail-default
+sudo apparmor_parser -h/etc/apparmor.d/firejail-default
+sudo apparmor_parser -h
+sudo apparmor_parser -r -v /etc/apparmor.d/firejail-default
+firejail -v brave-beta
+nano /etc/firejail/brave-browser-beta.profile
+sudo firejail brave-beta
+sudo nano /etc/firejail/brave.profile
+firejail --verbose
+brave-beta --verbose
+curl cheat.sh/firejail
+firejail --noprofile brave-beta\
+
+firejail brave-beta\
+
+firejail --ignore=nonewprivs brave-beta
+firejail --ignore=nonewprivs --ignore=noroot --ignore=protocol --ignore=seccomp --ignore=caps.drop --caps.keep=sys_admin,sys_chroot brave-beta
+firejail --debug brave-beta > brave.txt
+firejail --debug --shell\
+
+sudo aa-disable /etc/apparmor.d/firejail-default\
+
+sudo pacman -Rsunc apparmor.d-git
+sudo pacman -Rsunc apparmor
+sudo pacman -Rsunc krathalans-apparmor-profiles-git
+yay -Syu firejail apparmor
+pacman -Si python-legacy-cgi
+sudo aa-status | grep -vi /
+yay apparmor.d
+cat .histfile | grep yay
+nano /etc/apparmor.d/disable/brave
+nano /etc/apparmor.d/brave
+firejail --apparmor brave-beta
+cd /usr/sbin
+nano gdbmtool
+sudo nano chromium-common.profile
+sudo nano /etc/firejail/chromium-common.profile
+sudo nano /etc/firejail/blink-common.profile
+sudo nano /etc/firejail/default.profile
+sudo rm -rf /etc/apparmor.d
+yay -Syu firejail apparmor.d apparmor
+yay -Syu firejail apparmor.d-git apparmor
+ls /etc/firejail
+sudo aa-status | grep -i profile
+apparmor_parser -r /etc/apparmor.d
+sudo apparmor_parser -r /etc/apparmor.d
+sudo aa-status | grep -i brave
+sudo aa-status | tee brave.txt
+sudo dmesg | grep DENIED\
+
+chmod +x ~/.config/autostart/apparmor-notify.desktop
+~/.config/autostart/apparmor-notify.desktop
+pkexec ~/.config/autostart/apparmor-notify.desktop
+firejail --debug brave-beta | grep noroot
+aa-enforce firejail-default
+sudo aa-enforce firejail-default
+nano /etc/firejail/default.local
+sudo nano /etc/firejail/default.local
+nano /etc/firejail/brave-beta.profile
+nano /etc/firejail/chromium-common.profile
+firejail --debug brave-beta | tee brave.txt
+nano /etc/firejail/default.profile
+nano /etc/firejail/brave.profile
+firejail brave-beta.profile
+firejail lomath
+which brave-beta
+which brave-browser-beta
+firejail brave-beta
+firejail brave-browser-beta
+sudo pacman -Rsunc firejail
+sudo cat /sys/kernel/security/apparmor/features/namespaces/maskuserns_create
+sudo cat /sys/kernel/security/apparmor/features/namespaces/mask
+sudo rm -rf /etc/firejail
+yay firejail
+ls /usr/bin
+ls /usr/bin | wc -l
+apparmor_parser -r /etc/apparmor.d/firejail-default
+sudo apparmor_parser -r /etc/apparmor.d/firejail-default
+firejail --debug brave-beta
+firejail --debug brave-beta | grep -i den
+firejail --debug brave-beta | grep -i fail
+firejail --debug brave-beta |& grep -i fail
+nano /etc/firejail/brave.local
+sudo nano /etc/firejail/brave.local
+firejail --debug brave-beta |& grep -i den
+sudo rm -rf /etc/firejail/brave.local
+gh
+gh auth login
+gh repo clone marlonrichert/zcolors
+sudo rm -rf zcolors
+gpm
+sudo gpm
+zsh --help
+curl cheat.sh/zsh
+while true; do fastfetch -c left.jsonc; print -n "\e[H"; fastfetch -c right.jsonc; sleep 1; done
+while true; do exec zsh; sleep 3; done
+while true; do exec zsh; sleep 3; done; &
+while true; do exec zsh; sleep 3; done&
+cat .histfile | grep pacman
+cat .histfile | grep "pacman -S"
+cat .histfile | grep "nano"
+sort todo.txt > todo2.txt
+fastfetch -c ~/.config/fastfetch/left.jsonc; print -n "\e[H"; fastfetch -c ~/.config/fastfetch/right.jsonc
+nano todo2.txt
+mv todo2.txt todo.txt
+cat .histfile | grep "yay"
+pacman -Si avizo
+cat .histfile | grep "pacman"
+yay conda
+yay miniconda
+yay -Syu miniconda
+sudo ln -s /opt/miniconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh
+.conda
+git clone https://aur.archlinux.org/miniconda3.git
+nano PKGBUILD
+makepkg -si
+py
+python --version
+yay python
+conda config --show channels
+conda tos accept --override-channels --channel defaults
+conda create python=3.10 --yes --name orange3
+conda help
+conda run orange3
+conda install orange3
+conda list | grep orange3
+source activate orange3
+python -m orange3
+python -m orange
+/home/sudar/.conda/envs/orange3
+which btrfs-assistant
+WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland orange-canvas
+unset QT_QPA_PLATFORM\
+orange-canvas\
+
+QT_QPA_PLATFORM=wayland orange-canvas
+QT_QPA_PLATFORM=wayland,xcb, orange-canvas
+QT_QPA_PLATFORM=xcb orange-canvas
+python -m Orange.canvas
+orange-canvas
+nano /home/sudar/.zshrc.d/aliases.zsh
+sudo nano /home/sudar/.zshrc.d/aliases.zsh
+y
+cd /etc/xdg/waybar
+nano ~/.config/waybar/power_menu.xml
+sudo /opt/miniconda3/condabin/conda update --all -n base --yes
+find /usr -name "topgrade.toml"
+find /home -name "topgrade.toml"
+groups conda
+sudo chmod 766 /opt/miniconda3
+sudo chmod 755 /opt/miniconda3
+sudo topgrade --only=conda
+sudo topgrade
+sudo pacman -Sy brave-browser-beta
+yay brave
+/opt/miniconda3/condabin/conda update --all -n base --yes
+cat /tmp/miniconda/.condarc
+cat /tmp/miniconda3/.condarc
+cat /opt/miniconda3/.condarc
+find /home -name ".condarc"
+nano /home/sudar/.conda/miniconda3/pkg/miniconda3/opt/miniconda3/.condarc
+nano /opt/miniconda3/.condarc
+/opt/miniconda3/condabin/conda update defaults
+conda activate
+pip
+pip3
+pip --version
+which pip
+which pip3
+which python
+which py
+which python3.13
+which python3.12
+python3.1
+yay thunderbird
+yay thunderbird tamil
+firejail thunderbird
+mkdir PPPK
+rm PPPK
+rm -r PPPK
+mkdir ~/PPPK
+mv * ~/PPPK
+cd ~/PPPK
+mv PPPK Downloads
+rm -rf Downloads/PPPK
+firejail --noprofile thunderbird
+firejail
+firejail --noprofile brave-beta
+killall brave-beta
+killall brave
+killall brave-browser-beta
+firejail --ls
+which libreoffice
+firejail libreoffice
+cd /etc/firejail
+nano loffice
+nano loffice.profile
+nano libreoffice.profile
+sudo nano libreoffice.local
+echo $XCURSOR
+echo $XCURSOR_THEME
+find /usr/share/icons ~/.local/share/icons ~/.icons -type d -name "cursors"
+ln --symbolic /usr/share/icons/Bibata-Modern-Ice ~/.local/share/icons/default
+ln --symbolic /usr/share/icons/Bibata-Modern-Ice /usr/share/icons/default
+sudo ln --symbolic /usr/share/icons/Bibata-Modern-Ice /usr/share/icons/default
+yay java
+yay jre
+firejail --noprofile loffice
+pkill firejail\
+
+firejail --noprofile --x11=pass lowriter\
+
+firejail --noprofile --x11=pass lowriter
+firejail --noprofile --x11 lowriter
+\lowriter
+mkdir -p ~/.config/firejail\
+echo "noblacklist ~/.config/libreoffice" >> ~/.config/firejail/libreoffice.local\
+
+cd libreoffice
+nano 4
+cd 4
+cd user
+nano autocorr
+cd pack
+cd config
+top | grep lib
+mv archive.zip ~/IITM_DS_\&_ML
+cd ~/IITM_DS_\&_ML
+unzip archive.zip
+killall Hyprland
+rfkill
+CC018
+pactl set-source-mute alsa_input.pci-0000_00_1f.3.analog-stereo
+pactl set-source-mute alsa_input.pci-0000_00_1f.3.analog-stereo 1
+pactl set-source-mute alsa_output.pci-0000_00_1f.3.analog-stereo.monitor 1
+pactl set-source-mute rnnoise_source 1
+pactl set-source-mute rnnoise_source 0
+ls -h
+ls --help
+conda info
+while true; do cat /dev/random; done
+firejail --noprofile lowriter
+iwctl station wlan0 connect Airtel_Jansln
+iwctl station wlan0 get-networks | grep Jan
+iwctl station wlan0 get-networks | grep -i sln
+iwctl station wlan0 get-networks | grep -i jan
+ls IITM_DS_\&_ML
+cd IITM_DS_\&_ML
+mv Cricket Cricket.ows
+speedtest
+pacman -Q speedtest++
+pacman -Q | grep speed
+pacman -Q | grep test
+yay mission center
+nano /etc/tlp.conf
+sudo nano /etc/tlp.conf
+sudo tlp start
+missioncenter-magpie
+missioncenter --help
+missioncenter --help-all
+missioncenter --help-gapplication
+missioncenter
+yay pwvucontrol
+pacman -Q | grep clang
+pacman -Q | grep gcc
+sudo pacman -Scc
+pactl set-source-mute alsa_output.pci-0000_00_1f.3.analog-stereo.monitor 0
+cat /dev/random
+yay -Syu <(pacman -Qm)
+yay -Syu <(pacman -Qmq)
+comm --help
+pacman -Qmq
+pacman -Qmq | pacman -Syu -
+pacman -Qmq | sudo pacman -Syu -
+nano bootstrap.sh
+chmod +x bootstrap.sh
+yay -Syu - < pacman -Qmq
+pacman -Qmq | yay -Syu -
+pacman -Qmq | yay -Syu - && update
+while true; do snapper cleanup empty-pre-post; done
+sudo yay -Rsunc miniconda3
+
+sudo rm -rf ~/.config/autostart/apparmor-notify.desktop
+sudo pacman -Rsunc python-notify2 python-psutil
+snapper remove 1033 1034
+df -i
+sudo killall auditd
+sudo killall audit
+sudo killall kaudit
+yay -Rsunc miniconda3
+yay -Rsunc python-psutil python-notify2
+groupdel -r audit
+groupdel audit
+sudo groupdel audit
+gpasswd -d audit sudar
+sudo gpasswd -d audit sudar
+sudo gpasswd -d sudar audit
+sudo systemctl disable audit
+sudo systemctl disable kauditd
+sudo systemctl disable kaudit
+systemctl --user disable audit
+systemctl --user disable auditd
+systemctl --user disable kauditd
+systemctl --user disable kaudit
+sudo dmesg | grep audit
+sudo nano /etc/audit/auditd.conf\
+
+pgrep -ax aa-notify
+sudo systemctl mask systemd-journald-audit.socket
+sudo systemctl enable auditd
+sudo systemctl disable auditd
+killall audit
+killall kaudit
+killall kauditd
+sudo killall kauditd
+pacman -Qmq > pkg
+pacman -Qmq | yay -Rsunc -
+yay -Syu - < pkg
+openssl
+nano /etc/ssl/openssl.cnf
+sudo nano /etc/ssl/openssl.cnf
+conda activate orange3
+exec openssl
+systemctl restart openssl
+sudo systemctl restart openssl
+openssl list -providers
+/opt/miniconda3/condabin/conda update conda-forge
+sudo /opt/miniconda3/condabin/conda update conda-forge
+find ~ -name "conda"
+/home/sudar/.conda/envs/orange3/etc/conda update conda-forge
+sudo /home/sudar/.conda/envs/orange3/etc/conda update conda-forge
+find ~ -name "condabin/conda"
+find ~ -wholename "condabin/conda"
+find ~ -wholename "*condabin/conda"
+/home/sudar/.conda/miniconda3/pkg/miniconda3/opt/miniconda3/condabin/conda
+/home/sudar/.conda/miniconda3/pkg/miniconda3/opt/miniconda3/condabin/conda update conda-forge
+sudo /home/sudar/.conda/miniconda3/pkg/miniconda3/opt/miniconda3/condabin/conda update conda-forge
+sudo conda update -n base -c defaults conda
+sudo rm -rf .conda
+sudo rm -rf /opt/miniconda3
+yay -Syu miniconda3
+yay -S miniconda3
+sudo pacman -Rsunc miniconda3
+find ~ -name "condarc"
+find ~ -name ".condarc"
+mkdir -p ~/.conda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/.conda/miniconda.sh
+sudo ./miniconda.sh
+chmod +x miniconda.sh
+rm environments.txt
+mv miniconda.sh ~
+rm -rf .
+rm .conda
+rm -rf conda
+rm -rf .conda
+nano .update.sh
+sudo nano .update.sh
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+chmod +x ./Miniforge3-Linux-x86_64.sh
+killall conda
+killall miniconda
+snapper lisg
+snapper remove 4 603 1053
+snapper lisrt
+QT_QPA_PLATFORM=eglfs btrfs-assistant
+nano /etc/snapper
+ls /etc/snapper
+ls /etc/snapper/configs
+sudo rm -rf ~/.conda
+./miniconda.sh
+conda
+.conda config --set auto_activate_base false
+conda config --set auto_activate_base false
+ls .conda/miniconda3
+conda init --all
+rm bootstrap.sh
+nano brave.txt
+rm brave.txt
+./Miniforge3-Linux-x86_64.sh
+sudo rm .condarc
+conda config --add channels defaults
+conda config --add channels conda-forge
+conda config --add channels bioconda
+conda config --set channel_priority strict
+topgrade --only=conda
+nano /home/sudar/.config/topgrade.d
+find ~ -name "topgrade.toml"
+find /etc -name "topgrade.toml"
+nano /home/sudar/.config/topgrade.toml
+conda update -n base -c defaults conda bioconda
+conda update -n base -c defaults conda
+conda update -n base
+conda update -n base -c defaults
+conda update -n base conda
+conda update conda
+conda update --all
+sudo nano /home/sudar/.config/topgrade.toml
+nano ~/.update.sh
+sudo nano ~/.update.sh
+arch-update -h
+conda create python=3.10 --yes --name orange3\
+
+conda config --add channels conda-forge\
+
+conda config --set channel_priority strict\
+
+which conda
+cd orange3
+which orange-canvas
+which orange3
+conda install orange3\
+
+cd ~/.config/fastfetch
+sudo exec zsh
+sudo zsh
+snapper create --type pre --cleanup-algorithm number -d "Installing Gentoo Prefix"
+chmod +x bootstrap-prefix.sh
+./bootstrap-prefix.sh
+sudo rm -rf ~/.prefix
+sudo rm -rf /home/sudar/.bashrc
+sudo rm -rf /home/sudar/.p10k.zsh.bak
+sudo rm -rf /home/sudar/.tcshrc
+sudo rm -rf /home/sudar/.xonshrc
+sudo rm -rf /home/sudar/.zshrc.bak
+sudo rm -rf /home/sudar/.bash_history
+sudo rm -rf /home/sudar/.bash_logout
+sudo rm -rf /home/sudar/.gitconfig
+sudo rm -rf /home/sudar/.bash_profile
+sudo nano .zshrc.zni
+sudo nano .zshrc\~
+sudo rm -rf .zshrc\~
+nano .config/uwsm/env
+nano .zshenv
+rm .zshenv
+rm Miniforge3-Linux-x86_64.sh
+rm pkg
+yay pkgsrc
+topgrade --only=cond
+yay clam av
+nano /etc/clamav/freshclam.conf
+sudo !
+sudo nano /etc/clamav/freshclam.conf
+clamconf
+nano /etc/clamav/clamd.conf
+nano /etc/clamav/clamav-milter.conf
+sudo nano /etc/clamav/clamav-milter.conf
+fanotify
+sudo nano /etc/clamav/clamd.conf
+nano /etc/sudoers.d/clamav
+sudo visudo
+nano /etc/clamav/virus-event.bash
+sudo nano /etc/clamav/virus-event.bash
+aa-complain clamd
+sudo aa-complain clamd
+sudo systemctl enable --now clamav-clamonacc.service
+sudo systemctl enable clamav-clamonacc.service
+sudo systemctl enable clamav-daemon.socket
+sudo systemctl enable clamav-daemon
+sudo systemctl start clamav-daemon
+sudo systemctl start clamav-clamonacc
+touch /var/log/clamav/freshclam.log\
+
+sudo touch /var/log/clamav/freshclam.log\
+
+sudo chmod 600 /var/log/clamav/freshclam.log\
+
+sudo chown clamav /var/log/clamav/freshclam.log\
+
+sudo systemctl enable --now clamav-freshclam-once.service
+sudo systemctl enable --now clamav-freshclam-once.timer
+sudo systemctl enable --now clamav-freshclam.service
+sudo systemctl status clamav-clamonacc.service
+curl https://secure.eicar.org/eicar.com.txt | clamscan -
+freshclam
+sudo freshclam
+firejail --noprofile clamscan --recursive --infected /home/sudar
+clamscan --recursive --infected /home/sudar
+systemctl status clamav-daemon.service
+systemctl status clamav-clamonacc.service
+systemctl status clamav-freshclam.service
+systemctl status snapper-cleanup.timer
+yay libva-uils
+yay libva-utils
+sudo vdpauinfo
+echo $DISPLAY
+echo $WAYLAND_DISPLAY
+WAYLAND_DISPLAY=wayland-1 sudo vdpauinfo
+pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland vdpauinfo
+cmake
+cmake .
+gh repo clone i-rinat/libvdpau-va-gl
+cd libvdpau-va-gl
+mkdir build; cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr ..
+sudo make install
+cat .histfile | tail -n30
+cat ~/.histfile | tail -n30
+cat ~/.histfile | tail -n50
+sudo make uninstall
+python print(5.4/3.5)
+python "print(5.4/3.5)"
+sudo rm -rf /usr/lib/vdpau/libvdpau_va_gl.so
+sudo rm -rf /usr/lib/vdpau/libvdpau_va_gl.so.1
+sudo rm -rf libvdpau-va-gl
+pacman -Qe | grep intel
+sddm-greeter-qt6 --help
+sudo pacman -Rsunc libvdpau-va-gl
+vdpauinfo
+yay libvdpau-va-gl
+yay -S vulkan-tools
+vainfo
+sudo vainfo
+vulkaninfo | grep VK_KHR_video_
+sudo pacman -Rsunc libva-utils vdpauinfo vulkan-tools
+rm ~/.config/brave-flags.conf
+nano /home/sudar/.config/brave-flags.conf
+brave-beta [200~--enable-features=VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization
+brave-beta --enable-features=VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization
+brave-beta --enable-features=VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization --disable-features=Vulkan
+sudo systemctl disable --now clamd
+sudo systemctl disable --now clamav-clamonacc.service
+sudo systemctl disable --now clamav-daemon.service
+sudo systemctl disable --now clamav-freshclam-once.service
+sudo systemctl disable --now clamav-freshclam-once.timer
+sudo systemctl disable --now clamav-freshclam.service
+sudo pacman -Rsunc clamav
+echo ~/.zshrc | diff -r - <(ssh 100.69.242.6 cat -)
+scp -r ~/.config/hypr/hyprland.conf 100.69.242.6:~/.config/hypr/
+pacman -Qe | grep jre
+pacman -Qe | grep sddm
+scp -r /etc/sddm.conf.d/default.conf 100.69.242.6:/etc/sddm.conf.d
+sudo scp -r /etc/sddm.conf.d/default.conf 100.69.242.6:/etc/sddm.conf.d
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme
+VDPAU_DRIVER="" sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme
+VDPAU_DRIVER="" sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme | grep qsv
+VDPAU_DRIVER="" sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme |& grep qsv
+nano /etc/apparmor.d/tunables/xdg-user-dirs.d/apparmor.d.d/local
+find ~ -name "dunstrc"
+cd /etc/sddm.conf.d
+nano /etc/udev/rules.d/backlight.rules
+while true; do fastfetch -c ~/.config/fastfetch/left.jsonc; print -n "\e[H"; fastfetch -c ~/.config/fastfetch/right.jsonc; sleep 3; done
+nano /home/sudar/.config/topgrade.d/
+diff -r ~/.config/hypr/generalandlook.conf <(ssh 100.69.242.6 cat ~/.config/hypr/generalandlook.conf)
+diff -r ~/.config/hypr/generalandlook.conf <(ssh 100.69.242.6 cat ~/.config/hypr/hyprland.conf)
+diff -r ~/.config/hypr/hyprland.conf <(ssh 100.69.242.6 cat ~/.config/hypr/hyprland.conf)
+diff -r ~/.config/hypr/hyprlock.conf <(ssh 100.69.242.6 cat ~/.config/hypr/hyprlock.conf)
+diff -r ~/.config/hypr/hyprlock.conf <(ssh 100.118.150.32 cat ~/.config/hypr/hyprlock.conf)
+sudo rm -rf /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds/*.gif
+ls /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds/
+soffice -env:UserInstallation=file:///tmp/test
+diff -r ~/.p10k.zsh <(ssh 100.69.242.6 cat ~/.p10k.zsh)
+scp -r ~/.p10k.zsh 100.69.242.6:~
+scp -r ~/.p10k.zsh 100.69.242.6:~/.p10k.zsh
+cd .conda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+diff -r ~/.condarc <(ssh 100.69.242.6 cat ~/.condarc)
+conda update
+conda start
+conda lisr
+bluetoothctl
+wpctl set-default 80
+wpctl status
+wpctl set-volume -l 1
+for i in {0..300}; do echo $i; wpctl set-volume $i 1;done
+pactl set-source-mute alsa_input.pci-0000_00_1f.3.analog-stereo 0
+pactl set-sink-mute bluez_output.38_5C_76_92_0A_9C.1 0
+diff -r ~/.zshrc <(ssh 100.69.242.6 cat ~/.zshrc)
+mkinitcpio -P
+conda update -n base -c defaults conda conda-forge bioconda
+conda update -h
+nano /.condarc
+nano ~/.condarc
+nano /etc/cmdline.d/security.conf
+sudo nano /etc/cmdline.d/security.conf
+grep -r . /sys/devices/system/cpu/vulnerabilities | grep Vulnerable
+cat /proc/cpuinfo | grep microcode
+conda update -n base -c defaults -c conda-forge -c bioconda conda
+grep -r . /sys/devices/system/cpu/vulnerabilities
+scp -r ~/BeforeTheSunAnalysis.txt 100.69.242.6:~/Downloads/
+ls Downloads/
+scp -r ~/IITM_DS_\&_ML 100.69.242.6:~/Downloads/
+scp -r ~/pkgmgrs.txt 100.69.242.6:~/Downloads/
+scp -r ~/todo.txt 100.69.242.6:~/Downloads/
+nano todo.txt
+scp -r 100.69.242.6:/etc/cmdline.d/security.conf /etc/cmdline.d/security.conf
+sudo scp -r 100.69.242.6:/etc/cmdline.d/security.conf /etc/cmdline.d/security.conf
+./.diff.sh
+rm miniconda.sh
+rm todo.txt
+nano pkgmgrs.txt
+rm BeforeTheSunAnalysis.txt
+yay thunar
+curl cheat.sh/fstab
+mount -a
+sudo mount -a
+rm apparmor
+rm -rf apparmor
+nano test
+rm test
+nano /etc/fstab
+umount /mnt/iMac
+sudo ls -l /mnt/iMac
+cd /etc/samba
+cd private
+sudo mkdir credentials
+cd credentials
+sudo nano share
+sudo chown root:root /etc/samba/credentials/share
+sudo chmod 600 /etc/samba/credentials/share
+sudo chmod 700 /etc/samba/credentials/
+sudo umount /mnt/iMac
+ls -l /mnt/iMac
+ls -l
+systemd-analyze
+systemd-analyze critical-chain
+systemctl status sshd
+firejail --noprofile remmina
+sudo pacman -Syu --asdeps freerdp libvncserver spice-gtk webkit2gtk kf5wallet\
+
+yay vnc
+tiger-hash
+vncsession
+vncviewer
+yay -S remmina
+firejail --list
+firecfg --help
+yay flatpak
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo\
+
+flatpak install org.freedesktop.Platform\
+
+exec zsdh
+flatpak run --user org.remmina.Remmina\
+
+sudo pacman -Rsunc remmina
+sudo pacman -Rsunc tigervnc
+yay remmina
+sudo btrfs quota disable /
+sudo firecfg --help
+remmina
+sudo pacman -Rsunc remmina remmina-plugin-ultravnc
+gh repo clone novnc/noVNC
+cd noVNC
+./utils/novnc_proxy --vnc 100.69.242.6:5900
+nano /home/sudar/.config/hypr/hyprland.conf
+novnc_proxy --vnc 100.69.242.6:5900
+yay novnc
+sudo systemctl enable --now novnc@.service
+sudo systemctl enable --now novnc@
+sudo systemctl edit novnc@
+novnc --help
+novnc --vnc 100.69.242.6:5900 --ssl-only --heatbeat 5
+novnc --vnc 100.69.242.6:5900 --ssl-only --heartbeat 5
+novnc --vnc 100.69.242.6:5900 --heartbeat 5 &
+killall novnc
+sudo lynx https://www.savemyexams.com/igcse/chemistry/cie/23/revision-notes/3-stoichiometry/3-2-the-mole-and-the-avogadro-constant/3-2-6-empirical-and-molecular-formula/
+libreoffice -o ChemistryTextbook.pdf
+yay pdf
+yay pdf kitty
+scp -r 100.69.242.6:~/.p10k.zsh ~
+yay code
+yay vscode
+yay tdf
+scp -r ~/Downloads/* 100.69.242.6:~/Downloads/
+mv ~/pkgmgrs.txt .
+rm ./Gr\ 8\ T1-SEA-Instructions\ for\ students-25-26.pdf
+sudo systemctl enable --now apparmor
+sudo nano /etc/apparmor/parser.conf
+systemd-analyze blame | grep apparmor
+sudo journalctl -fx | grep "DENIED"
+sudo aa-status | grep -i unconfined
+sudo aa-status | grep -i complain
+sudo aa-status | grep -i enforce
+arch-update --tray --enable
+arch-update --help
+killall arch-update
+arch-update --tray --disable
+sudo rm /home/sudar/.config/autostart/arch-update-tray.desktop
+systemctl --user enable --now arch-update
+systemctl --user enable --now arch-update-tray-service
+systemctl --user enable --now arch-update-tray
+systemctl --user enable --now arch-update.timer
+mpv --help
+mpv --list-options
+yay mpv
+cd /dev
+file HD\ VIDEO
+cd HD\ VIDEO
+mpv HD\ VIDEO.mp4
+umount /mnt
+sudo umount /mnt
+sudo umount -f /mnt
+yay photo
+cd /mnt
+cd Photos
+ls | wc -l
+mpv *
+mpv 0S4A2745.JPG
+sudo umount -fl /mnt
+ssh root@play.pujol.io
+sudo mkdir -p /etc/apparmor.d/tunables/xdg-user-dirs.d/apparmor.d.d
+cd @{user_img_dirs}
+cd @{HOME}
+cd $HOME
+cd $XDG_CONFIG_DIR
+cd $XDG_BIN_DIR
+echo $XDG_BIN_DIR
+sudo nano /etc/apparmor.d/tunables/xdg-user-dirs.d/apparmor.d.d/local
+scp -r /etc/apparmor.d/tunables/xdg-user-dirs.d/apparmor.d.d/local 100.69.242.6:/etc/apparmor.d/tunables/xdg-user-dirs.d/apparmor.d.d/
+sudo scp -r /etc/apparmor.d/tunables/xdg-user-dirs.d/apparmor.d.d/local 100.69.242.6:/etc/apparmor.d/tunables/xdg-user-dirs.d/apparmor.d.d/
+sudo systemctl reload apparmor.service
+cat /etc/pkglist.txt | head
+pacman -Pm
+pacman -Qm
+yay snap
+yay snapd
+sudo systemctl enable --now snapd.socket\
+
+sudo ln -s /var/lib/snapd/snap /snap\
+
+sudo snap install hello-world
+echo $PATH
+killall zsh
+killall kitty
+sudo systemctl enable --now snapd.apparmor.service\
+
+sudo systemctl enable --now snapd.service
+sudo snap install snap-store
+nano ~/.config/hypr/hyprland.conf
+sudo pacman -Rsunc brave-beta-bin && yay -Syu brave-bin
+cd BraveSoftware
+mv Brave-Browser-Beta Brave-Browser
+sudo nano /home/sudar/.config/hypr/programs.conf
+sudo mount /dev/sda1 /mnt/1
+sudo mount --mkdir /dev/sda1 /mnt/1
+sudo mount --mkdir /dev/sda2 /mnt/2
+sudo mount --mkdir /dev/sda3 /mnt/3
+sudo mount --mkdir /dev/sda4 /mnt/4
+sudo mount --mkdir /dev/sda5 /mnt/5
+sudo mount --mkdir /dev/sda6 /mnt/6
+cd /mnt/1
+sudo rm EndeavourOS_Endeavour_neo-2024.09.22.iso
+sudo rm debian-12.8.0-amd64-netinst.iso
+sha512sum -c EndeavourOS_Mercury-Neo-2025.03.19.iso.sha512sum\
+\
+
+gpg --recv CDF595A1
+pacman-key --recv-keys CDF595A1
+sudo pacman-key --recv-keys CDF595A1
+gpg --verify EndeavourOS_Mercury-Neo-2025.03.19.iso.sig\
+\
+
+sudo pacman-key --verify EndeavourOS_Mercury-Neo-2025.03.19.iso.sig\
+\
+
+mv EndeavourOS_Mercury-Neo-2025.03.19.iso /mnt/1
+sudo mv EndeavourOS_Mercury-Neo-2025.03.19.iso /mnt/1
+umount /mnt/*
+sudo umount /mnt/*
+ls /mnt
+pacman-key --verify cachyos-desktop-linux-250828.iso.sig
+sha256sum -c cachyos-desktop-linux-250828.iso.sha256
+mount /dev/sda1 /mnt
+sudo mount /dev/sda1 /mnt
+sudo mount --verbose/dev/sda1 /mnt
+sudo dmesg
+journalctl --boot
+sudo mount --verbose /dev/sda1 /mnt
+fsck --help
+fsck /dev/sda1
+while true; do lsblk; sleep 1; done
+while true; do lsblk; sleep 1; clear; done
+scp -r ~/Downloads/cachyos-desktop-linux-250828.iso 100.69.242.6:~/Downloads/
+yay exfar
+yay exfat
+scp -r ~/Downloads/cachyos-desktop-linux-250828.iso 100.69.242.6:/mnt
+yay -S exfat-utils
+cd /etc/systemd/network
+nano 25-wireless.network
+pacman -Qi mesa
+sudo pacman -Rdd mesa
+sudo pacman -S --asdeps mesa
+sudo disable-paste
+yay -S thunderbird-beta-bin brave-beta-bin
+cd ~/.config/hypr
+nano programs.conf
+nano bind.conf
+scp -r ./bind.conf 100.69.242.6:~/.config/hypr/
+scp -r ./programs.conf 100.69.242.6:~/.config/hypr/
+rm -rf Brave-Browser-Beta
+cp Brave-Browser Brave-Browser-Beta
+cp -r Brave-Browser Brave-Browser-Beta
+killall thunderbird
+thunderbird
+scp -r ~/Downloads/Thunderbird_profile_backup.zip 100.69.242.6:~/Downloads
+rm cachyos*
+rm Endea*
+rm Thunderbird_profile_backup.zip
+udpateupdate
+nano /etc/pkglist.txt
+pacman -Sl extra | grep installed
+pacman -Qel apparmor
+pacman -Qei
+pacman -Qei | grep -E "Installed From|Name"
+nano ./.diff.sh
+pacman -Qei | grep -E "Installed From|Name" | awk -F ": " '{print $1}'
+pacman -Qei | grep -E "Installed From|Name" | awk -F ": " '{print $2}'
+pacman -Qei | grep -E "Installed From" | awk -F ": " '{print $2}'
+mount --all
+conda activate orange3\
+
+conda uninstall conda-anaconda-telemetry
+conda env export --from-history
+snapper status 1..0 | grep /etc
+snapper status 1..0 | grep /etc |& grep -vi /var
+conda config --set anaconda_anon_usage off
+snapper status 1..0 | grep "..... /etc" > ~/Downloads/configfiles.txt
+scp -r 100.69.242.6:~/.condarc ~
+nano .condarc
+scp -r 100.69.242.6:~/.config/uwsm/env ~/.config/uwsm
+pacman -Q | grep intel
+pacman -Q | grep libva
+sudo pacman -Rsunc intel-media-driver
+yay -S intel-media-driver
+yay -S intel-media-sdk
+diff -r /etc/pkglist.txt <(ssh 100.69.242.6 cat /etc/pkglist.txt) | grep ">"
+diff -r /etc/pkglist.txt <(ssh 100.69.242.6 cat /etc/pkglist.txt) | grep "<"
+sudo flatpak remote-add --if-not-exists flathub /home/sudar/Downloads/flathub.flatpakrepo
+sudo flatpak remote-add --if-not-exists flathub-beta /home/sudar/Downloads/flathub-beta.flatpakrepo
+flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo\
+
+flatpak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org\
+
+flatpak remote-add --if-not-exists fedora-testing oci+https://registry.fedoraproject.org#testing\
+
+flatpak remote-add --if-not-exists fedora-testing "oci+https://registry.fedoraproject.org#testing"
+flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak search gimp
+flatpak --help
+flatpak search thunderbird
+flatpak search thunderbird beta
+flatpak install flathub-beta org.mozilla.Thunderbird
+sudo pacman -Rsunc thunderbird-beta
+sudo pacman -Rsunc thunderbird-beta-bin
+thunderbird-beta
+mv Downloads/Thunderbird_profile_backup.zip /home/sudar/
+mv Thunderbird_profile_backup.zip .thunderbird
+ls .thunderbird
+cd /var/lib/flatpak
+cd app
+cd org.mozilla.Thunderbird
+cd current
+mv ~/.thunderbird/Thunderbird_profile_backup.zip .
+sudo mv ~/.thunderbird/Thunderbird_profile_backup.zip .
+sudo rm Thunderbird_profile_backup.zip
+cd .thunderbird
+cd jxbhphgy.default-release
+cd bgxwt5bz.default-beta
+cd khjbhph1.default
+diff -r ../jxbhphgy.default-release ../bgxwt5bz.default-beta
+diff -r <(ls ../jxbhphgy.default-release/) <(ls ../bgxwt5bz.default-beta/)
+cd ~//.var/app/org.mozilla.Thunderbird/cache/thunderbird/
+cd 983r117k.default-beta
+cp ~/.thunderbird/bgxwt5bz.default-beta .
+cp -r ~/.thunderbird/bgxwt5bz.default-beta .
+mv ./bgxwt5bz.default-beta ..
+cp ~/.thunderbird/jxbhphgy.default-release .
+cp -r ~/.thunderbird/jxbhphgy.default-release .
+flatpak run org.mozilla.Thunderbird -P
+flatpak run org.mozilla.Thunderbird
+flatpak list
+flatpak list --help
+flatpak list --help --app
+yay rust
+yay -S rustup
+rustup default beta
+snapper list --disable-used-space
+snapper list --columns
+du -h | sort -h
+sudo pacman -S --asdeps clang
+cargo +nightly install --git https://github.com/itsjunetime/tdf.git
+cargo +nightly uninstall tdf
+gh repo clone itsjunetime/tdf
+cd tdf
+cargo +nightly build --release
+cp ./target/release/tdf /usr/local/bin
+sudo cp ./target/release/tdf /usr/local/bin
+yay -S tdf
+which tdf
+sudo pacman -Rsunc tdf
+rm -rf /usr/local/bin/tdf
+sudo rm -rf /usr/local/bin/tdf
+brave
+cargo install mcat
+rm -rf .cache && btrfs subvol create .cache
+mcat
+chvt 1
+nano ~/.c/h/bind.conf
+cat ~/.histfile
+cat .histfile
+cat --help
+cat /etc/mkinitcpio.conf
+cat ~/.condar
+cat ~/.condarc
+scp -r 100.69.242.6:~/.zshrc.d/aliases.zsh ~/.zshrc.d/aliases.zsh
+sudo scp -r 100.69.242.6:~/.zshrc.d/aliases.zsh ~/.zshrc.d/
+sudo scp -r 100.69.242.6:~/.zshrc.d/aliases.zsh ~/.zshrc.d/aliases.zsh
+sudo scp -r 100.69.242.6:/home/sudar/.zshrc.d/aliases.zsh /home/sudar/.zshrc.d/aliases.zsh
+conda create --yes --name rich-cli
+conda activate rich-cli
+conda install rich-cli
+rich ~/Downloads/configfiles.txt
+rm flathub-beta.flatpakrepo
+rm flathub.flatpakrepo
+rm configfiles.txt
+yay ripgrep
+rg
+grep -r "hyprexpo" ~
+rg "hyprexpo" ~
+rg --help
+rg --help | head
+rg --help | head -n20
+rg --help | rg recursive
+rg --help | grep recursive
+rg hyprexpo ~
+rg hyprexpo ~/.config
+rg hyprexpo /home/sudar
+rg hyprexpo /home/sudar/
+rg hyprexpo /home/sudar/.config/
+rg hyprexpo /home/sudar/.cache
+rg hyprexpo /home/sudar/.histfile
+rg . /sys/devices/system/cpu/vulnerabilities | rg Vulnerable
+rg . /sys/devices/system/cpu/vulnerabilities | rg Mitigation
+cargo install cargo-update
+cargo install cargo-cache
+cargo-cache
+cargo-cache --help
+gh repo clone szerwigi1410/brokefetch
+cd brokefetch
+./screenshots/brokefetch-logo_att4.png
+mcat ./screenshots/brokefetch-logo_att4.png
+./brokefetch_mod.sh
+./brokefetch_beta.sh
+./brokefetch.sh
+while true; do ./brokefetch_beta.sh; sleep 1; clear; done
+rm -rf brokefetch
+rm -rf tdf
+yay gutenprint
+yay foomatic-db-gutenprint
+gutenprint
+/usr/lib/cups/backend/snmp 192.168.1.12
+for i in {0..300}; do /usr/lib/cups/backend/snmp 192.168.1.$i; done
+for i in {0..30}; do /usr/lib/cups/backend/snmp 192.168.1.$i; done
+yay nmap
+nmap
+nmap 192.168.1.0/24
+CUPS_DEBUG_LEVEL=2 /usr/lib/cups/backend/snmp @LOCAL 2>&1 | tee snmp.log
+cat snmp.log
+for i in {0..30}; do CUPS_DEBUG_LEVEL=2 /usr/lib/cups/backend/snmp 192.168.1.$i 2>&1 | tee snmp.log; done
+CUPS_DEBUG_LEVEL=2 /usr/lib/cups/backend/snmp 192.168.1.12 2>&1 | tee snmp.log
+/usr/lib/cups/backend/snmp -Cc -v 1 -c public 192.168.1.12 | tee snmpwalk.log
+pacman -Fy snmpwalk
+sudo pacman -Fy snmpwalk
+yay net-snmp
+snmpwalk -Cc -v 1 -c public 192.168.1.12 | tee snmpwalk.log
+while true; do snmpwalk -Cc -v 1 -c public 192.168.1.12 | tee snmpwalk.log; sleep 1; clear; done
+while true; do snmpwalk -Cc -v 1 -c public 192.168.1.12 | tee snmpwalk.log; done
+lpstat -v
+systemctl start cups
+cupsenable ipp://192.168.1.12/ipp/print
+cupsenable ipp://192.168.1.12:515/ipp/print
+cupsenable ipp://192.168.1.12:515/printers
+cupsenable ipp://192.168.1.12:515
+cupsenable 192.168.1.12
+lpadmin -p 192.168.1.12
+lpinfo -m
+lpinfo -m | grep G3000
+lpinfo -v | grep G3000
+lpinfo -v
+diff -r ~/.zshrc.d/aliases.zsh <(ssh 100.69.242.6 cat ~/.zshrc.d/aliases.zsh)
+sudo pacman -Rsunc foomatic-db-gutenprint-ppds gutenprint net-snmp nmap
+yay distrobox
+yay -S podman distrobox
+snapper list --columns used-space
+sudo btrfs balance start -v -musage=0 /
+sudo btrfs balance start -v -musage=1 /
+sudo sudo btrfs balance start -v -musage=1 /
+sudo dmesg | tail
+sudo dmesg | tail -n30
+sudo sudo btrfs balance start --help
+btrfs balance start -m /
+sudo btrfs balance start -m /
+sudo btrfs balance start -m usage=1 /
+sudo btrfs balance start -musage=1 /
+sudo btrfs balance start -musage=10 /
+sudo btrfs balance start -musage=100 /
+sudo btrfs balance start -musage=20 /
+sudo btrfs balance start -musage=30 /
+sudo btrfs balance start -musage=60 /
+sudo btrfs balance start -musage=51 /
+sudo btrfs balance start -musage=57 /
+sudo btrfs balance start -musage=55 /
+sudo btrfs balance start -musage=56 /
+nano /etc/snapper/configs/root
+nvme
+sudo nvme smart-log /dev/nvme0n1
+yay -S blueman
+blueman
+pacman -Fl blueman
+pacman -Fl blueman | rg usr/bin
+blueman-adapters
+blueman-applet
+blueman-manager
+diff -r ~/.config/waybar/style.css <(ssh 100.69.242.6 cat ~/.config/waybar/config.jsonc)
+diff -r ~/.config/waybar/config.jsonc <(ssh -P 39901 100.69.242.6 cat ~/.config/waybar/config.jsonc)
+diff -r ~/.config/waybar/config.jsonc <(ssh 100.69.242.6 cat ~/.config/waybar/config.jsonc)
+sudo btrfs balance start -musage=40 /
+blueman-services
+blueman-tray
+sudo systemctl enable --now blueman-mechanism.service
+sudo systemctl enable --now bluetooth-mesh.service
+pacman -Q | grep blu
+pacman -Qi libbluray
+pacman -Qi
+pacman -Qi blu*
+pacman -Qi <(pacman -Q | rg blu\
+)
+pacman -Qi <(pacman -Qeq | rg blu)
+pacman -Qi bluez
+pacman -Qi bluez-libs
+pacman -Qi bluez-mesh
+pacman -Qi bluez-obex
+pacman -Qi bluez-tools
+pacman -Qi bluez-utils
+yay pipewire
+yay cava
+cava
+find /etc -name "cava.conf"
+nano ~/.config/cava/config
+usermod -aG lp sudar
+sudo usermod -aG lp sudar
+groups
+groups root
+sudo usermod -aG video sudar
+sudo usermod -aG audio sudar
+sudo usermod -aG adm sudar
+groups sudar
+sudo nano /etc/polkit-1/rules.d/51-blueman.rules\
+
+sudo nano /usr/local/bin/obex_thunar.sh
+sudo chmod +x /usr/local/bin/obex_thunar.sh
+sudo rm /usr/local/bin/obex_thunar.sh
+gsettings set org.blueman.general notification-daemon true
+sudo nano /etc/bluetooth/main.conf
+//
+///
+/usr
+/etc
+~
+sudo nano /etc/udev/rules.d/91-bluetooth-wakeup.rules
+pacman -Qi playerctl
+brave-beta
+nano ~/.config/systemd/user/playerctld.service\
+
+systemctl daemon-reload
+systemctl --user enable --now mpris-proxy.service
+systemctl --user enable --now playerctld.service
+pacman-key --refresh-keys
+sudo pacman-key --refresh-keys
+rustup --help
+rustup show
+cargo list
+cargo --list
+cargo --list | rg list
+cargo --list | grep list
+cargo --list | grep package
+pacman-key --recv-keys manuel@endeavouros.com
+sudo pacman-key --recv-keys manuel@endeavouros.com
+sudo pacman-key --lsign-key manuel@endeavouros.com
+distrobox create
+distrobox enter my-distrobox
+sudo distrobox enter my-distrobox
+sudo distrobox enter --root my-distrobox
+distrobox enter --root my-distrobox
+distrobox rm my-distrobox
+chown sudar:sudar ~
+ls -ld /home/sudar\
+ls -ld /home/sudar/.local/share/containers/storage/overlay\
+
+tar xvf cnijfilter2-5.30-1-rpm.tar.gz
+cd cnijfilter2-5.30-1-rpm
+dnf install cups
+sudo dnf install cups
+distrobox create --name test --init --image debian:latest --additional-packages "systemd libpam-systemd pipewire-audio-client-libraries"
+distrobox enter test
+rm -rf cnj*
+rm -rf cni*
+tar xvf cnijfilter2-5.30-1-deb.tar.gz
+sudo apt install cups
+sudo apt update\
+sudo apt install libcupsimage2\
+
+distrobox create --name Canon_Printer_Driver --init --image debian:latest --additional-packages "systemd libpam-systemd"
+ls -a
+rm *.log
+cd snap
+sudo apt update && sudo apt upgrade -y
+sudo apt install cups libcupsimagw2
+sudo apt install cups libcupsimage2
+cd cnijfilter2-5.30-1-deb
+./install.sh
+ping 192.168.1.12
+sudo apt install gparted
+exec gparted
+distrobox-export --app gparted
+gparted
+find ~ -name "brave.dektop
+find ~ -name "brave.desktop"
+cd /home/sudar/.local/share/applications/
+Canon_Printer_Driver-gparted.desktop
+./Canon_Printer_Driver-gparted.desktop
+chmod +x *
+./brave-browser-beta.desktop
+gtk4-launch Canon_Printer_Driver-gparted.desktop
+gtk-launch Canon_Printer_Driver-gparted.desktop
+./Canon_Printer_Driver.desktop
+gtk-launch ./Canon_Printer_Driver.desktop
+gtk-launch Canon_Printer_Driver.desktop
+gtk-launch brave-beta-browser.desktop
+gtk-launch brave-browser-beta.desktop
+distrobox enter Canon_Printer_Driver
+sudo apt remove gparted
+sudo apt autoremove
+distrobox --help
+echo 'container_manager="podman"' > ~/.distroboxrc\
+
+cd boot
+chmod 755 /boot
+sudo chmod 755 /boot
+ls -ld /boot
+chmod 755 screenshot_001.bmp
+sudo chmod 755 screenshot_001.bmp
+ls -ld
+ls -ld screenshot_001.bmp
+cat screenshot_001.bmp
+rm screenshot_001.bmp
+sudo rm screenshot_001.bmp
+pacman -Fy
+sudo pacman -Fy
+sudo pacman -F partprobe
+sudo cp -a /boot /boot_backup
+ls /boot_backup
+sudo ls /boot_backup
+umount /boot
+sudo umount /boot
+blkid
+sudo blkid
+sudo blkid > /home/sudar/blkid.txt
+yay -S --asdeps gptfdisk parted
+sudo sgdisk --delete=Y /dev/nvme0n1p1
+sudo nano blkid.txt
+sgdisk --align-end --largest-new=0 --typecode=0:ef00 --change-name=0:'EFI system partition' --partition-guid=0:c39867b2-5b1a-4a7b-a811-b3efb4941946 /dev/nvme0n1p1
+sudo sgdisk --align-end --largest-new=0 --typecode=0:ef00 --change-name=0:'EFI system partition' --partition-guid=0:c39867b2-5b1a-4a7b-a811-b3efb4941946 /dev/nvme0n1p1
+sudo sgdisk --align-end --largest-new=0 --typecode=0:ef00 --change-name=0:'EFI system partition' -g --partition-guid=0:c39867b2-5b1a-4a7b-a811-b3efb4941946 /dev/nvme0n1p1
+partprobe /dev/nvme0n1p1
+sudo partprobe /dev/nvme0n1p1
+mkfs.fat -F 32 -i 31D06D3F /dev/nvme0n1p1
+sudo mkfs.fat -F 32 -i 31D06D3F /dev/nvme0n1p1
+mount /dev/nvme0n1p1 /mnt/efi
+sudo mount /dev/nvme0n1p1 /mnt/efi
+sudo mount /dev/nvme0n1p1 /mnt/efi --mkdir
+umount /mnt/efi
+sudo umount /mnt/efi
+mount /dev/nvme0n1p1 /efi
+sudo mount /dev/nvme0n1p1 /efi
+sudo mount /dev/nvme0n1p1 /efi --mkdir
+find /etc -name "REFInd.sh"
+sudo nano /etc/initcpio/post
+cat .histfile | grep refind
+\cat .histfile | grep refind
+\cat ~/.histfile | grep refind
+refind-install --shim /usr/share/shim-signed/shimx64.efi --localkeys
+cd EFI
+cd Linux
+cd refind
+cd tools
+sudo rm -rf /boot_backup
+ls /
+cd /boot
+btrfs balance start -musage=50 /
+yay 7zip
+7z --help
+sudo btrfs filesystem resize -56G /
+lsblk
+fdisk -l /dev/nvme0n1
+sudo @@
+sudo sudo @@!
+sudo fdisk -l /dev/nvme0n1
+sudo fdisk /dev/nvme0n1
+distrobox create -n test
+distrobox rm test
+distrobox create -n zed
+distrobox enter zed
+distrobox rm zec
+distrobox rm zed
+distrobox create --name test --init --image manjaro:latest --additional-packages "systemd libpam-systemd"
+distrobox create --name test --init --image manjaro --additional-packages "systemd libpam-systemd"
+zeditor
+sudo pacman -Rsunc zed
+yay zed
+yay zed preview
+sudo pacman -Rsunc 7zip
+killall localc
+localc
+thunar
+cat /etc/fstab
+cifscreds
+sudo mount --mkdir -t cifs //10.73.80.198/"Macintosh HD - Data" /mnt/iMac -o defaults,_netdev,nofail,credentials=/etc/samba/credentials/
+sudo mount --mkdir -t cifs //10.73.80.198/"Macintosh HD - Data" /mnt/iMac -o defaults,_netdev,nofail,credentials=/etc/samba/credentials/,uid=sudar,username=sudarsh1305,gid=sudar
+diff -r Packages.ods Packages.ods.bak
+diff -r /etc/pkglist.txt pkg.txt
+cd /efi
+sudo nano /etc/initcpio/post/REFInd.sh
+killall loffice
+killall libreoffice
+sudo killall libreoffice
+sudo killall localc
+sudo killall loffice
+nano pkg.txt
+diff -r pkg.txt <(ssh 100.69.242.6 cat /etc/pkglist.txt)
+diff -r pkg.txt <(ssh 100.69.242.6 pacman -Qe)
+diff -r pkg.txt <(ssh 100.69.242.6 pacman -Qeq)
+sort pkg.txt > pkg2.txt
+pacman -Qe | rg thunderbird
+diff -r pkg2.txt <(ssh 100.69.242.6 pacman -Qeq)
+iwctl station wlan0 connect scan
+_clay
+yay neovim
+nvim
+nvim tutor
+sudo pacman -Rsunc nvim
+sudo pacman -Rsunc neovim
+flatpak list --app
+conda list
+conda --help
+conda env --help
+conda env list
+snap list
+cargo install --list
+sudo snap-store
+snap run -- shell snap-store
+snap run -- snap-store
+QT_QPA_PLATFORM=xcb snap-store
+WAYLAND_DISPLAY= snap-store
+mkdir -p ~/snap/snap-store/common/.cache\
+
+snap-store
+sudo snap refresh snap-store\
+
+GDK_BACKEND=x11 snap-store
+hello-world.evil
+hello-world
+yay gvfs
+rm -rf 1 2 3 4 5 6 efi
+sudo rm -rf 1 2 3 4 5 6 efi
+cd iMac
+pacman -Qe | rg gvfs
+cargo update
+/home/sudar/.cargo/bin/cargo-install-update install-update --git --all
+sudo pacman -Rsunc gvfs-goa gvfs-google gvfs-mtp gvfs-onedrive gvfs-smb && sudo pacman -S --asdeps gvfs-goa gvfs-google gvfs-mtp gvfs-onedrive gvfs-smb; sudo pacman -Rsunc thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin thunar-vcs-plugin thunar-volman && sudo pacman -S --asdeps thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin thunar-vcs-plugin thunar-volman
+pacman -Si tumbler
+yay -S tumbler && yay -S --asdeps ffmpegthumbnailer poppler-glib libgsf libgepub libopenraw freetype2
+pacman -Qe | rg pipewire
+pacman -Qqe | rg pipewire
+pacman -Qqe | rg pipewire > pw.txt
+nano pw.txt
+pacman -Rsunc - < pw.txt
+sudo pacman -Rsunc - < pw.txt
+sudo pacman -Rdd - < pw.txt
+sudo pacman -Syu - < pw.txt
+sudo pacman -Syu --asdeps - < pw.txt
+rm pw.txt
+sudo pacman -Runc thunar-shares-plugin
+nano ~/.config/xfce4/helpers.rc
+pacman -Q | rg gvfs-smb
+nano ~//.config/hypr//hyprland.conf
+cargo --help
+cargo uninstall +nightly tdf
+cargo uninstall tdf
+rustup install nightly && cargo +nightly install --git https://github.com/itsjunetime/tdf.git
+CARGO_TARGET_DIR=/tmp/cargo-installFKxoiv rustup install nightly && cargo +nightly install --git https://github.com/itsjunetime/tdf.git
+tdf
+yay -S clang
+CARGO_TARGET_DIR=/tmp/cargo-install74cS0s cargo +nightly install --git https://github.com/itsjunetime/tdf.git
+rustup list
+rustup -help
+rustup toolchain list
+rustup toolchain default +nightly
+rustup toolchain default nightly
+rustup toolchain --help
+rustup default nightly
+iwctl station wlan0 connect "Vatsan"
+unzip archive\ \(copy\ 1\).zip
+cd IITM_DS_\&_ML/images
+mv delibird.png ICE
+mv froslass.png ICE
+mv mamoswine.png ICE
+mv piloswine.png ICE
+mv swinub.png ICE
+mv jynx.png ICE
+mv smoochum.png ICE
+mv sealeo.png ICE
+mv spheal.png ICE
+mkdir BUG
+mv charjabug.png BUG
+mv galvantula.png BUG
+mv joltik.png BUG
+mv vikavolt.png BUG
+mv cutiefly.png BUG
+mv ribombee.png BUG
+mv buzzwole.png BUG
+mv heracross.png BUG
+mv pheromosa.png BUG
+mv larvesta.png BUG
+ls BUG | wc -l
+ls ICE | wc -l
+orange3
+distrobox list
+distrobox stop Canon_Printer_Driver
+yay -S cups cups-pdf
+sudo systemctl enable --now cups
+lpadmin -p CanonG3000 -E -v ipp://192.168.1.8/printers/Canon_G3000_series -m everywhere
+lpstat -p -d\
+
+lpoptions -p CanonG3000 -o ColorModel=Gray
+ssh sudar@192.168.1.22
+lp -d CanonG3000 -o raw //mnt/iMac//Backed\ Up//School//IGCSE/Computer\ Science/Cambridge_IGCSE_and_O_Level_Computer_Science_Second_Edition.pdf;
+lpoptions -p CanonG3000 -o ColorModel=RGB
+lpoptions -p CanonG3000 -l
+ping 192.168.1.22
+ssh sudar@
+scp -r 100.69.242.6:~/.zshrc ~/.zshrc
+scp -r 100.69.242.6:~/.zshrc ~/Downloads
+diff -r Downloads/.zshrc /home/sudar/.zshrc
+scp -r 100.69.242.6:~/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
+rg "Jetbrains" ~ | rg -vi Brave
+rg "Jetbrains" ~ | grep -vi Brave
+grep "Jetbrains" ~ | grep -vi Brave
+rg -r "Jetbrains" ~ | grep -vi Brave
+rg -r "Jetbrains" ~ | grep -vi Brave | grep -vi ows
+rg -r "Jetbrains" ~
+grep -r font ~/.config/ |& grep -vi Brave
+grep -r font ~/.config/ |& grep -vi Brave |& grep -vi "kitty.conf\
+"
+grep -r font ~/.config/ |& grep -vi Brave |& grep -vi "kitty.conf"
+grep -r Jetbrains ~/.config/ |& grep -vi Brave |& grep -vi "kitty.conf"
+systemctl --user restart waybar.service
+zero calt ss02 cv03 cv04 cv09 cv12 cv14 cv18 cv19
+nano .p10k.zsh
+exec kitty
+cd ~/.cache/kitty
+cd ~/.config/kitty
+nano ~/.config/kitty/kitty.conf
+nano current-theme.conf
+s
+ls -R ~
+ls -R /
+ls -R /.snapshots
+mcat ./screenshots/brokefetch-logo_att3.png
+find ~ -type f
+mcat /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds/black_hole.png
+mcat /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds/1479648-matrix-binary-code-falling-wallpaper-1920x1080-mobile.jpg
+mcat /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds/astronaut.png
+mcat /usr/share/sddm/themes/sddm-astronaut-theme/Backgrounds/jake_the_dog.png
+nano .zshrc
+cat /etc/os-release
+kitten icat
+kitten @
+kitten ask
+kitten choose-files
+kitten desktop-ui
+kitten hyperlinked-grep
+kitten mouse-demo
+kitten panel
+kitten query-terminal
+kitten quick-access-terminal
+kitten run-shell
+kitten show-key
+kitten ssh
+kitten ssh 100.69.242.6
+kitten update-self
+find ~ -name "brave-browser-beta.desktop"
+cd ~/.local/share/
+cd applications
+nano kitty.desktop
+cp ~/.local/kitty.app/share/applications/kitty.desktop ~/.local/share/applications/\
+
+cd /home/sudar/.local/bin
+ln -sf ~/.local/kitty.app/bin/kitty ~/.local/kitty.app/bin/kitten ~/.local/bin/
+cd /home/sudar/.l/kitty.app
+find ~ -name "kitty.desktop"
+find /bin -name "kitty.desktop"
+find /usr/ -name "kitty.desktop"
+nano /usr/share/applications/kitty.desktop
+cd kitty
+file kitty
+rm -rf kitty kitten
+which kitt
+which kitty
+cp /usr/share/applications/kitty.desktop ~/.local/share/applications
+cp /usr/share/applications/kitty-open.desktop ~/.local/share/applications
+find /usr/ -name "kitty.png"
+readlink -f ~
+sed -i "s|Icon=kitty|Icon=/usr/share/icons/hicolor/256x256/apps/kitty.png|g" ~/.local/share/applications/kitty*.desktop
+sed -i "s|Exec=kitty|Exec=/usr/bin/kitty|g" ~/.local/share/applications/kitty*.desktop
+echo 'kitty.desktop' > ~/.config/xdg-terminals.list
+cd ~/.local/share/applications
+gtk-launch kitty.desktop
+fc-list : family spacing outline scalable | grep -e spacing=100 -e spacing=90 | grep -e outline=True | grep -e scalable=True
+yay gping
+thunar -p
+thunar -q
+xfconf-query --channel thunar --property /misc-image-size-in-statusbar --create --type bool --set true
+xfconf-query --channel thunar --property /misc-always-show-tabs --create --type bool --set true
+xfconf-query --channel thunar --property /misc-compact-view-max-chars --create --type int --set 75
+xfconf-query --channel thunar --property /misc-open-new-windows-in-split-view --create --type bool --set true
+sudo pacman -Qi clang
+pacman -Qi | grep clang
+gping 192.168.1.1 1.1.1.1 google.com bing.com
+sudo nano ~/.zshrc.d/aliases.zsh
+exec zsh
+fastfetch
+mpv
+ffmpeg -decoders | grep h264\
+
+cp -r /usr/share/doc/mpv/ ~/.config/
+cd mpv
+cat encoding.rst
+cat input.conf
+cat mplayer-input.conf
+cat restore-old-bindings.conf
+cat restore-osc-bindings.conf
+cat tech-overview.txt
+cat mpv.conf
+nano mpv.conf
+irqbalance-ui
+sudo irqbalance-ui
+sudo irqbalance
+irqbalance
+pacman -Qe | rg ttf
+pacman -Qi ttf-dejavu
+sudo pacman -Rsun ttf-dejavu
+sudo pacman -Rsncu ttf-dejavu
+sudo pacman -Rsunc ttf-dejavu ttf-liberation ttf-noto-nerd
+sudo pacman -Rsunc ttf-dejavu ttf-liberation
+sudo pacman -Rsunc ttf-dejavu
+sudo pacman -Rsunc ttf-liberation
+sudo pacman -Rsunc ttf-noto-nerd
+nano ~/.p10k.zsh
+open ssh sudar@100.69.242.6
+systemctl status reflector
+sudo systemctl restart reflector
+yay -S darkman xdg-desktop-portal-gtk
+nano ~/.cache/darkman/mode.txt
+nano ~/.cache/darkman/config.yaml
+mkdir ~/.config/darkman
+cp ~/.cache/darkman/config.yaml ~/.cache/darkman
+mv ~/.cache/darkman/config.yaml ~/.cache/darkman
+rm ~/.cache/darkman/config.yaml
+cd ~/.cache/darkman
+nano ~/.config/darkman/config.yaml
+yay -S ttf-noto-nerd ttf-dejavu
+yay -S ttf-dejavu
+ls ~/.config/darkman
+cat ~/.config/darkman/config.yaml
+darkman check
+darkman completion zsh > _darkman
+sudo mv _darkman ${fpath[1]}/_darkman
+darkman watch
+sudo systemctl enable --now darkman
+systemctl enable --user --now darkman
+darkman run
+sudo darkman get
+cat /run/user/1000/darkman/control.sock
+sudo cat /run/user/1000/darkman/control.sock
+sudo \cat /run/user/1000/darkman/control.sock
+systemctl --user restart darkman
+darkman toggle
+darkman get
+pacman -Qi gst-plugin-pipewire
+rich
+sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --daemon
+nix-shell -p nix-info --run "nix-info -m"
+nix profile install github:abenz1267/walker --extra-experimental-features nix-command --extra-experimental-features flakes
+sudo chmod 755 ~/.zshrc.d
+sudo chmod 777 ~/.zshrc.d
+sudo chown sudar:sudar ~/.zshrc.d
+sudo chown --recursive sudar:sudar ~/.zshrc.d
+ls -la ~/.zshrc.d
+yay otf-font-awesome
+2
+yay nerd-font
+cd /etc/
+cd ~/.c
+rm -r .
+rm -r anyrun
+cd /nix
+cat store/7fp239x3dcaj9mph3bw98nixic6bycll-profile/share/doc/anyrun/examples/config.ron
+mkdir anyrun
+mv ~/Downloads/config.ron .
+mv ~/Downloads/style.css .
+mkdir plugins
+nano applications.ron
+kitty -e {}
+nano dictionary.ron
+nano nix-run.ron
+rm nix-run.ron
+nano randr.ron
+nano shell.ron
+nano rink.ron
+anyrun --plugins libstdin.so
+nano translate.ron
+rm translate.ron
+nano config.ron
+nano websearch.ron
+GTK_DEBUG=interactive anyrun
+yay tracker
+sudo chmod 755 ~/Downloads/Tracker-6.2.0-linux-x64-installer.run
+xdg-user-dirs-update
+pacman -Fy xdg-user-dirs-update
+sudo pacman -Fy xdg-user-dirs-update
+sudo pacman -F xdg-user-dirs-update
+yay xdg-user-dirs
+sudo ~/Downloads/Tracker-6.2.0-linux-x64-installer.run
+security-tracker-check
+/opt/tracker/tracker.sh
+yay lostfiles
+lostfiles --help
+sudo lostfiles --help
+lostfiles -h
+sudo lostfiles -h
+sudo lostfiles -z
+sudo lostfiles -z > lostfiles
+rm d
+nano lostfiles
+cat .histfile | rg make
+\cat .histfile | rg make
+\cat .histfile | rg install
+\cat .histfile | rg install | grep -vi nix
+cd .config
+cp style.css style.css.bak
+nix profile update
+nix profile upgrade
+nix profile upgrade "nixpkgs#anyrun"
+nix profile upgrade anyrun
+mv style.css style.css.bak
+mv style.css.bak style.css
+fzf /
+cd /
+anyrun -c
+anyrun -c /
+yay anyrun
+nix profile install "nixpkgs#anyrun" --extra-experimental-features nix-command --extra-experimental-features flakes
+rm style.css
+cat ~/.config/kitty/kitty.conf
+cd /home/sudar/.config/anyrun
+cat *.ron
+anyrun -c "/home/sudar/.config/anyrun"
+nano /home/sudar/.config/hypr/bind.conf
+yay hypr-dock
+yay hyprdock
+yay hypr dock
+cat .histfile | rg "nix profile"
+\cat ~/.histfile | rg "nix profile"
+nix profile install github:lotos-linux/hypr-dock --extra-experimental-features nix-command --extra-experimental-features flakes
+gh repo clone lotos-linux/hypr-dock
+mv hypr-dock ~
+make
+yay go --asdeps
+yay -S --asdeps go
+make get
+make build
+make run
+make exec ~/hypr-dock
+cat ~/.config/waybar/power_menu.xml
+cat ~/.config/waybar/config.jsonc
+killall -SIGUSR1 hypr-dock
+make exec
+killall -SIGUSR2 hypr-dock
+mkdir hypr-dock
+nano ~/lostfiles
+nano maninstall
+make install
+nano config.jsonc
+rm -rf hypr-dock
+which hypr-dock
+journalctl -p
+hypr-dock
+write
+write unix
+write unix @: sendmsg
+git clone https://github.com/lotos-linux/hypr-dock.git\
+
+yay -S nwg-dock-hyprland
+cd hypr-dock
+make uninstall
+sudo rm -rf hypr-dock
+sudo rm -rf /tmp
+nano /home/sudar/.config/hypr/programs.conf
+kill nwg-dock-hyprland
+exec nwg-dock-hyprland
+killall -SIGUSR2 nwg-dock-hyprland
+killall -SIGUSR1 nwg-dock-hyprland
+for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done
+for i in {0..255}; do killall -SIGUSR$i nwg-dock-hyprland; done
+killall -l
+pkill -USR1 nwg-dock-hyprland
+pkill -f -USR1 nwg-dock-hyprland
+killall SIGRTMIN+1
+nwg-dock-hyprland
+nwg-dock-hyprland -d
+SIGRTMIN+1
+cd /home/sudar/.config/nwg-dock-hyprland/
+nano style.css
+cat ~/.config/hypr/programs.conf
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun"
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -f -hd 10
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -f -hd 1000
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -f -hd 100
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -f -hd 50 -hl top
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -f -hd 50
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -f -hd 50 -i 24
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -hd 50 -i 24
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -hd 50 -i 24 -mb 10
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -f -hd 50 -i 24 -mb 10 -ml 10 -mr 10 -mt 10
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -hd 50 -i 24 -mb 10 -ml 10 -mr 10 -mt 10
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -hd 50 -i 24 -mb 10 -ml 10 -mr 10 -mt 10 -w 20
+nano ~/.config/nwg-dock-hyprland/style.css
+nano ~/.config/anyrun/config.ron
+nwg-dock-hyprland -a center -c "anyrun -c /home/sudar/.config/anyrun" -d -hd 50 -mb 10 -ml 10 -mr 10 -mt 10 -w 20 -i 30
+yay rofi
+yay -S rofi
+mkdir ~/.config/rofi
+rofi -no-config -dump-theme\
+
+rofi -mode drun
+rofi -show run
+rofi -show window
+rofi -show ssh
+rofi -dump-config > ~/.config/rofi/config.rasi
+rofi
+rofi -show filebrowser
+rofi -show combi
+rofi -show keys
+rofi -show recursivebrowser
+rofi -h
+rofi -h > rofi
+rm -rf go
+;s
+rm lostfiles
+nano rofi
+rofi -show drun
+killall nwg-dock-hyprland
+cd ~/.config/rofi
+nano ~/.config/hypr/permissions.conf
+nano /home/sudar/.config/rofi/config.rasi
+sudo rm rofi
+sudo systemctl enable --now gpsd
+sudo systemctl disable gpsd
+pacman -Q gpsd
+pacman -Qi gpsd
+for i in {0..255}; do ping 192.168.1.$i; sleep 1; done
+sudo pacman -Rsunc lostfiles
+sudo chmod 755 TrackerUpgrade-6.3.2-linux-x64-installer.run
+cat 86952e255296ba5fa3a66665760aab5b.jpg
+sudo rm 86952e255296ba5fa3a66665760aab5b.jpg
+sudo rm Tracker-6.2.0-linux-x64-installer.run
+./TrackerUpgrade-6.3.2-linux-x64-installer.run
+sudo ./TrackerUpgrade-6.3.2-linux-x64-installer.run
+scp -r ~/.config/anyrun/ 100.69.242.6:~/.config/
+cat .fltk/fltk.org/fltk.prefs
+pacman -Q fl*
+sudo rm -rf ~/.fltk
+ls ~/.mozilla
+ls -la ~/.mozilla
+rm ~/.mozilla
+rm -rf ~/.mozilla
+ls -la /home/sudar/.nv
+cat .sudo_as_admin_successful
+rm .sudo_as_admin_successful
+nano ~/.config/hypr/generalandlook.conf
+topgrade
+nvme get-property --human-readable TBW
+nvme get-property /dev/nvme --human-readable
+nvme get-property /dev/nvme 0x0 --human-readable
+nvme list
+sudo nvme smart-log /dev/nvme0\
+
+cat lu7476w1h.tmp
+sudo pacman -Rsunc wireguard-tools
+yay proton-vpn
+sudo pacman -Rsunc proton-vpn-gtk-app
+mkdir WireGuard
+mv /home/sudar/Downloads/*.conf /mnt/iMac/WireGuard/
+sudo mv /home/sudar/Downloads/*.conf /mnt/iMac/WireGuard/
+cd WireGuard
+pacman -F wg-quick
+yay wireguard
+wg-quick up ./Arch_Linux_US-US-FREE-50
+wg-quick up /mnt/iMac/WireGuard/Arch_Linux_US-US-FREE-50
+sudo wg-quick up /mnt/iMac/WireGuard/Arch_Linux_US-US-FREE-50.conf
+sudo wg-quick up "/mnt/iMac/WireGuard/Arch_Linux_US-US-FREE-50.conf"
+mv /mnt/iMac/WireGuard/Arch_Linux_US-US-FREE-50.conf ./wlan0.conf
+sudo wg-quick up "/mnt/iMac/WireGuard/wlan0.conf"
+mv wlan0.conf wlan1.conf
+sudo wg-quick up "/mnt/iMac/WireGuard/wlan1.conf"
+sudo wg-quick down wlan1
+sudo wg-quick down wlan1.conf
+sudo wg-quick down /mnt/iMac/WireGuard/wlan1.conf
+mv wlan1.conf wlanUS1.conf
+mv Arch_Linux_SG-SG-FREE-1.conf wlanSG1.conf
+mv Arch_Linux_RO-RO-FREE-1.conf wlanRO1.conf
+mv Arch_Linux_PL-PL-FREE-1.conf wlanPL1.conf
+mv Arch_Linux_NL-NL-FREE-220.conf wlanNL1.conf
+mv Arch_Linux_JP-JP-FREE-6.conf wlanJP1.conf
+wg-quick up /mnt/iMac/WireGuard/wlanJP1.conf
+mv * /etc/wireguard
+sudo mv * /etc/wireguard
+rm -r WireGuard
+cd /etc/wireguard
+wg-quick up wlanJP1.conf
+sudo nano /etc/wireguard/
+sudo systemctl enable --now wg-quick@wlanUS1
+ping 192.168.1.6
+ping 192.168.1.1
+cd !
+find /etc -name "reflector.conf"
+reflector --list-countries
+sudo nano /etc/xdg/reflector/reflector.conf
+nix profile remove anyrun
+nix profile install "github:NixOS/nixpkgs/d33e926c80e6521a55da380a4c4c44a7462af405?narHash=sha256-XeTX/w16rUNUNBsfaOVCDoMMa7Xu7KvIMT7tn1zIEcg%3D"
+anyrun
+nix profile install "github:NixOS/nixpkgs/d33e926c80e6521a55da380a4c4c44a7462af405?narHash=sha256-XeTX/"
+nix profile list
+nix profile --help
+nix-store --gc
+nix profile install "nixpkgs#anyrun"
+pacman -Qe | rg wire
+cat .condarc
+cat ~/.config/uwsm/env
+sudo nano /etc/wireguard/*
+rfkill list
+gping 127.0.0.1 192.168.1.1 1.1.1.1 google.com
+ping 10.2.0.2
+yay -S tailscale
+tailscale
+novnc --vnc 192.168.1.15:5900 --heartbeat 5
+sudo wg
+ip link set tailscale0 up
+sudo ip link set tailscale0 up
+sudo tailscaled
+sudo tailscale
+sudo tailscale ip
+sudo tailscale uo
+sudo tailscale dn
+sudo tailscale dns
+sudo tailscale dns status
+cat /etc/resolv.conf
+resolvectl status
+sudo tailscale login
+tailssh sudar@100.69.242.6
+tailscale set --ssh=true
+sudo tailscale set --ssh=true
+ssh sudar@100.69.242.6
+resolvconf
+resolvconf -a
+resolvconf -d
+resolvconf -a wlan0
+resolvconf -d wlan0
+ping 192.168.1.15
+gping 192.168.1.15 100.69.242.6
+while true; do tailscale status; sleep 1; clear; done
+sudo tailscale down
+sudo tailscale status
+sudo systemctl restart systemd-resolved.service
+sudo systemctl restart systemd-networkd.service
+sudo systemctl restart iwd
+tailscale set --accept-dns=false
+sudo tailscale set --accept-dns=false
+ping googl~e.com
+sudo systemctl restart tailscaled.service
+taildown
+sudo systemctl disable wg-quick@wlanUS1
+sudo systemctl disable tailscaled.service
+nm
+nm --help
+sudo ufw delete 3
+sudo ufw delete 4
+sudo ufw limit CIFS
+sudo nano /etc/ufw/sysctl.conf
+sudo ufw reload
+sudo ufw default deny
+ping 100.69.242.6:1000
+gping
+pingtest -b
+pingtest -b 300
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv"'
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)\
+"
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+/home/linuxbrew/.linuxbrew/bin/brew shellenv
+nano /home/sudar/.zshrc.d/homebrew.zsh
+nano ~/.zshrc.d/homebrew.zsh
+sudo pacman -S base-devel
+brew install gcc
+nano ~/.zshrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+brew analytics off
+clear'\
+\
+clear\
+e\
+'
+sudo pacman -S base-devel procps-ng curl file git
+sudo brew doctor
+brew doctor
+brew install --cask zed@preview
+brew install --cask zed
+curl -f https://zed.dev/install.sh | ZED_CHANNEL=preview sh\
+
+~/.local/bin/zed
+novnc --vnc 100.69.242.6:5900 --heartbeat
+topgrade --only=brew
+topgrade --only=homebrew
+topgrade --only=brew_cask
+topgrade --only=brew_cask,brew_formula
+topgrade --only=brew_cask brew_formula
+topgrade --only=brew_cask --only=brew_formula
+cp /mnt/iMac/Packages.ods ~/Downloads
+ls Downloads
+rm ~/Downloads/TrackerUpgrade-6.3.2-linux-x64-installer.run
+iwctl station wlan0 connect "Airtel_mani_5G"
+iwctl station wlan0 connect "Airtel_mani_4523"
+zed
+nano ~/.config/waybar/config.jsonc
+nano ~/.config/waybar/style.css
+kitten choose-fonts
+ollama -v
+ollama run gemma3:
+ollama run gemma3:1b
+ollama run smollm2:135m
+ollama remove gemma3
+ollama delete
+ollama help
+ollama rm gemma3
+ollama rm gemma3:1
+ollama rm gemma3:1b
+ollama rm smollm:135M
+ollama rm smollm2:135m
+top
+curl -f https://zed.dev/install.sh | ZED_CHANNEL=preview sh
+_direnv export json
+_direnv
+nano
+sudo rfkill block all
+python py.py
+python -v
+python -V
+sudo rfkill unblock all
+iwctl station wlan0 set-property Powered on
+sudo rfkill list
+sudo rfkill unblock0
+conda create python=3.10 --yes --name AIRobot
+conda activate AIRobot
+conda deactivate
+conda rm AIRobot
+conda remove AIRobot
+conda remove --name AIRobot --all
+cd ~/.conda
+cd miniconda3
+cd env
+cd envs
+pacman -S chezmoi\
+
+sudo pacman -S chezmoi\
+
+chezmoi init\
+
+chezmoi add ~/.zshrc
+chezmoi edit ~/.zshrc
+git config --global user.email "uiop2028@gmail.com"
+git config --global user.name "EntityDeleter"
+git remote add origin https://github.com/EntityDeleter/laptop-dotfiles
+git commit -m "ZSHRC"
+ls -al ~/.ssh
+cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519
+fzf
+git config pull.rebase false
+git config pull.rebase true
+chezmoi add ~/.config/anyrun
+cd anyrun
+ls ~/.cnfig
+ls ~/.config
+cd ~/.config/BraveSoftware
+chezmoi add ~/.config/ !(chezmoi)
+chezmoi add !(/chezmoi)
+chezmoi add !(/2)
+git remote add origin https://github.com/EntityDeleter/dotfiles
+git remote add origin git@github.com:EntityDeleter/dotfiles
+grep -r Display ~/.config/ |& grep -vi Brave
+grep -r DP-1 ~/.config/ |& grep -vi Brave
+grep -r "DP-1" ~/.config/ |& grep -vi Brave
+git pull
+git commit
+git add
+git add .
+git commit -m "ANYRUN"
+git pulll origin main
+git rm README.md
+git rebase
+git commit -m "README"
+git rebase --continue
+nano README.md
+rm README.md
+git pull origin main
+chezmoi add ~/.config/ --all -- ':!chezmoi/'
+chezmoi add ~/.config/ -- ':!chezmoi/'
+chezmoi add ~/.config/ -- :
+cd ~/.config
+chezmoi add ~/.config
+chezmoi add ~/.config/
+chezmoi add ~/.config/a*
+chezmoi add ~/.config/b*
+chezmoi add ~/.config/c*
+rm dot_config/gh/hosts.yml
+rm dot_config/gh/private_hosts.yml
+cd ~/.config/gh
+rm ~/.config/gh/.chezmoiignore
+cd dot_config/gh
+ls ..
+rm .chezmoiignore
+rm gh
+rm -rf gh
+chezmoi ignored
+cat /home/sudar/.config/remmina/remmina.pref
+nano .chezmoiignore
+rm -rf remmina
+chezmoi add ~/.config/[d-z]*
+cd ~/.config/chezmoi
+ls -la
+nano chezmoi.toml
+ls ~
+ls -a ~
+chezmoi add ~/.condarc
+chezmoi add ~/.p10k.zsh
+chezmoi add ~/.distroboxrc
+chezmoi add ~/.update.sh
+chezmoi add ~/.diff.sh
+cat ~/.update.sh
+chezmoi add ~/.pacmanrepofiles
+cat ~/.pacmanrepofiles/multilib-testing.conf
+chezmoi add ~/.conda/miniconda3
+cd ~/.config/
+sudo rm -rf bleachbit
+sudo rm -rf brokefetch
+sudo rm -rf go
+sudo rm -rf remmina
+sudo rm -rf tigervnc
+sudo rm -rf ultravnc-viewer
+cd dot_zshrc.d
+cd dot_config
+sudo rm -rf *
+git rm *
+git rm dot_config/
+git rm -r dot_config/
+git commit -m "CONFIG_REMOVE"
+git remote remove origin
+git remote add origin git@github.com:EntityDeleter/laptop-dotfiles
+git branch -M main
+git push -u origin main
+cd ~/.zshrc.d
+cd ..
+cat ~/.distroboxrc
+while true; do exit; done
+cd ~/.config/zed
+nano settings.json
+scp -r ./settings.json 100.69.242.6:~/.config/zed/
+sudo rfkill block 0
+sudo rfkill unblock 0
+rfkill block all
+rfkill unblock all
+iwctl station wlan0 disconnect
+diff -r ~/.config/zed/settings.json <(ssh 100.69.242.6 cat ~/.config/zed/settings.json )
+ls ~/.ssh
+ssh -i ~/.ssh/id_ed25519 sudar@100.69.242.6 -p 39901
+cd ~/.ssh
+ls -c
+ls --color
+cat *
+scp -r 100.69.242.6:~/.config/zed/settings.json ~/.config/zed/
+wg-quick up wlanJP1
+wg-quick
+wg-quick down wlanJP1
+ping 1.1.1.1
+ping 8.8.8.8
+ping 8.8.4.4
+ping github.com
+sudo su
+tailscale ping arch-desktop.tail9330f0.ts.net
+tailscale up
+sudo nano /etc/wireguard/wlanJP1.conf
+sudo nano /etc/wireguard/wlanUS1.conf
+wg-quick up wlanUS1
+wg-quick down wlanUS1
+sudo systemctl enable --now tailscaled
+sudo \cat /etc/wireguard/wlanUS1.conf
+sudo tailscale up --accept-dns=false --ssh
+ip a
+tailscale status
+ping 100.69.242.6
+tailscale ping
+sudo systemctl start tailscaled
+sudo tailscale up
+tailscale ping arch-desktop
+yay ollama
+ollama serve
+ollama run alibayaram/smollm3
+ollama run alibayram/smollm3
+ollama rm smollme
+ollama rm smollm3
+ollama rm alibayram/smollm3
+ollama ps
+ssh 100.69.242.6 cat /home/sudar/.config/uwsm/env
+ssh -p 39901 100.69.242.6 cat /home/sudar/.config/uwsm/env
+nano ~/.config/uwsm/env
+uwsm stop
+ollama run smollm2:360m
+ollama list
+ls /mnt/iMac
+yay -S baobab
+firejail --noblacklist baobab
+firejail --noprofile --whitelist/ baobab
+firejail --noprofile --whitelist=/ baobab
+firejail --noprofile --whitelist=/home/sudar baobab
+firejail --noprofile --x11=xephyr baobab
+firejail --noprofile --x11=zcb baobab
+firejail --noprofile --x11=xcb baobab
+firejail --noprofile --x11=xorg baobab
+firejail --noprofile --x11=xpra baobab
+firejail --noprofile --x11=xvfb baobab
+firejail --noprofile --x11=none baobab
+firejail --noprofile baobab
+/usr/bin/baobab "$@"
+conda clean --all
+ollama run gpt-oss:20b
+iwctl station wlan0 connect "OnePlus 12R"
+ollama run ingu627/exaone4.0:1.2b
+openssh sudar@100.69.242.6 ollama serve
+ip link set wlan0 down
+iwctl station wlan0 forget
+iwctl station wlan0 forget Airtel_mani_4523
+sudo ip link set wlan0 down
+sudo ip link set wlan0 up
+distrobox rm Canon_Printer_Driver
+distrobox ls
+sudo nano /etc/default/ufw
+sudo ufw disable
+sudo ufw enable
+pdf
+sudo ufw logging off
+sudo nano /etc/systemd/resolved.conf
+sudo rm /etc/systemd/resolved.conf.pacnew
+scp -r /etc/systemd/resolved.conf 100.69.242.6:/etc/systemd/
+sudo scp -r /etc/systemd/resolved.conf 100.69.242.6:/etc/systemd/
+sudo systemctl restart tailscaled.service systemd-resolved.service systemd-networkd.service iwd.service
+yay
+pacman -Qi systemd
+sudo downgrade core/systemd
+sudo downgrade systemd
+snapper list
+yay core/systemd core/systemd-resolvconf core/systemd-sysvcompat
+yay -S core/systemd core/systemd-resolvconf core/systemd-sysvcompat
+sudo nano /etc/fstab
+sudo systemctl daemon-reload
+journalctl
+journalctl -p 3
+journalctl -p 3 > journal.txt
+scp -r journal.txt 100.69.242.6:~/Downloads
+scp -r journal.txt 100.69.242.6:~/Downloads -P 39901
+scp -r -P 39901 journal.txt 100.69.242.6:~/Downloads
+Hyprland
+downgrade systemd systemd-sysvcompat systemd-resolvconf systemd-libs
+sudo downgrade systemd systemd-sysvcompat systemd-resolvconf systemd-libs
+yay clang
+CARGO_TARGET_DIR=/tmp/cargo-installiALGHT /home/sudar/.cargo/bin/cargo-install-update install-update --git --all
+uwsm start Hyprland
+iwctl station wlan0 connect Vatsan
+yay -Scc
+yay eza
+flatpak list zen
+flatpak search zen
+flatpak install app.zen_browser.zen
+flatpak install flathub app.zen_browser.zen
+sudo pacman -Rsunc brave-bin thunderbird
+iwctl station wlan0 connect
+iwctl station wlan0 connect Nord
+iwctl station wlan0 scan
+iwctl station wlan0 get-networks
+iwctl station wlan0 connect "1+ XIR 5G"
+app.zen_browser.zen
+yay proton auth
+lshw
+sh
+bash
+chsh -l
+git-shell
+rbash
+systemd-home-fallback-shell
+MOZ_LOG="FFmpegVideo:5"
+MOZ_LOG="FFmpegVideo:5" app.zen_browser.zen
+wireup
+ll
+cat ~/.config/hypr/bind.conf
+cat ~/.zshrc.d/aliases.zsh
+eza
+eza -Ta
+nano selfhost.txt
+ld
+cd cd
+yay sl
+sl --help
+sl -h
+sl -F
+sl -l
+sl -a
+sl
+yay -S sl
+sl -d -G -a
+sl -d
+sl -G
+sl -alFdGw
+sl -alFdG
+sl -Ga
+sl -Gal
+sl -GaFd
+sl -GaFw
+sl -GaF4
+sl -4
+sl -100e
+sl -100ew
+sl -100ewf
+sl -100ewFG
+sl -100ewF
+sl -GaF
+sudo pacman -Rsunc sl
+nano .histfile
+tailup
+xdg-settings get default-web-browser
+xdg-settings set default-web-browser
+xdg-settings set default-web-browser app.zen_browser.zen
+xdg-settings set default-web-browser --help
+diff -r ~/.config/hypr/bind.conf <(ssh 100.69.242.6 cat ~/.config/hypr/bind.conf)
+nano ~/.config/hypr/programs.conf
+\cat ~/.histfile | rg "nano"
+diff -r /etc/pkglist.txt <(ssh -p 39901 100.69.242.6 cat /etc/pkglist.txt)
+sudo pacman -Syu systemd-resolvconf gvfs
+sudo pacman -Rdd gvfs systemd-resolvconf
+sudo pacman -Syu --asdeps systemd-resolvconf gvfs
+sudo pacman -Rsunc clang
+kitten themes
+cd Downloads
+llda
+diff -r Packages.ods /mnt/iMac/Packages.ods
+./Packages.ods
+libreoffice Packages.ods
+libreoffice -o Packages.ods
+sudo libreoffice
+firejail --noprofile libreoffice
+firejail --noprofile libreoffice > lo.txt
+firejail --noprofile libreoffice >lo.txt 2&>1
+nano lo.txt
+firecfg --clean
+ls -l /run/user/1000/dconf/user
+ls -la /run/user/1000/dconf/user
+ls -laT /run/user/1000/dconf/user
+ls -laT /run/user/1000/dconf/
+ls -laT /run/user/1000/
+chown sudar:sudar /run/user/1000/dconf
+chown -R sudar:sudar /run/user/1000/dconf
+sudo chown -R sudar:sudar /run/user/1000/dconf
+ls -laT /run/user/1000/ | rg root
+echo $XDG_RUNTIME_DIR
+gdk-pixbuf-query-loaders --update-cache
+update-mime-database /usr/share/mime
+sudo firecfg
+sudo pacman -S --asdeps adwaita-icon-theme
+pacman -Qdttq
+pacman -Qi libreoffice-fresh
+yay libreoffice-fresh
+lowriter
+loffice
+fc-cache -f -v
+fc-cache -f -v;
+journalctl -xe\
+
+journalctl -xeal
+journalctl -xeal | rg libreoffice
+journalctl -xeal | rg lof
+journalctl -xeal | rg loffice
+journalctl -xeal | rg lo
+journalctl -xeal | rg writer
+journalctl -xeal | rg office
+sudo pacman -Syu\
+sudo pacman -Qs libreoffice\
+
+sudo pacman -Qs libreoffice
+sudo pacman -Qk libreoffice-fresh
+sudo pacman -Rsuc libreoffice-fresh
+yay -Syu libreoffice
+sudo pacman -S --asdeps gtk3 gtk2\
+
+pacman -Qdtq
+cd /mnt/iMac
+chezmoi cd
+nano ~/.zshrc.d/aliases.zsh
+chezmoi edit ~/.zshrc.d/aliases.zsh
+ssh 100.69.242.6 cat /home/sudar/.zshrc.d/aliases.zsh
+ssh -p 39901 100.69.242.6 cat /home/sudar/.zshrc.d/aliases.zsh
+chezmoi add ~/.zshrc.d
+chezmoi update
+cd ~
+cd ~/.local/share/chezmoi
+cat /mnt/iMac/Packages.ods
+cat /etc/pkglist.txt
+cat /mnt/iMac/Packages.ods | awk -F "|" '{print $1}]
+cat /mnt/iMac/Packages.ods | awk -F "|" '{print $1}'
+cat /mnt/iMac/Packages.ods | awk -F "|" '{print $2}' | rg -vi -
+cat /mnt/iMac/Packages.ods | awk -F "|" '{print $2}' | rg -vi - rg -vi \n
+cat /mnt/iMac/Packages.ods | awk -F "|" '{print $2}' | rg -vi - | rg -vi \n
+cat /mnt/iMac/Packages.ods | awk -F "|" '{print $2}' | rg -vi - | rg -vi "\n"
+cat /mnt/iMac/Packages.ods | awk -F "|" '{print $2}' | tee pkglist.txt
+nano pkglist.txt
+diff -r /etc/pkglist.txt pkglist.txt
+diff -r <(sort /etc/pkglist.txt) <(sort pkglist.txt)
+cd /usr/share/icons
+yay Adwaita
+sudo chmod -R 777 /usr/share/icons/Adwaita
+llda Adwaita
+llda Adwaita | rg -vi .rwxrwxrwx
+llda Adwaita |& rg -vi .rwxrwxrwx
+llda Adwaita |& rg -vi ".rwxrwxrwx"
+llda Adwaita |& grep -vi .rwxrwxrwx
+llda -o Adwaita |& grep -vi 777
+llda -o Adwaita |& grep -vi
+llda -o Adwaita
+pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland libreoffice
+ls -l /usr/share/icons/Adwaita/scalable/status/image-missing.svg\
+
+cat /usr/share/icons/Adwaita/scalable/status/image-missing.svg\
+
+cat /usr/share/icons/Adwaita/scalable/status/user-trash-full.svg
+lodraw
+cd ~ && clear
+sudo pacman -Rsunc adwaita-cursors adwaita-fonts adwaita-icon-theme adwaita-icon-theme-legacy
+sudo pacman -Rsun adwaita-cursors adwaita-fonts adwaita-icon-theme adwaita-icon-theme-legacy
+sudo pacman -Rns adwaita-cursors adwaita-fonts adwaita-icon-theme adwaita-icon-theme-legacy
+sudo pacman -Rnsd adwaita-cursors adwaita-fonts adwaita-icon-theme adwaita-icon-theme-legacy
+sudo pacman -Rnsdd adwaita-cursors adwaita-fonts adwaita-icon-theme adwaita-icon-theme-legacy
+yay -S adwaita-cursors adwaita-fonts adwaita-icon-theme adwaita-icon-theme-legacy
+yay -S --asdeps adwaita-cursors adwaita-fonts adwaita-icon-theme adwaita-icon-theme-legacy
+pacman -Q | rg adwaita
+pacman -Qe | rg adwaita
+sudo downgrade libreoffice-fresh
+cat /mnt/iMac/Packages.ods | awk -F "|" '{print $2}'
+history
+sudo rm -rf /tmp/*
+sudo gdk-pixbuf-query-loaders --update-cache
+sudo update-mime-database /usr/share/mime
+sudo gdk-pixbuf-query-loaders --update-cache && sudo update-mime-database /usr/share/mime && libreoffice
+soffice
+gdk-pixbuf-query-loaders
+rm -rf ~/.cache/*
+sudo rm -rf ~/.cache/*
+ls .cache
+yay -S --asdeps extra/gdk-pixbuf2
+diff -r /etc/systemd/resolved.conf /etc/systemd/resolved.conf.pacnew
+arch-update
+pacman -Qe | wc
+pacman -Qe
+nano d
+pacman -Q systemd-resolvconf
+pacman -Qi systemd-resolvconf
+diff -r /etc/pkglist.txt d
+diff -r /etc/pkglist.txt <(ssh 100.69.242.6 cat /etc/pkglist.txt)
+pacman -Q | rg libreoffice
+hyprpm reload
+nano ~/.config/topgrade.toml
+sudo nano ~/.config/topgrade.toml
+hyprpm update
+python
+pacman -Fy gdk-pixbuf-thumbnailer
+sudo pacman -Fy gdk-pixbuf-thumbnailer
+yay -Fy gdk-pixbuf-thumbnailer
+gdk-pixbuf-thumbnailer
+/usr/bin/gdk-pixbuf-thumbnailer
+sudo chmod u+s /usr/bin/bwrap\
+
+sysctl kernel.unprivileged_userns_clone\
+
+ls -ld /home/sudar/.cache/glycin\
+
+bwrap
+pacman -Qi bwrap
+which bwrap
+pacman -Fy usr/bin/bwrap
+sudo pacman -Fy usr/bin/bwrap
+pacman -Qi bubblewrap
+GDK_PIXBUF_DISABLE_MODULES=glycin libreoffice\
+
+SAL_USE_VCLPLUGIN=gen libreoffice\
+
+rm -rf /home/sudar/.cache/glycin\
+
+sudo chown -R sudar:sudar /home/sudar/.cache/glycin\
+
+sudo firecfg --clean
+aa-status
+sudo aa-status
+aa-enabled
+aa-enforce
+aa-load
+sudo aa-load
+sudo journalctl -e | grep DENIED | grep bwrap\
+
+sudo journalctl -e | grep DENIED
+sudo grep 'DENIED.*bwrap' /var/log/audit/audit.log\
+
+sudo aa-logprof\
+
+ls /etc/apparmor | rg bwrap
+ls /etc/apparmor.d | rg bwrap
+ls /etc/apparmor.d | rg bubblewrap
+ls /etc/apparmor.d | rg bubble
+ls /etc/ | rg bubble
+ls /etc/ | rg wrap
+ls /etc/ | rg brave
+cd /etc/apparmor.d
+ls
+ls | grep "brave\
+"
+ls | rg -i "bwrap"
+ls | rg -i "bubble"
+ls | rg -i wrap
+ls | rg -i bubblee
+ls | rg -i bubble
+libreoffice | rg os
+libreoffice | rg 13
+nano /etc/apparmor.d/libreoffice
+sudo nano /etc/apparmor.d/libreoffice
+cat /etc/apparmor.d/libreoffice | rg local
+nano /etc/apparmor.d/libreoffice.local
+sudo nano /etc/apparmor.d/libreoffice.local
+nano /etc/firejail/libreoffice.local
+sudo nano /etc/firejail/libreoffice.local
+sudo systemctl status apparmor
+nano libreoffice.local
+sudo rm libreoffice.local
+sudo nano local/libreoffice
+sudo nano usr.bin.bwrap
+sudo systemctl status apparmor.service
+cat usr.sbin.smbd
+sudo nano /etc/apparmor.d/usr.bin.bwrap
+rm local/libreoffice
+sudo rm local/libreoffice
+sudo rm /etc/apparmor.d/usr.bin.bwrap
+sudo systemctl reload apparmor.service\
+
+aa-teardown
+sudo aa-teardown
+libreoffice
+ln -sf /etc/apparmor.d/libreoffice /etc/apparmor.d/disable/libreoffice
+sudo ln -sf /etc/apparmor.d/libreoffice /etc/apparmor.d/disable/libreoffice
+apparmor_parser -r /etc/apparmor.d/
+sudo apparmor_parser -r /etc/apparmor.d/
+nano ~/.config/hypr/bind.conf
+sudo pacman -Rsunc ollama
+pacman -Qe | wc -l
+novnc --vnc 100.69.242.6:5900 --heartbeat 5
+sudo mount --all
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+xdg-settings set default-web-browser app.zen_browser.zen.desktop
+google.com
+https://google.com
+xdg-mime default app.zen_browser.zen.desktop x-scheme-handler/http
+xdg-mime default app.zen_browser.zen.desktop x-scheme-handler/https
+fufu
+pacman -Fy fufu
+sudo pacman -Fy fufu
+sudo pacman -Fy fu
+sudo pacman -Fy fun
+sudo pacman -Fy stow
+sudo pacman -Fy list
+klist
+pacman -Qem
+yay -S hunspell-en_us
+ffw
+exit
+distrobox rm --all
+podman rm --ALL
+podman rm --all
+podman clean
+sudo btrfs balance start -musage=50 /
+sudo btrfs balance start -musage=70 /
+pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=linuxfb btrfs-assistant
+sudo btrfs balance start -d /
+sudo btrfs balance start -dusage=5 /
+btrfs fi show
+sudo btrfs fi show
+sudo btrfs fi usage
+sudo btrfs fi us /
+df -hi
+openssh sudar@100.69.242.6
+5@2010guy
+sudo shutdown now
+sudo nano /etc/snapper/configs/root
+snapper cleanup number
+snapper cleanup timeline
+snapper cleanup empty-pre-post
+sudo btrfs fi usage/
+baobab
+pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland baobab
+df -h
+sudo btrfs fi usage /
+sudo btrfs fi df /
+update
+sudo pacman -Syu
+ping google.com
+pingtest
+sudo rm /var/lib/pacman/db.lck
+bluetooth
+bluetooth-player
+grep HugePages /proc/meminfo
+conda activate base
+btrfs-assistant
+iwctl
+zgrep CONFIG_ZRAM_DEFAULT_ON /proc/config.gz
+grep ZRAM /proc/config.gz
+grep ZSWAP /proc/config.gz
+nano /etc/cmdline.d/misc.conf
+grep -r . /sys/module/zswap/parameters/
+sudo dmesg | grep zswap:
+sudo nano /etc/cmdline.d/misc.conf
+sudo nano /etc/cmdline.d/memory.conf
+grep -r . /sys/kernel/debug/zswap/
+cat /sys/module/zswap/parameters/enabled
+zgrep CONFIG_ZSWAP_DEFAULT_ON /proc/config.gz
+free -h
+sudo grep -r . /sys/kernel/debug/zswap/
+sudo nano /etc/mkinitcpio.d/linux-zen.preset
+_lzop
+pacman -F lzop
+pacman -F lzo
+clear
+sudo mkinitcpio -P && sudo reboot
+pacman -Si lzop
+yay lzo
+sudo nano /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo reboot
+: 1758951550:0;sudo journalctl -b -p 3
+: 1758951556:0;sudo journalctl -b -p 4
+: 1758951590:0;sudo nano /etc/mkinitcpio.conf
+: 1758951599:0;clear
+: 1758951602:0;sudo mkinitcpio -P
+: 1758951614:0;sudo journalctl -b -p 3
+: 1758951633:0;disable-paste
+: 1758951637:0;which disable-paste
+: 1758951646:0;pacman -F disable-paste
+: 1758951671:0;disable-paste
+: 1758951678:0;disable-paste --help
+: 1758951682:0;disable-paste -h
+: 1758951968:0;fdisk -l /dev/nvme0n1
+: 1758951971:0;sudo fdisk -l /dev/nvme0n1
+: 1758951980:0;lsblk
+: 1758952048:0;less /proc/crypto
+: 1758952094:0;cat /proc/crypto | rg avx
+: 1758952102:0;cat /proc/crypto
+: 1758952124:0;clear
+: 1758952136:0;cryptsetup benchmark
+: 1758952322:0;clear
+: 1758952849:0;mpv --hwdec=auto
+: 1758952919:0;mpv --hwdec=auto ~/Downloads/1416529-sd_640_360_30fps.avi
+: 1758952972:0;mpv --hwdec=auto --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi
+: 1758952997:0;mpv --hwdec=vaapi --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi
+: 1758953061:0;mpv --hwdec=vaapi --vo=vaapi --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi | rg -i vaapi
+: 1758953079:0;mpv --hwdec=vaapi --vo=vaapi --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi
+: 1758953095:0;mpv --hwdec=vaapi --vo=gpu --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi
+: 1758953126:0;mpv --hwdec=vaapi --vo=dmabuf-wayland --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi
+: 1758953150:0;mpv --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi
+: 1758953184:0;mpv --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi | rg -i vulkan
+: 1758953193:0;mpv --msg-level=vd=v,vo=v,vo/gpu/vaapi-egl=trace ~/Downloads/1416529-sd_640_360_30fps.avi | rg -i vaapi
+: 1758953214:0;mpv ~/Downloads/1416529-sd_640_360_30fps.avi
+: 1758953399:0;MOZ_LOG="FFmpegVideo:5" app.zen_browser.zen | rg -i
+: 1758953405:0;rg -h
+: 1758953578:0;MOZ_LOG="FFmpegVideo:5" app.zen_browser.zen | rg -ie "(?i)\bva-?api\b"
+: 1758953612:0;MOZ_LOG="FFmpegVideo:5" firemon | rg -ie "(?i)\bva-?api\b"
+: 1758953615:0;firemon
+: 1758953616:0;clear
+: 1758953620:0;firemon --help
+: 1758961121:0;conda activate base
+: 1758961290:0;mpv --list-options
+: 1758961868:0;mpv --fs=yes Downloads/1416529-sd_640_360_30fps.avi
+: 1758961972:0;chezmoi add ~/.zshrc.d
+: 1758961980:0;chezmoi add ~/.config/mpv
+: 1758962012:0;chezmoi add ~/.config/kitty
+: 1758962032:0;chezmoi add ~/.config/waybar
+: 1758962050:0;chezmoi add ~/.config/dunst
+: 1758962067:0;chezmoi add ~/.p10k.zsh
+: 1758962078:0;chezmoi add ~/.pacmanrepofiles
+: 1758962085:0;chezmoi add ~/.histfile
