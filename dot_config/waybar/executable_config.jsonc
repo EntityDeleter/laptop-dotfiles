@@ -159,6 +159,7 @@
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": ["", "", ""],
+        "on-click": "pavucontrol",
         "justify": "center",
     },
     "custom/power": {
