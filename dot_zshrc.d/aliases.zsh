@@ -1,6 +1,8 @@
 alias update=/home/sudar/.update.sh
 
-alias sudo="sudo "
+alias sudo="sudo-rs "
+alias visudo="visudo-rs "
+alias sudoedit="sudoedit-rs "
 
 alias openssh="ssh -p 39901 "
 alias tailssh="ssh "
@@ -10,8 +12,6 @@ alias orange3='conda activate orange3 && QT_QPA_PLATFORM=xcb python -m Orange.ca
 alias rich="conda activate rich-cli && rich --pager "
 alias pdf="tdf "
 alias cat="mcat "
-
-alias rich="conda activate rich-cli && righ --pager "
 
 cl() {
   cd "$1"
@@ -38,5 +38,3 @@ alias ll="eza --icons=always --color=always --hyperlink -l -b --smart-group -h -
 alias lla="eza --icons=always --color=always --hyperlink -l -b --smart-group -h -m -M --time-style=relative -a"
 alias lld="eza --icons=always --color=always --hyperlink -l -b --smart-group -h -m -M --time-style=relative -T"
 alias llda="eza --icons=always --color=always --hyperlink -l -b --smart-group -h -m -M --time-style=relative -T -a"
-
-x0() { curl -F"file=@${1:--}" https://0x0.st | tee -a "$HOME/.cache/0x0.log"; }
