@@ -20,4 +20,4 @@ conda clean --all
 #nix-store --gc | rg -vi "deleting "
 
 # Update Package Lists:
-~/.diff.sh
+pacman -Qeq > pkglist.txt
