@@ -1,3 +1,5 @@
+setopt complete_aliases
+
 alias update=/home/sudar/.update.sh
 
 alias sudo="sudo-rs "
