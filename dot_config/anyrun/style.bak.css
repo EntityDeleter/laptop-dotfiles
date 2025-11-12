@@ -1,0 +1,69 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Jetbrains Mono";
+    font-feature-settings: '"zero", "calt", "ss02", "cv03", "cv04", "cv09", "cv12", "cv18", "cv19"';
+    font-size: 13px;
+    color: #ffffff;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+window {
+    /* most of the background part */
+    background-color: transparent;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    padding: 0px 10px;
+    margin: 10px;
+}
+
+text {
+    /* text in text input box */
+    color: white;
+    background-color: gray;
+    margin: 0px 0px 5px 0px;
+    padding: 3px 10px;
+    border: 2px solid #33ccff;
+    border-radius: 10px;
+}
+
+.main {
+    color: white;
+    padding: 10px;
+    /* background for input box */
+    background-color: transparent;
+}
+
+.matches {
+    color: white;
+    /* background for results */
+    background-color: grey;
+    padding: 3px 10px;
+    border: 2px solid #33ccff;
+    border-radius: 10px;
+}
+
+.plugin {
+    /* plugin descriptions and labels */
+    color: white;
+    /* background for plugins */
+    background-color: grey;
+    padding: 0px;
+}
+
+.match {
+    /* text for the results */
+    color: white;
+    /* background for only the results */
+    background-color: transparent;
+    padding: 0px 10px;
+}
+
+.match:selected {
+    border-left: 4px solid blue;
+    background-color: steelblue;
+    animation: fade 0.1s linear;
+}

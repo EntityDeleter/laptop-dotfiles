@@ -1,0 +1,70 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Jetbrains Mono";
+    font-feature-settings: '"zero", "calt", "ss02", "cv03", "cv04", "cv09", "cv12", "cv18", "cv19"';
+    font-size: 13px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+text {
+    min-height: 20px;
+    padding: 0px 10px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid black;
+}
+
+window {
+    background-color: transparent;
+}
+
+box.main {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #33ccff;
+    background-color: grey;
+    box-shadow: 0 0 5px black;
+}
+
+box.matches {
+    background-color: #555555;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px transparent;
+}
+
+box.plugin.info {
+    min-width: 150px;
+    border-right: 1px solid black;
+}
+
+label.match.description {
+    font-size: 10px;
+}
+
+label.plugin.info {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.match:selected {
+    border-right: 4px solid blue;
+    background-color: transparent;
+    animation: fade 0.1s linear;
+}
+
+box.match {
+    padding: 1px;
+    margin: 1px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
