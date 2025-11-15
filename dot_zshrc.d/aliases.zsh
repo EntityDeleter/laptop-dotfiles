@@ -14,6 +14,7 @@ alias orange3='conda activate orange3 && QT_QPA_PLATFORM=xcb python -m Orange.ca
 alias rich="conda activate rich-cli && rich --pager "
 alias pdf="tdf "
 alias cat="mcat -t vscode -s --report --opts 'center=true,inline=false' -a "
+alias icat="mcat -t vscode -s --report --opts 'center=true,inline=false' -a -o interactive "
 
 cl() {
   cd "$1"
