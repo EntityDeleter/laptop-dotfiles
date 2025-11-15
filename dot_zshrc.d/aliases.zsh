@@ -13,7 +13,7 @@ alias btrfs-assistant='pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DIS
 alias orange3='conda activate orange3 && QT_QPA_PLATFORM=xcb python -m Orange.canvas'
 alias rich="conda activate rich-cli && rich --pager "
 alias pdf="tdf "
-alias cat="mcat "
+alias cat="mcat -t vscode -s --report --opts 'center=true,inline=false' -a "
 
 cl() {
   cd "$1"
