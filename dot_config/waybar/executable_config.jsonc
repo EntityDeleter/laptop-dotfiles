@@ -6,13 +6,10 @@
     // "height": 10, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
-    "reload_style_on_change": true,    
+    "reload_style_on_change": true,
 
     // Choose the order of the modules
-    "modules-left": [
-        "hyprland/workspaces",
-        "hyprland/window"
-    ],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-right": [
         "idle_inhibitor",
         "privacy",
@@ -23,62 +20,62 @@
         "backlight",
         "battery",
         "clock",
-//        "bluetooth",
+        //        "bluetooth",
         "tray",
-        "custom/power"
+        "custom/power",
     ],
     // Modules configuration
-     "hyprland/workspaces": {
-       "disable-scroll": false,
-       "all-outputs": true,
-       "warp-on-scroll": false,
-       "format-window-seperator": "|",
-       "persistent-workspaces": {
-           "1": [],
-           "2": [],
-           "3": [],
-           "4": []
-       }
-    // "format-icons": {
-    //     "1": "",
-    //     "2": "",
-    //     "3": "",
-    //     "4": "",
-    //     "5": "",
-    //     "urgent": "",
-    //     "focused": "",
-    //     "default": ""
-    //     }
-     },
+    "hyprland/workspaces": {
+        "disable-scroll": false,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format-window-seperator": "|",
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+        },
+        // "format-icons": {
+        //     "1": "",
+        //     "2": "",
+        //     "3": "",
+        //     "4": "",
+        //     "5": "",
+        //     "urgent": "",
+        //     "focused": "",
+        //     "default": ""
+        //     }
+    },
     "privacy": {
-	"icon-spacing": 4,
-	"icon-size": 27,
-	"transition-duration": 250,
-	"modules": [
-		{
-			"type": "screenshare",
-			"tooltip": true,
-			"tooltip-icon-size": 24
-		},
-		{
-			"type": "audio-out",
-			"tooltip": true,
-			"tooltip-icon-size": 24
-		},
-		{
-			"type": "audio-in",
-			"tooltip": true,
-			"tooltip-icon-size": 24
-		}
-	],
-	"ignore-monitor": true,
+        "icon-spacing": 4,
+        "icon-size": 27,
+        "transition-duration": 250,
+        "modules": [
+            {
+                "type": "screenshare",
+                "tooltip": true,
+                "tooltip-icon-size": 24,
+            },
+            {
+                "type": "audio-out",
+                "tooltip": true,
+                "tooltip-icon-size": 24,
+            },
+            {
+                "type": "audio-in",
+                "tooltip": true,
+                "tooltip-icon-size": 24,
+            },
+        ],
+        "ignore-monitor": true,
     },
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
             "activated": "",
-            "deactivated": ""
-        }
+            "deactivated": "",
+        },
     },
     "tray": {
         "icon-size": 27,
@@ -121,7 +118,7 @@
             "full-at": 89,
             "good": 80,
             "warning": 25,
-            "critical": 10
+            "critical": 10,
         },
         "format": "{capacity}%\n{icon}",
         "format-full": "{capacity}%\n{icon}",
@@ -144,11 +141,11 @@
         "justify": "center",
     },
     "bluetooth": {
-	"format": "",
-	"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
-	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
-	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+        "format": "",
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
     },
     "wireplumber": {
         // "scroll-step": 1, // %, can be a float
@@ -163,17 +160,17 @@
         "justify": "center",
     },
     "custom/power": {
-        "format" : "⏻ ",
-		"tooltip": false,
-		"menu": "on-click",
-		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
-		"menu-actions": {
-			"shutdown": "shutdown now",
-			"reboot": "reboot",
-			"suspend": "systemctl suspend",
-			"hibernate": "systemctl hibernate",
-                        "hidewaybar": "killall -SIGUSR1 waybar",
-                        "restartwaybar": "systemctl --user restart waybar",
-		}
+        "format": "⏻ ",
+        "tooltip": false,
+        "on-click": "wlogout",
+        //        "menu": "on-click",
+        //        "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+        //        "menu-actions": {
+        //            "shutdown": "shutdown now",
+        //            "reboot": "reboot",
+        //            "suspend": "systemctl suspend",
+        //            "hibernate": "systemctl hibernate",
+        //            "hidewaybar": "killall -SIGUSR1 waybar",
+        //            "restartwaybar": "systemctl --user restart waybar",
     },
-},
+}
