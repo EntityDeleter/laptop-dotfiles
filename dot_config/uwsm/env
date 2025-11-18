@@ -1,0 +1,38 @@
+export HYPRCURSOR_THEME=Bibata-Modern-Ice
+export XCURSOR_THEME=Bibata-Modern-Ice
+export XCURSOR_SIZE=28
+export HYPRCURSOR_SIZE=28
+
+export GDK_BACKEND=wayland
+export QT_QPA_PLATFORM=wayland
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export SDL_VIDEODRIVER=wayland
+export CLUTTER_BACKEND=wayland
+
+export LIBVA_DRIVER_NAME=iHD
+export ELECTRON_OZONE_PLATFORM_HINT=auto
+export NVD_BACKEND=direct
+export VDPAU_DRIVER=va_gl
+export VDPAU_QUIRKS=XCloseDisplay,ShowWatermark
+export ANV_DEBUG=video-decode,video-encode
+
+export XDG_CURRENT_DESKTOP=Hyprland
+export XDG_SESSION_TYPE=wayland
+export XDG_SESSION_DESKTOP=Hyprland
+
+export CONDA_ANACONDA_ANON_USAGE=no
+
+export PATH=~/.local/bin:~/.cargo/bin:$PATH
+
+export EDITOR=nano
+
+export HOMEBREW_NO_ANALYTICS=1
+
+export OLLAMA_HOST=100.69.242.6:11434
+export OLLAMA_CONTEXT_LENGTH=16384
+export OLLAMA_KEEP_ALIVE=-1
+export OLLAMA_FLASH_ATTENTION=true
+export OLLAMA_SCHED_SPREAD=true
+export OLLAMA_GPU_OVERHEAD=1024
+
+export RUSTICL_ENABLE=iris
