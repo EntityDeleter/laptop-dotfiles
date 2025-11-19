@@ -7,7 +7,7 @@
     // - "light": Use the theme indicated by the "light" field
     // - "dark": Use the theme indicated by the "dark" field
     "theme": {
-        "mode": "dark",
+        "mode": "system",
         "light": "One Light",
         "dark": "One Dark"
     },
@@ -862,12 +862,12 @@
         //       You can set `agent_servers.claude.default_mode` to `bypassPermissions` to skip all permission requests.
         "always_allow_tool_actions": false,
         // When enabled, the agent will stream edits.
-        "stream_edits": true,
+        //        "stream_edits": true,
         // When enabled, agent edits will be displayed in single-file editors for review
         "single_file_review": true,
         // When enabled, show voting thumbs for feedback on agent edits.
         "enable_feedback": true,
-        "default_profile": "ask",
+        "default_profile": "write",
         "profiles": {
             "write": {
                 "name": "Write",
@@ -1593,18 +1593,18 @@
     },
     // Different settings for specific languages.
     "languages": {
-        "Astro": {
-            "language_servers": ["astro-language-server", "..."],
-            "prettier": {
-                "allowed": true,
-                "plugins": ["prettier-plugin-astro"]
-            }
-        },
-        "Blade": {
-            "prettier": {
-                "allowed": true
-            }
-        },
+        //        "Astro": {
+        //            "language_servers": ["astro-language-server", "..."],
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["prettier-plugin-astro"]
+        //            }
+        //        },
+        //        "Blade": {
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        },
         "C": {
             "format_on_save": "off",
             "use_on_type_format": false,
@@ -1624,29 +1624,29 @@
                 "allowed": true
             }
         },
-        "Dart": {
-            "tab_size": 2
-        },
+        //        "Dart": {
+        //            "tab_size": 2
+        //        },
         "Diff": {
             "show_edit_predictions": false,
             "remove_trailing_whitespace_on_save": false,
             "ensure_final_newline_on_save": false
         },
-        "Elixir": {
-            "language_servers": [
-                "elixir-ls",
-                "!expert",
-                "!next-ls",
-                "!lexical",
-                "..."
-            ]
-        },
-        "Elm": {
-            "tab_size": 4
-        },
-        "Erlang": {
-            "language_servers": ["erlang-ls", "!elp", "..."]
-        },
+        //        "Elixir": {
+        //            "language_servers": [
+        //                "elixir-ls",
+        //                "!expert",
+        //                "!next-ls",
+        //                "!lexical",
+        //                "..."
+        //            ]
+        //        },
+        //        "Elm": {
+        //            "tab_size": 4
+        //        },
+        //        "Erlang": {
+        //            "language_servers": ["erlang-ls", "!elp", "..."]
+        //        },
         "Git Commit": {
             "allow_rewrap": "anywhere",
             "soft_wrap": "editor_width",
@@ -1658,31 +1658,31 @@
             },
             "debuggers": ["Delve"]
         },
-        "GraphQL": {
-            "prettier": {
-                "allowed": true
-            }
-        },
-        "HEEX": {
-            "language_servers": [
-                "elixir-ls",
-                "!expert",
-                "!next-ls",
-                "!lexical",
-                "..."
-            ]
-        },
+        //        "GraphQL": {
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        },
+        //        "HEEX": {
+        //            "language_servers": [
+        //                "elixir-ls",
+        //                "!expert",
+        //                "!next-ls",
+        //                "!lexical",
+        //                "..."
+        //            ]
+        //        },
         "HTML": {
             "prettier": {
                 "allowed": true
             }
         },
-        "Java": {
-            "prettier": {
-                "allowed": true,
-                "plugins": ["prettier-plugin-java"]
-            }
-        },
+        //        "Java": {
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["prettier-plugin-java"]
+        //            }
+        //        },
         "JavaScript": {
             "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
@@ -1699,17 +1699,17 @@
                 "allowed": true
             }
         },
-        "Kotlin": {
-            "language_servers": ["kotlin-language-server", "!kotlin-lsp", "..."]
-        },
-        "LaTeX": {
-            "formatter": "language_server",
-            "language_servers": ["texlab", "..."],
-            "prettier": {
-                "allowed": true,
-                "plugins": ["prettier-plugin-latex"]
-            }
-        },
+        //        "Kotlin": {
+        //            "language_servers": ["kotlin-language-server", "!kotlin-lsp", "..."]
+        //        },
+        //        "LaTeX": {
+        //            "formatter": "language_server",
+        //            "language_servers": ["texlab", "..."],
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["prettier-plugin-latex"]
+        //            }
+        //        },
         "Markdown": {
             "format_on_save": "off",
             "use_on_type_format": false,
@@ -1719,31 +1719,37 @@
                 "allowed": true
             }
         },
-        "PHP": {
-            "language_servers": ["phpactor", "!intelephense", "..."],
-            "prettier": {
-                "allowed": true,
-                "plugins": ["@prettier/plugin-php"],
-                "parser": "php"
-            }
-        },
+        //        "PHP": {
+        //            "language_servers": ["phpactor", "!intelephense", "..."],
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["@prettier/plugin-php"],
+        //                "parser": "php"
+        //            }
+        //        },
         "Plain Text": {
             "allow_rewrap": "anywhere"
         },
         "Python": {
             "debuggers": ["Debugpy", "PyRight", "python-lsp-server"],
-            "language_servers": ["ty", "basedpyright"]
+            "language_servers": ["basedpyright", "ty"],
+            "code_actions_on_format": {
+                // Organize imports
+                "source.organizeImports.ruff": true,
+                // Fix all auto-fixable lint violations
+                "source.fixAll.ruff": true
+            }
         },
-        "Ruby": {
-            "language_servers": [
-                "solargraph",
-                "!ruby-lsp",
-                "!rubocop",
-                "!sorbet",
-                "!steep",
-                "..."
-            ]
-        },
+        //        "Ruby": {
+        //            "language_servers": [
+        //                "solargraph",
+        //                "!ruby-lsp",
+        //                "!rubocop",
+        //                "!sorbet",
+        //                "!steep",
+        //                "..."
+        //            ]
+        //        },
         "Rust": {
             "debuggers": ["CodeLLDB"]
         },
@@ -1752,43 +1758,43 @@
                 "allowed": true
             }
         },
-        "Starlark": {
-            "language_servers": ["starpls", "!buck2-lsp", "..."]
-        },
-        "Svelte": {
-            "language_servers": ["svelte-language-server", "..."],
-            "prettier": {
-                "allowed": true,
-                "plugins": ["prettier-plugin-svelte"]
-            }
-        },
+        //        "Starlark": {
+        //            "language_servers": ["starpls", "!buck2-lsp", "..."]
+        //        },
+        //        "Svelte": {
+        //            "language_servers": ["svelte-language-server", "..."],
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["prettier-plugin-svelte"]
+        //            }
+        //        },
         "TSX": {
             "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
                 "allowed": true
             }
         },
-        "Twig": {
-            "prettier": {
-                "allowed": true
-            }
-        },
+        //        "Twig": {
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        },
         "TypeScript": {
             "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
                 "allowed": true
             }
         },
-        "SystemVerilog": {
-            "format_on_save": "off",
-            "use_on_type_format": false
-        },
-        "Vue.js": {
-            "language_servers": ["vue-language-server", "..."],
-            "prettier": {
-                "allowed": true
-            }
-        },
+        //        "SystemVerilog": {
+        //            "format_on_save": "off",
+        //            "use_on_type_format": false
+        //        },
+        //        "Vue.js": {
+        //            "language_servers": ["vue-language-server", "..."],
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        },
         "XML": {
             "prettier": {
                 "allowed": true,
@@ -1799,10 +1805,10 @@
             "prettier": {
                 "allowed": true
             }
-        },
-        "Zig": {
-            "language_servers": ["zls", "..."]
         }
+        //        "Zig": {
+        //            "language_servers": ["zls", "..."]
+        //        }
     },
     // Different settings for specific language models.
     "language_models": {
@@ -1876,17 +1882,19 @@
     },
     // LSP Specific settings.
     "lsp": {
-        // Specify the LSP name as a key here.
-        // "rust-analyzer": {
-        //     // A special flag for rust-analyzer integration, to use server-provided tasks
-        //     enable_lsp_tasks": true,
-        //     // These initialization options are merged into Zed's defaults
-        //     "initialization_options": {
-        //         "check": {
-        //             "command": "clippy" // rust-analyzer.check.command (default: "check")
-        //         }
-        //     }
-        // }
+        "basedpyright": {
+            "settings": {
+                "basedpyright.analysis": {
+                    "autoImportCompletions": true,
+                    "autoSearchPaths": true,
+                    "diagnosticMode": "workspace",
+                    "typeCheckingMode": "all",
+                    "inlayHints": {
+                        "callArgumentNamesMatching": true
+                    }
+                }
+            }
+        }
     },
     // Common language server settings.
     "global_lsp_settings": {
