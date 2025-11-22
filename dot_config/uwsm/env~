@@ -25,7 +25,6 @@ export CONDA_ANACONDA_ANON_USAGE=no
 export PATH=~/.local/bin:~/.cargo/bin:$PATH
 
 export EDITOR=nano
-export VISUAL=nano
 
 export HOMEBREW_NO_ANALYTICS=1
 
