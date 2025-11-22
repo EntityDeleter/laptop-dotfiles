@@ -1,0 +1,28 @@
+--socket-timeout 30
+
+--concurrent-fragments 5
+
+--paths /home/sudar/Videos/YouTube/
+--output "%(title)s.%(ext)s"
+--restrict-filenames
+--windows-filenames
+
+--progress
+--console-title
+--progress-template
+
+--write-subs
+--write-auto-subs
+--sub-format vtt/ttml/best
+--sub-langs en
+
+--audio-quality 0
+
+--sponsorblock-mark default
+--sponsorblock-remove default,filler
+
+-S "res:1080,codec:vp9.2,fps,quality,channels:2,asr,abr,vbr,tbr,br,ext,proto,hdr"
+
+--prefer-free-formats
+
+--extractor-args "youtube:player_client=default"
