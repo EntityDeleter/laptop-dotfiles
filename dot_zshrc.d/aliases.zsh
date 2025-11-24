@@ -1,6 +1,8 @@
 setopt complete_aliases
 
-alias update=/home/sudar/.update.sh
+alias update="/home/sudar/.update.sh"
+
+alias cd="z"
 
 alias sudo="sudo-rs "
 alias visudo="visudo-rs "
@@ -17,7 +19,7 @@ alias cat="mcat -t vscode -s --report --opts 'center=true,inline=false' -a "
 alias icat="mcat -t vscode -s --report --opts 'center=true,inline=false' -a -o interactive "
 
 cl() {
-  cd "$1"
+  z "$1"
   eza --icons=always --color=always --hyperlink
 }
 
