@@ -2,6 +2,8 @@ setopt complete_aliases
 
 alias update="/home/sudar/.update.sh"
 
+alias yay="yay --sudo=sudo-rs"
+
 alias cd="z"
 
 alias sudo="sudo-rs "
