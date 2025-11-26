@@ -26,7 +26,7 @@
     // Features that can be globally enabled or disabled
     "features": {
         // Which edit prediction provider to use.
-        "edit_prediction_provider": "zed"
+        "edit_prediction_provider": "supermaven"
     },
     // The name of a font to use for rendering text in the editor
     // ".ZedMono" currently aliases to Lilex
@@ -832,7 +832,7 @@
             // The provider to use.
             "provider": "ollama",
             // The model to use.
-            "model": "gpt-oss:20b"
+            "model": "QWEN-3-4B:latest"
         },
         // Additional parameters for language model requests. When making a request to a model, parameters will be taken
         // from the last entry in this list that matches the model's provider and name. In each entry, both provider
@@ -903,7 +903,7 @@
                     "project_notifications": false,
                     "now": true,
                     "find_path": true,
-                    "read_file": true,
+                    "read_file": false,
                     "open": true,
                     "grep": true,
                     "thinking": true,
@@ -1609,14 +1609,14 @@
             "format_on_save": "off",
             "use_on_type_format": false,
             "prettier": {
-                "allowed": false
+                "allowed": true
             }
         },
         "C++": {
             "format_on_save": "off",
             "use_on_type_format": false,
             "prettier": {
-                "allowed": false
+                "allowed": true
             }
         },
         "CSS": {
@@ -1692,12 +1692,14 @@
         "JSON": {
             "prettier": {
                 "allowed": true
-            }
+            },
+            "language_servers": ["..."]
         },
         "JSONC": {
             "prettier": {
                 "allowed": true
-            }
+            },
+            "language_servers": ["..."]
         },
         //        "Kotlin": {
         //            "language_servers": ["kotlin-language-server", "!kotlin-lsp", "..."]
@@ -1732,7 +1734,7 @@
         },
         "Python": {
             "debuggers": ["Debugpy", "PyRight", "python-lsp-server"],
-            "language_servers": ["basedpyright", "ty"],
+            "language_servers": ["basedpyright", "ty", "..."],
             "code_actions_on_format": {
                 // Organize imports
                 "source.organizeImports.ruff": true,
@@ -1812,56 +1814,59 @@
     },
     // Different settings for specific language models.
     "language_models": {
-        "anthropic": {
-            "api_url": "https://api.anthropic.com"
-        },
-        "google": {
-            "api_url": "https://generativelanguage.googleapis.com"
-        },
+        //        "anthropic": {
+        //            "api_url": "https://api.anthropic.com"
+        //        },
+        //        "google": {
+        //            "api_url": "https://generativelanguage.googleapis.com"
+        //        },
         "ollama": {
-            "api_url": "http://100.69.242.6:11434",
+            "api_url": "http://127.0.0.1:11434",
             "available_models": [
                 {
-                    "name": "deepseek-r1:8b",
-                    "display_name": "DeepSeek R1",
-                    "max_tokens": 16384,
+                    "name": "QWEN-3-4B:latest",
+                    "display_name": "Qwen3 4B",
+                    "max_tokens": 32768,
                     "supports_tools": true,
                     "supports_thinking": true,
+                    "keep_alive": 600,
                     "supports_images": false
                 },
                 {
-                    "name": "gpt-oss:20b",
-                    "display_name": "ChatGPT OSS",
-                    "max_tokens": 16384,
+                    "name": "GPT-OSS-20B:latest",
+                    "display_name": "GPT OSS 20B",
+                    "max_tokens": 32768,
                     "supports_tools": true,
                     "supports_thinking": true,
+                    "keep_alive": 600,
                     "supports_images": false
                 }
             ]
-        },
-        "openai": {
-            "api_url": "https://api.openai.com/v1"
-        },
-        "openai_compatible": {},
-        "open_router": {
-            "api_url": "https://openrouter.ai/api/v1"
-        },
-        "lmstudio": {
-            "api_url": "http://localhost:1234/api/v0"
-        },
-        "deepseek": {
-            "api_url": "https://api.deepseek.com/v1"
-        },
-        "mistral": {
-            "api_url": "https://api.mistral.ai/v1"
         }
+        //        },
+        //        "openai": {
+        //            "api_url": "https://api.openai.com/v1"
+        //        },
+        //        "openai_compatible": {},
+        //        "open_router": {
+        //            "api_url": "https://openrouter.ai/api/v1"
+        //        },
+        //        "lmstudio": {
+        //            "api_url": "http://localhost:1234/api/v0"
+        //        },
+        //        "deepseek": {
+        //            "api_url": "https://api.deepseek.com/v1"
+        //        },
+        //        "mistral": {
+        //            "api_url": "https://api.mistral.ai/v1"
+        //        }
     },
     // Zed's Prettier integration settings.
     // Allows to enable/disable formatting with Prettier
     // and configure default Prettier, used when no project-level Prettier installation is found.
     "prettier": {
         // // Whether to consider prettier formatter or not when attempting to format a file.
-        // "allowed": false,
+        "allowed": true
         //
         // // Use regular Prettier json configuration.
         // // If Prettier is allowed, Zed will use this for its Prettier instance for any applicable file, if
@@ -1893,6 +1898,26 @@
                         "callArgumentNamesMatching": true
                     }
                 }
+            }
+        },
+        "ruff": {
+            "initialization_options": {
+                "settings": {
+                    "format": {
+                        "preview": true
+                    },
+                    "lint": {
+                        "preview": true
+                    }
+                }
+            }
+        },
+        "ty": {
+            "settings": {
+                "experimental": {
+                    "rename": true
+                },
+                "diagnosticMode": "workspace"
             }
         }
     },
