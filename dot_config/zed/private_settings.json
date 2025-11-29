@@ -2015,7 +2015,13 @@
     //     ]
     //   }
     // ]
-    "ssh_connections": [],
+    "ssh_connections": [
+        {
+            "host": "arch-desktop",
+            "args": [],
+            "projects": []
+        }
+    ],
     // Whether to read ~/.ssh/config for ssh connection sources.
     "read_ssh_config": true,
     // Configures context servers for use by the agent.
