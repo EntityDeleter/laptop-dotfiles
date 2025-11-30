@@ -1821,10 +1821,10 @@
         //            "api_url": "https://generativelanguage.googleapis.com"
         //        },
         "ollama": {
-            "api_url": "http://127.0.0.1:11434",
+            "api_url": "http://100.69.242.6:11434",
             "available_models": [
                 {
-                    "name": "QWEN-3-4B:latest",
+                    "name": "qwen3:latest",
                     "display_name": "Qwen3 4B",
                     "max_tokens": 32768,
                     "supports_tools": true,
@@ -1833,7 +1833,7 @@
                     "supports_images": false
                 },
                 {
-                    "name": "GPT-OSS-20B:latest",
+                    "name": "gpt-oss:latest",
                     "display_name": "GPT OSS 20B",
                     "max_tokens": 32768,
                     "supports_tools": true,
