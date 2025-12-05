@@ -1824,6 +1824,15 @@
             "api_url": "http://100.69.242.6:11434",
             "available_models": [
                 {
+                    "name": "QWEN-3-30B:latest",
+                    "display_name": "QWEN-3-30B",
+                    "max_tokens": 32768,
+                    "supports_tools": true,
+                    "supports_thinking": true,
+                    "keep_alive": 600,
+                    "supports_images": false
+                },
+                {
                     "name": "QWEN-3-4B:latest",
                     "display_name": "QWEN-3-4B",
                     "max_tokens": 32768,
