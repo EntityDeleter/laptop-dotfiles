@@ -2,13 +2,15 @@
 HoldPkg     = pacman glibc
 Architecture = auto
 Color
+IgnorePkg = cuda
 CheckSpace
 VerbosePkgLists
+PrettyProgressBar
 ParallelDownloads = 15
 ILoveCandy
 DownloadUser = alpm
 SigLevel    = Required DatabaseOptional
 LocalFileSigLevel = Optional
 
-[cachyos-v4]
-Include = /etc/pacman.d/cachyos-v4-mirrorlist
+[extra]
+Include = /etc/pacman.d/mirrorlist

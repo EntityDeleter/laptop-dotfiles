@@ -4,6 +4,7 @@ Architecture = auto
 Color
 CheckSpace
 VerbosePkgLists
+PrettyProgressBar
 ParallelDownloads = 15
 ILoveCandy
 DownloadUser = alpm

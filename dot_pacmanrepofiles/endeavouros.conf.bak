@@ -4,11 +4,13 @@ Architecture = auto
 Color
 CheckSpace
 VerbosePkgLists
+PrettyProgressBar
 ParallelDownloads = 15
 ILoveCandy
 DownloadUser = alpm
 SigLevel    = Required DatabaseOptional
 LocalFileSigLevel = Optional
 
-[cachyos-v4]
-Include = /etc/pacman.d/cachyos-v4-mirrorlist
+[endeavouros]
+SigLevel = PackageRequired
+Include = /etc/pacman.d/endeavouros-mirrorlist
