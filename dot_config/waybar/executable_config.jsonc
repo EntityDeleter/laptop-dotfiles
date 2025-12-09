@@ -130,7 +130,7 @@
         "justify": "center",
     },
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "interface": "w*", // (Optional) To force the use of this interface
         "interval": 5,
         "format-wifi": "{essid}\n({frequency}GHz) ({signalStrength}%) ",
         "format-ethernet": "{ipaddr}\n",
