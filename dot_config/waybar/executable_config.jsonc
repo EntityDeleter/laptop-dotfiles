@@ -125,7 +125,7 @@
         "format-charging": "{capacity}%\n",
         "format-plugged": "{capacity}%\n",
         "format-tooltip": "{time}\n{icon}",
-        "format-alt": "{power}W\n{icon}",
+        "on-click": "io.github.v81d.Wattage",
         "format-icons": ["", "", "", "", ""],
         "justify": "center",
     },
