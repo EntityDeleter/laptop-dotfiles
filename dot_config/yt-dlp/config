@@ -2,7 +2,7 @@
 
 --concurrent-fragments 5
 
---paths /home/sudar/Videos/YouTube/
+--paths /home/sudar/Videos/
 --output "%(title)s.%(ext)s"
 --restrict-filenames
 --windows-filenames
@@ -21,7 +21,9 @@
 --sponsorblock-mark default
 --sponsorblock-remove default,filler
 
--S "res:1080,codec:vp9.2,fps,quality,channels:2,asr,abr,vbr,tbr,br,ext,proto,hdr"
+-S "lang:en,res:1080,codec:vp9.2,fps,quality,channels:2,asr,abr,vbr,tbr,br,ext,proto,hdr"
+
+-f "bv+ba/bv*+ba/ba*+bv/b"
 
 --prefer-free-formats
 
