@@ -10,6 +10,9 @@ fi
 # Theming
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
+# Corrections
+eval $(thefuck --alias oops)
+
 # Colors:
 autoload -U colors && colors
 
