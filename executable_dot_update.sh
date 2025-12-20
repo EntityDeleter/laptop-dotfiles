@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# YAY
+yay
+
 # Update Repositories Recursively:
 sudo-rs pacman -Syu --config ~/.pacmanrepofiles/cachyos.conf --noconfirm |& grep -v "is newer than"
 sudo-rs pacman -Syu --config ~/.pacmanrepofiles/core-testing.conf --noconfirm |& grep -v "is newer than"
