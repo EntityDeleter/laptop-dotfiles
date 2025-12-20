@@ -20,6 +20,8 @@ arch-update -d -s
 # Cleanup:
 sudo-rs rm -rf ~/.cache/* /tmp/*
 conda clean --all
+sudo-rs rm -rf /var/cache/pacman/pkg/*
+yay -Scc
 
 # Update Package Lists:
-pacman -Qeq > /etc/pkglist.txt
+pacman -Qqe > /etc/pkglist.txt
