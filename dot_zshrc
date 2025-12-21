@@ -13,6 +13,9 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # Corrections
 eval $(thefuck --alias oops)
 
+# Super Kill
+source /home/sudar/.zshrc.d/die.zsh
+
 # Colors:
 autoload -U colors && colors
 
