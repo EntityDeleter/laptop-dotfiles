@@ -37,3 +37,7 @@ alias lld="eza --icons=always --color=always --hyperlink -l -b --smart-group -h 
 alias llda="eza --icons=always --color=always --hyperlink -l -b --smart-group -h -m -M --time-style=relative -T -a"
 
 alias rg="rga --color=auto --heading -n -P -p --trim"
+
+alias pac-q="pacman -Qq | fzf --preview 'pacman -Qiil {}' --layout=reverse --bind 'enter:execute(pacman -Qiil {} | less)'"
+alias pac-s="pacman -Slq | fzf --preview 'pacman -Sii {}' --layout=reverse --bind 'enter:execute(pacman -Sii {} | less)'"
+alias pac-e="pacman -Qqe | fzf --preview 'pacman -Qiile {}' --layout=reverse --bind 'enter:execute(pacman -Qiil {} | less)'"
