@@ -12,6 +12,7 @@ alias sudoedit="sudoedit-rs "
 
 alias openssh="ssh -p 39901 "
 alias tailssh="ssh "
+alias mosh="mosh --ssh='ssh -p 39901' "
 
 alias btrfs-assistant='pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland btrfs-assistant'
 alias pdf="tdf "
