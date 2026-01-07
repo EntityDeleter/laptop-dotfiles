@@ -44,3 +44,5 @@ alias pac-s="pacman -Slq | fzf --preview 'pacman -Sii {}' --layout=reverse --bin
 alias pac-e="pacman -Qqe | fzf --preview 'pacman -Qiile {}' --layout=reverse --bind 'enter:execute(pacman -Qiil {} | less)'"
 
 alias scp="rsync -aAhiXEPUzv "
+
+alias sudogui='pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" QT_QPA_PLATFORM=wayland '
