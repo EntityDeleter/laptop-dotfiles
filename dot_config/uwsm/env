@@ -30,5 +30,3 @@ export VISUAL=nano
 export HOMEBREW_NO_ANALYTICS=1
 
 export RUSTICL_ENABLE=iris
-
-export BINSTALL_DISABLE_TELEMETRY=true
