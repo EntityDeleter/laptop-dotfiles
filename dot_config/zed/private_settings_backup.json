@@ -1,4 +1,5 @@
 {
+    "colorize_brackets": false,
     "project_name": null,
     // The name of the Zed theme to use for the UI.
     //
@@ -7,7 +8,7 @@
     // - "light": Use the theme indicated by the "light" field
     // - "dark": Use the theme indicated by the "dark" field
     "theme": {
-        "mode": "dark",
+        "mode": "system",
         "light": "One Light",
         "dark": "One Dark"
     },
@@ -26,7 +27,7 @@
     // Features that can be globally enabled or disabled
     "features": {
         // Which edit prediction provider to use.
-        "edit_prediction_provider": "zed"
+        "edit_prediction_provider": "supermaven"
     },
     // The name of a font to use for rendering text in the editor
     // ".ZedMono" currently aliases to Lilex
@@ -93,7 +94,7 @@
     // The default font size for text in the UI
     "ui_font_size": 16,
     // The default font size for text in the agent panel. Falls back to the UI font size if unset.
-    "agent_font_size": null,
+    "agent_ui_font_size": null,
     // How much to fade out unused code.
     "unnecessary_code_fade": 0.3,
     // Active pane styling settings.
@@ -575,7 +576,7 @@
     // to both the horizontal and vertical delta values while scrolling. Fast scrolling
     // happens when a user holds the alt or option key while scrolling.
     "fast_scroll_sensitivity": 4.0,
-    "relative_line_numbers": false,
+    "relative_line_numbers": "disabled",
     // If 'search_wrap' is disabled, search result do not wrap around the end of the file.
     "search_wrap": true,
     // Search options to enable by default when opening new project and buffer searches.
@@ -832,7 +833,7 @@
             // The provider to use.
             "provider": "ollama",
             // The model to use.
-            "model": "gpt-oss:20b"
+            "model": "GPT-OSS-20B:latest"
         },
         // Additional parameters for language model requests. When making a request to a model, parameters will be taken
         // from the last entry in this list that matches the model's provider and name. In each entry, both provider
@@ -862,7 +863,7 @@
         //       You can set `agent_servers.claude.default_mode` to `bypassPermissions` to skip all permission requests.
         "always_allow_tool_actions": false,
         // When enabled, the agent will stream edits.
-        "stream_edits": true,
+        //        "stream_edits": true,
         // When enabled, agent edits will be displayed in single-file editors for review
         "single_file_review": true,
         // When enabled, show voting thumbs for feedback on agent edits.
@@ -903,7 +904,7 @@
                     "project_notifications": false,
                     "now": true,
                     "find_path": true,
-                    "read_file": true,
+                    "read_file": false,
                     "open": true,
                     "grep": true,
                     "thinking": true,
@@ -1072,7 +1073,7 @@
         //   * `true`: Use all gitignored files
         //   * `false`: Use only the files Zed had indexed
         //   * `null`: Be smart and search for ignored when called from a gitignored worktree
-        "include_ignored": null
+        "include_ignored": "smart"
     },
     // Whether or not to remove any trailing whitespace from lines of a buffer
     // before saving it.
@@ -1593,30 +1594,30 @@
     },
     // Different settings for specific languages.
     "languages": {
-        "Astro": {
-            "language_servers": ["astro-language-server", "..."],
-            "prettier": {
-                "allowed": true,
-                "plugins": ["prettier-plugin-astro"]
-            }
-        },
-        "Blade": {
-            "prettier": {
-                "allowed": true
-            }
-        },
+        //        "Astro": {
+        //            "language_servers": ["astro-language-server", "..."],
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["prettier-plugin-astro"]
+        //            }
+        //        },
+        //        "Blade": {
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        },
         "C": {
             "format_on_save": "off",
             "use_on_type_format": false,
             "prettier": {
-                "allowed": false
+                "allowed": true
             }
         },
         "C++": {
             "format_on_save": "off",
             "use_on_type_format": false,
             "prettier": {
-                "allowed": false
+                "allowed": true
             }
         },
         "CSS": {
@@ -1624,29 +1625,29 @@
                 "allowed": true
             }
         },
-        "Dart": {
-            "tab_size": 2
-        },
+        //        "Dart": {
+        //            "tab_size": 2
+        //        },
         "Diff": {
             "show_edit_predictions": false,
             "remove_trailing_whitespace_on_save": false,
             "ensure_final_newline_on_save": false
         },
-        "Elixir": {
-            "language_servers": [
-                "elixir-ls",
-                "!expert",
-                "!next-ls",
-                "!lexical",
-                "..."
-            ]
-        },
-        "Elm": {
-            "tab_size": 4
-        },
-        "Erlang": {
-            "language_servers": ["erlang-ls", "!elp", "..."]
-        },
+        //        "Elixir": {
+        //            "language_servers": [
+        //                "elixir-ls",
+        //                "!expert",
+        //                "!next-ls",
+        //                "!lexical",
+        //                "..."
+        //            ]
+        //        },
+        //        "Elm": {
+        //            "tab_size": 4
+        //        },
+        //        "Erlang": {
+        //            "language_servers": ["erlang-ls", "!elp", "..."]
+        //        },
         "Git Commit": {
             "allow_rewrap": "anywhere",
             "soft_wrap": "editor_width",
@@ -1658,31 +1659,31 @@
             },
             "debuggers": ["Delve"]
         },
-        "GraphQL": {
-            "prettier": {
-                "allowed": true
-            }
-        },
-        "HEEX": {
-            "language_servers": [
-                "elixir-ls",
-                "!expert",
-                "!next-ls",
-                "!lexical",
-                "..."
-            ]
-        },
+        //        "GraphQL": {
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        },
+        //        "HEEX": {
+        //            "language_servers": [
+        //                "elixir-ls",
+        //                "!expert",
+        //                "!next-ls",
+        //                "!lexical",
+        //                "..."
+        //            ]
+        //        },
         "HTML": {
             "prettier": {
                 "allowed": true
             }
         },
-        "Java": {
-            "prettier": {
-                "allowed": true,
-                "plugins": ["prettier-plugin-java"]
-            }
-        },
+        //        "Java": {
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["prettier-plugin-java"]
+        //            }
+        //        },
         "JavaScript": {
             "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
@@ -1692,24 +1693,26 @@
         "JSON": {
             "prettier": {
                 "allowed": true
-            }
+            },
+            "language_servers": ["..."]
         },
         "JSONC": {
             "prettier": {
                 "allowed": true
-            }
+            },
+            "language_servers": ["..."]
         },
-        "Kotlin": {
-            "language_servers": ["kotlin-language-server", "!kotlin-lsp", "..."]
-        },
-        "LaTeX": {
-            "formatter": "language_server",
-            "language_servers": ["texlab", "..."],
-            "prettier": {
-                "allowed": true,
-                "plugins": ["prettier-plugin-latex"]
-            }
-        },
+        //        "Kotlin": {
+        //            "language_servers": ["kotlin-language-server", "!kotlin-lsp", "..."]
+        //        },
+        //        "LaTeX": {
+        //            "formatter": "language_server",
+        //            "language_servers": ["texlab", "..."],
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["prettier-plugin-latex"]
+        //            }
+        //        },
         "Markdown": {
             "format_on_save": "off",
             "use_on_type_format": false,
@@ -1719,30 +1722,37 @@
                 "allowed": true
             }
         },
-        "PHP": {
-            "language_servers": ["phpactor", "!intelephense", "..."],
-            "prettier": {
-                "allowed": true,
-                "plugins": ["@prettier/plugin-php"],
-                "parser": "php"
-            }
-        },
+        //        "PHP": {
+        //            "language_servers": ["phpactor", "!intelephense", "..."],
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["@prettier/plugin-php"],
+        //                "parser": "php"
+        //            }
+        //        },
         "Plain Text": {
             "allow_rewrap": "anywhere"
         },
         "Python": {
-            "debuggers": ["Debugpy", "PyRight", "python-lsp-server"]
+            "debuggers": ["Debugpy", "PyRight", "python-lsp-server"],
+            "language_servers": ["basedpyright", "ty", "..."],
+            "code_actions_on_format": {
+                // Organize imports
+                "source.organizeImports.ruff": true,
+                // Fix all auto-fixable lint violations
+                "source.fixAll.ruff": true
+            }
         },
-        "Ruby": {
-            "language_servers": [
-                "solargraph",
-                "!ruby-lsp",
-                "!rubocop",
-                "!sorbet",
-                "!steep",
-                "..."
-            ]
-        },
+        //        "Ruby": {
+        //            "language_servers": [
+        //                "solargraph",
+        //                "!ruby-lsp",
+        //                "!rubocop",
+        //                "!sorbet",
+        //                "!steep",
+        //                "..."
+        //            ]
+        //        },
         "Rust": {
             "debuggers": ["CodeLLDB"]
         },
@@ -1751,43 +1761,43 @@
                 "allowed": true
             }
         },
-        "Starlark": {
-            "language_servers": ["starpls", "!buck2-lsp", "..."]
-        },
-        "Svelte": {
-            "language_servers": ["svelte-language-server", "..."],
-            "prettier": {
-                "allowed": true,
-                "plugins": ["prettier-plugin-svelte"]
-            }
-        },
+        //        "Starlark": {
+        //            "language_servers": ["starpls", "!buck2-lsp", "..."]
+        //        },
+        //        "Svelte": {
+        //            "language_servers": ["svelte-language-server", "..."],
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": ["prettier-plugin-svelte"]
+        //            }
+        //        },
         "TSX": {
             "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
                 "allowed": true
             }
         },
-        "Twig": {
-            "prettier": {
-                "allowed": true
-            }
-        },
+        //        "Twig": {
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        },
         "TypeScript": {
             "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
                 "allowed": true
             }
         },
-        "SystemVerilog": {
-            "format_on_save": "off",
-            "use_on_type_format": false
-        },
-        "Vue.js": {
-            "language_servers": ["vue-language-server", "..."],
-            "prettier": {
-                "allowed": true
-            }
-        },
+        //        "SystemVerilog": {
+        //            "format_on_save": "off",
+        //            "use_on_type_format": false
+        //        },
+        //        "Vue.js": {
+        //            "language_servers": ["vue-language-server", "..."],
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        },
         "XML": {
             "prettier": {
                 "allowed": true,
@@ -1798,63 +1808,75 @@
             "prettier": {
                 "allowed": true
             }
-        },
-        "Zig": {
-            "language_servers": ["zls", "..."]
         }
+        //        "Zig": {
+        //            "language_servers": ["zls", "..."]
+        //        }
     },
     // Different settings for specific language models.
     "language_models": {
-        "anthropic": {
-            "api_url": "https://api.anthropic.com"
-        },
-        "google": {
-            "api_url": "https://generativelanguage.googleapis.com"
-        },
+        //        "anthropic": {
+        //            "api_url": "https://api.anthropic.com"
+        //        },
+        //        "google": {
+        //            "api_url": "https://generativelanguage.googleapis.com"
+        //        },
         "ollama": {
             "api_url": "http://100.69.242.6:11434",
             "available_models": [
                 {
-                    "name": "deepseek-r1:8b",
-                    "display_name": "DeepSeek R1",
-                    "max_tokens": 16384,
+                    "name": "QWEN-3-30B:latest",
+                    "display_name": "QWEN-3-30B",
+                    "max_tokens": 32768,
                     "supports_tools": true,
                     "supports_thinking": true,
+                    "keep_alive": 600,
                     "supports_images": false
                 },
                 {
-                    "name": "gpt-oss:20b",
-                    "display_name": "ChatGPT OSS",
-                    "max_tokens": 16384,
+                    "name": "QWEN-3-4B:latest",
+                    "display_name": "QWEN-3-4B",
+                    "max_tokens": 32768,
                     "supports_tools": true,
                     "supports_thinking": true,
+                    "keep_alive": 600,
+                    "supports_images": false
+                },
+                {
+                    "name": "GPT-OSS-20B:latest",
+                    "display_name": "GPT-OSS-20B",
+                    "max_tokens": 32768,
+                    "supports_tools": true,
+                    "supports_thinking": true,
+                    "keep_alive": 600,
                     "supports_images": false
                 }
             ]
-        },
-        "openai": {
-            "api_url": "https://api.openai.com/v1"
-        },
-        "openai_compatible": {},
-        "open_router": {
-            "api_url": "https://openrouter.ai/api/v1"
-        },
-        "lmstudio": {
-            "api_url": "http://localhost:1234/api/v0"
-        },
-        "deepseek": {
-            "api_url": "https://api.deepseek.com/v1"
-        },
-        "mistral": {
-            "api_url": "https://api.mistral.ai/v1"
         }
+        //        },
+        //        "openai": {
+        //            "api_url": "https://api.openai.com/v1"
+        //        },
+        //        "openai_compatible": {},
+        //        "open_router": {
+        //            "api_url": "https://openrouter.ai/api/v1"
+        //        },
+        //        "lmstudio": {
+        //            "api_url": "http://localhost:1234/api/v0"
+        //        },
+        //        "deepseek": {
+        //            "api_url": "https://api.deepseek.com/v1"
+        //        },
+        //        "mistral": {
+        //            "api_url": "https://api.mistral.ai/v1"
+        //        }
     },
     // Zed's Prettier integration settings.
     // Allows to enable/disable formatting with Prettier
     // and configure default Prettier, used when no project-level Prettier installation is found.
     "prettier": {
         // // Whether to consider prettier formatter or not when attempting to format a file.
-        // "allowed": false,
+        "allowed": true
         //
         // // Use regular Prettier json configuration.
         // // If Prettier is allowed, Zed will use this for its Prettier instance for any applicable file, if
@@ -1875,17 +1897,39 @@
     },
     // LSP Specific settings.
     "lsp": {
-        // Specify the LSP name as a key here.
-        // "rust-analyzer": {
-        //     // A special flag for rust-analyzer integration, to use server-provided tasks
-        //     enable_lsp_tasks": true,
-        //     // These initialization options are merged into Zed's defaults
-        //     "initialization_options": {
-        //         "check": {
-        //             "command": "clippy" // rust-analyzer.check.command (default: "check")
-        //         }
-        //     }
-        // }
+        "basedpyright": {
+            "settings": {
+                "basedpyright.analysis": {
+                    "autoImportCompletions": true,
+                    "autoSearchPaths": true,
+                    "diagnosticMode": "workspace",
+                    "typeCheckingMode": "all",
+                    "inlayHints": {
+                        "callArgumentNamesMatching": true
+                    }
+                }
+            }
+        },
+        "ruff": {
+            "initialization_options": {
+                "settings": {
+                    "format": {
+                        "preview": true
+                    },
+                    "lint": {
+                        "preview": true
+                    }
+                }
+            }
+        },
+        "ty": {
+            "settings": {
+                "experimental": {
+                    "rename": true
+                },
+                "diagnosticMode": "workspace"
+            }
+        }
     },
     // Common language server settings.
     "global_lsp_settings": {
