@@ -32,4 +32,3 @@ export HOMEBREW_NO_ANALYTICS=1
 export RUSTICL_ENABLE=iris
 
 export ARCHWEB_USERNAME=EntityDeletr
-export ARCHWEB_PASSWORD="$(sudo \cat /root/.arch-signoff-password)"
