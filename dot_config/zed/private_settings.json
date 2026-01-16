@@ -1,5 +1,5 @@
 {
-    "colorize_brackets": false,
+    "colorize_brackets": true,
     "project_name": null,
     // The name of the Zed theme to use for the UI.
     //
@@ -10,7 +10,7 @@
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "One Dark"
+        "dark": "One Dark",
     },
     "icon_theme": "Zed (Default)",
     // The name of a base set of key bindings to use.
@@ -27,7 +27,7 @@
     // Features that can be globally enabled or disabled
     "features": {
         // Which edit prediction provider to use.
-        "edit_prediction_provider": "supermaven"
+        "edit_prediction_provider": "supermaven",
     },
     // The name of a font to use for rendering text in the editor
     // ".ZedMono" currently aliases to Lilex
@@ -48,7 +48,7 @@
         "cv09": true,
         "cv12": true,
         "cv18": true,
-        "cv19": true
+        "cv19": true,
     },
     // The default font size for text in the editor
     "buffer_font_size": 13,
@@ -65,7 +65,7 @@
     //           "custom": 2
     //         },
     "buffer_line_height": {
-        "custom": 1.2
+        "custom": 1.2,
     },
     // The name of a font to use for rendering text in the UI
     // You can set this to ".SystemUIFont" to use the system font
@@ -87,7 +87,7 @@
         "cv09": true,
         "cv12": true,
         "cv18": true,
-        "cv19": true
+        "cv19": true,
     },
     // The weight of the UI font in standard CSS units from 100 to 900.
     "ui_font_weight": 400,
@@ -103,7 +103,7 @@
         "border_size": 0.0,
         // Opacity of the inactive panes. 0 means transparent, 1 means opaque.
         // Values are clamped to the [0.0, 1.0] range.
-        "inactive_opacity": 1.0
+        "inactive_opacity": 1.0,
     },
     // Layout mode of the bottom dock. Defaults to "contained"
     //   choices: contained, full, left_aligned, right_aligned
@@ -119,12 +119,12 @@
         "left_padding": 0.2,
         // The relative width of the right padding of the central pane from the
         // workspace when the centered layout is used.
-        "right_padding": 0.2
+        "right_padding": 0.2,
     },
     // Image viewer settings
     "image_viewer": {
         // The unit for image file sizes: "binary" (KiB, MiB) or decimal (KB, MB)
-        "unit": "binary"
+        "unit": "binary",
     },
     // Determines the modifier to be used to add multiple cursors with the mouse. The open hover link mouse gestures will adapt such that it do not conflict with the multicursor modifier.
     //
@@ -282,7 +282,7 @@
         // When true, enables drag and drop text selection in buffer.
         "enabled": true,
         // The delay in milliseconds that must elapse before drag and drop is allowed. Otherwise, a new text selection is created.
-        "delay": 300
+        "delay": 300,
     },
     // What to do when go to definition yields no results.
     //
@@ -326,7 +326,7 @@
         "**/*.key",
         "**/*.cert",
         "**/*.crt",
-        "**/secrets.yml"
+        "**/secrets.yml",
     ],
     // Whether to use additional LSP queries to format (and amend) the code after
     // every "trigger" symbol input, defined by LSP server capabilities.
@@ -395,7 +395,7 @@
         // Join calls with the microphone live by default
         "mute_on_join": true,
         // Share your project when you are the first to join a channel
-        "share_on_join": false
+        "share_on_join": false,
     },
     // Toolbar related settings
     "toolbar": {
@@ -408,7 +408,7 @@
         // Whether to show agent review buttons in the editor toolbar.
         "agent_review": true,
         // Whether to show code action buttons in the editor toolbar.
-        "code_actions": true
+        "code_actions": true,
     },
     // Whether to allow windows to tab together based on the user’s tabbing preference (macOS only).
     "use_system_window_tabs": false,
@@ -427,7 +427,7 @@
         // Whether to show the sign in button in the titlebar.
         "show_sign_in": true,
         // Whether to show the menus in the titlebar.
-        "show_menus": false
+        "show_menus": false,
     },
     // Scrollbar related settings
     "scrollbar": {
@@ -466,8 +466,8 @@
             // When false, forcefully disables the horizontal scrollbar. Otherwise, obey other settings.
             "horizontal": true,
             // When false, forcefully disables the vertical scrollbar. Otherwise, obey other settings.
-            "vertical": true
-        }
+            "vertical": true,
+        },
     },
     // Minimap related settings
     "minimap": {
@@ -515,7 +515,7 @@
         // 3. "gutter" or "none" to not highlight the current line in the minimap.
         "current_line_highlight": null,
         // Maximum number of columns to display in the minimap.
-        "max_width_columns": 80
+        "max_width_columns": 80,
     },
     // Enable middle-click paste on Linux.
     "middle_click_paste": true,
@@ -538,7 +538,7 @@
         // Whether to show fold buttons in the gutter.
         "folds": true,
         // Minimum number of characters to reserve space for in the gutter.
-        "min_line_number_digits": 4
+        "min_line_number_digits": 4,
     },
     "indent_guides": {
         // Whether to show indent guides in the editor.
@@ -559,7 +559,7 @@
         //
         // 1. "disabled"
         // 2. "indent_aware"
-        "background_coloring": "indent_aware"
+        "background_coloring": "indent_aware",
     },
     // Whether the editor will scroll beyond the last line.
     "scroll_beyond_last_line": "one_page",
@@ -586,7 +586,7 @@
         "whole_word": true,
         "case_sensitive": true,
         "include_ignored": true,
-        "regex": true
+        "regex": true,
     },
     // When to populate a new search's query based on the text under the cursor.
     // This setting can take the following three values:
@@ -628,12 +628,14 @@
             "shift": false,
             "alt": false,
             "platform": false,
-            "function": false
-        }
+            "function": false,
+        },
     },
     // Whether to resize all the panels in a dock when resizing the dock.
     // Can be a combination of "left", "right" and "bottom".
-    "resize_all_panels_in_dock": ["left"],
+    "resize_all_panels_in_dock": [
+        "left"
+    ],
     "project_panel": {
         // Whether to show the project panel button in the status bar
         "button": true,
@@ -677,7 +679,7 @@
             //    "always"
             // 5. Never show the scrollbar:
             //    "never"
-            "show": "auto"
+            "show": "auto",
         },
         // Which files containing diagnostic errors/warnings to mark in the project panel.
         // This setting can take the following three values:
@@ -700,12 +702,12 @@
             //    "always"
             // 2. Never show indent guides:
             //    "never"
-            "show": "always"
+            "show": "always",
         },
         // Whether to enable drag-and-drop operations in the project panel.
         "drag_and_drop": true,
         // Whether to hide the root entry when only one folder is open in the window.
-        "hide_root": false
+        "hide_root": false,
     },
     "outline_panel": {
         // Whether to show the outline panel button in the status bar
@@ -738,7 +740,7 @@
             //    "always"
             // 2. Never show indent guides:
             //    "never"
-            "show": "always"
+            "show": "always",
         },
         // Scrollbar-related settings
         "scrollbar": {
@@ -755,11 +757,11 @@
             //    "always"
             // 5. Never show the scrollbar:
             //    "never"
-            "show": "auto"
+            "show": "auto",
         },
         // Default depth to expand outline items in the current file.
         // Set to 0 to collapse all items that have children, 1 or higher to collapse items at that depth or deeper.
-        "expand_outlines_with_depth": 10
+        "expand_outlines_with_depth": 10,
     },
     "collaboration_panel": {
         // Whether to show the collaboration panel button in the status bar.
@@ -767,7 +769,7 @@
         // Where to dock the collaboration panel. Can be 'left' or 'right'.
         "dock": "left",
         // Default width of the collaboration panel.
-        "default_width": 240
+        "default_width": 240,
     },
     "git_panel": {
         // Whether to show the git panel button in the status bar.
@@ -798,13 +800,13 @@
             //
             // Choices: always, auto, never, system
             // Default: inherits editor scrollbar settings
-            "show": "auto"
-        }
+            "show": "auto",
+        },
     },
     "message_editor": {
         // Whether to automatically replace emoji shortcodes with emoji characters.
         // For example: typing `:wave:` gets replaced with `👋`.
-        "auto_replace_emoji_shortcode": true
+        "auto_replace_emoji_shortcode": true,
     },
     "notification_panel": {
         // Whether to show the notification panel button in the status bar.
@@ -812,7 +814,7 @@
         // Where to dock the notification panel. Can be 'left' or 'right'.
         "dock": "right",
         // Default width of the notification panel.
-        "default_width": 380
+        "default_width": 380,
     },
     "agent": {
         // Whether the agent is enabled.
@@ -833,7 +835,7 @@
             // The provider to use.
             "provider": "ollama",
             // The model to use.
-            "model": "GPT-OSS-20B:latest"
+            "model": "QWEN-3-4B:latest",
         },
         // Additional parameters for language model requests. When making a request to a model, parameters will be taken
         // from the last entry in this list that matches the model's provider and name. In each entry, both provider
@@ -868,7 +870,7 @@
         "single_file_review": true,
         // When enabled, show voting thumbs for feedback on agent edits.
         "enable_feedback": true,
-        "default_profile": "write",
+        "default_profile": "ask",
         "profiles": {
             "write": {
                 "name": "Write",
@@ -889,8 +891,8 @@
                     "grep": true,
                     "terminal": true,
                     "thinking": true,
-                    "web_search": true
-                }
+                    "web_search": true,
+                },
             },
             "ask": {
                 "name": "Ask",
@@ -908,14 +910,14 @@
                     "open": true,
                     "grep": true,
                     "thinking": true,
-                    "web_search": true
-                }
+                    "web_search": true,
+                },
             },
             "minimal": {
                 "name": "Minimal",
                 "enable_all_context_servers": false,
-                "tools": {}
-            }
+                "tools": {},
+            },
         },
         // Where to show notifications when the agent has either completed
         // its response, or else needs confirmation before it can run a
@@ -926,7 +928,6 @@
         "notify_when_agent_waiting": "primary_screen",
         // Whether to play a sound when the agent has either completed
         // its response, or needs user input.
-
         // Default: false
         "play_sound_when_agent_done": true,
         /// Whether to have edit cards in the agent panel expanded, showing a preview of the full diff.
@@ -936,7 +937,7 @@
         /// Whether to have terminal cards in the agent panel expanded, showing the whole command output.
         ///
         /// Default: true
-        "expand_terminal_card": true
+        "expand_terminal_card": true,
     },
     // The settings for slash commands.
     "slash_commands": {
@@ -956,7 +957,9 @@
     // The list of language servers to use (or disable) for all languages.
     //
     // This is typically customized on a per-language basis.
-    "language_servers": ["..."],
+    "language_servers": [
+        "..."
+    ],
     // When to automatically save edited buffers. This setting can
     // take four values.
     //
@@ -978,7 +981,7 @@
         // Whether or not to show the navigation history buttons.
         "show_nav_history_buttons": true,
         // Whether or not to show the tab bar buttons.
-        "show_tab_bar_buttons": true
+        "show_tab_bar_buttons": true,
     },
     // Settings related to the editor's tabs
     "tabs": {
@@ -1017,7 +1020,7 @@
         //    "errors"
         // 3. Mark files with errors and warnings:
         //    "all"
-        "show_diagnostics": "all"
+        "show_diagnostics": "all",
     },
     // Settings related to preview tabs.
     "preview_tabs": {
@@ -1029,7 +1032,7 @@
         // Whether to open tabs in preview mode when selected from the file finder.
         "enable_preview_from_file_finder": false,
         // Whether a preview tab gets replaced when code navigation is used to navigate away from the tab.
-        "enable_keep_preview_on_code_navigation": false
+        "enable_keep_preview_on_code_navigation": false,
     },
     // Settings related to the file finder.
     "file_finder": {
@@ -1073,7 +1076,7 @@
         //   * `true`: Use all gitignored files
         //   * `false`: Use only the files Zed had indexed
         //   * `null`: Be smart and search for ignored when called from a gitignored worktree
-        "include_ignored": "smart"
+        "include_ignored": "smart",
     },
     // Whether or not to remove any trailing whitespace from lines of a buffer
     // before saving it.
@@ -1102,7 +1105,7 @@
     // 4. Default. Format files using Zed's Prettier integration (if applicable),
     //    or falling back to formatting via language server:
     //     "formatter": "auto"
-    "formatter": "auto",
+    "formatter": "language_server",
     // How to soft-wrap long lines of text.
     // Possible values:
     //
@@ -1131,7 +1134,7 @@
         // Send debug info like crash reports.
         "diagnostics": false,
         // Send anonymized usage data like what languages you're using Zed with.
-        "metrics": false
+        "metrics": false,
     },
     // Whether to disable all AI features in Zed.
     //
@@ -1165,7 +1168,7 @@
             "enabled": true,
             // Minimum time to wait before pulling diagnostics from the language server(s).
             // 0 turns the debounce off.
-            "debounce_ms": 50
+            "debounce_ms": 50,
         },
         // Settings for inline diagnostics
         "inline": {
@@ -1183,8 +1186,8 @@
             "min_column": 0,
             // The minimum severity of the diagnostics to show inline.
             // Inherits editor's diagnostics' max severity settings when `null`.
-            "max_severity": null
-        }
+            "max_severity": null,
+        },
     },
     // Files or globs of files that will be excluded by Zed entirely. They will be skipped during file
     // scans, file searches, and not be displayed in the project file tree. Takes precedence over `file_scan_inclusions`.
@@ -1198,13 +1201,15 @@
         "**/.DS_Store",
         "**/Thumbs.db",
         "**/.classpath",
-        "**/.settings"
+        "**/.settings",
     ],
     // Files or globs of files that will be included by Zed, even when ignored by git. This is useful
     // for files that are not tracked by git, but are still important to your project. Note that globs
     // that are overly broad can slow down Zed's file scanning. `file_scan_exclusions` takes
     // precedence over these inclusions.
-    "file_scan_inclusions": [".env*"],
+    "file_scan_inclusions": [
+        ".env*"
+    ],
     // Git gutter behavior configuration.
     "git": {
         // Control whether the git gutter is shown. May take 2 values:
@@ -1226,11 +1231,11 @@
             // Whether or not to display the git commit summary on the same line.
             "show_commit_summary": false,
             // The minimum column number to show the inline blame information at
-            "min_column": 0
+            "min_column": 0,
         },
         // Control which information is shown in the branch picker.
         "branch_picker": {
-            "show_author_name": true
+            "show_author_name": true,
         },
         // How git hunks are displayed visually in the editor.
         // This setting can take two values:
@@ -1239,7 +1244,7 @@
         //    "hunk_style": "staged_hollow"
         // 2. Show unstaged hunks hollow and staged hunks filled:
         //    "hunk_style": "unstaged_hollow"
-        "hunk_style": "staged_hollow"
+        "hunk_style": "staged_hollow",
     },
     // The list of custom Git hosting providers.
     "git_hosting_providers": [
@@ -1271,7 +1276,7 @@
             "**/secrets.yml",
             "**/.zed/settings.json", // zed project settings
             "/**/zed/settings.json", // zed user settings
-            "/**/zed/keymap.json"
+            "/**/zed/keymap.json",
         ],
         // When to show edit predictions previews in buffer.
         // This setting takes two possible values:
@@ -1288,7 +1293,7 @@
         // },
         // Whether edit predictions are enabled when editing text threads.
         // This setting has no effect if globally disabled.
-        "enabled_in_text_threads": true
+        "enabled_in_text_threads": true,
     },
     // Settings specific to journaling
     "journal": {
@@ -1298,14 +1303,14 @@
         // May take 2 values:
         // 1. hour12
         // 2. hour24
-        "hour_format": "hour12"
+        "hour_format": "hour12",
     },
     // Status bar-related settings.
     "status_bar": {
         // Whether to show the active language button in the status bar.
         "active_language_button": true,
         // Whether to show the cursor position button in the status bar.
-        "cursor_position_button": true
+        "cursor_position_button": true,
     },
     // Settings specific to the terminal
     "terminal": {
@@ -1409,7 +1414,7 @@
         //         "line_height": "standard",
         //  3. Use a custom line height.
         "line_height": {
-            "custom": 1.2
+            "custom": 1.2,
         },
         // Activate the python virtual environment, if one is found, in the
         // terminal's working directory (as resolved by the working_directory
@@ -1419,10 +1424,15 @@
                 // Default directories to search for virtual environments, relative
                 // to the current working directory. We recommend overriding this
                 // in your project's settings, rather than globally.
-                "directories": [".env", "env", ".venv", "venv"],
+                "directories": [
+                    ".env",
+                    "env",
+                    ".venv",
+                    "venv"
+                ],
                 // Can also be `csh`, `fish`, `nushell` and `power_shell`
-                "activate_script": "default"
-            }
+                "activate_script": "default",
+            },
         },
         "toolbar": {
             // Whether to display the terminal title in its toolbar's breadcrumbs.
@@ -1430,7 +1440,7 @@
             //
             // The shell running in the terminal needs to be configured to emit the title.
             // Example: `echo -e "\e]2;New Title\007";`
-            "breadcrumbs": true
+            "breadcrumbs": true,
         },
         // Scrollbar-related settings
         "scrollbar": {
@@ -1447,7 +1457,7 @@
             //    "always"
             // 5. Never show the scrollbar:
             //    "never"
-            "show": "auto"
+            "show": "auto",
         },
         // Set the terminal's font size. If this option is not included,
         // the terminal will default to matching the buffer's font size.
@@ -1479,7 +1489,7 @@
         //
         // Most terminal themes have APCA values of 40-70.
         // A value of 45 preserves colorful themes while ensuring legibility.
-        "minimum_contrast": 90
+        "minimum_contrast": 90,
     },
     "code_actions_on_format": {},
     // Settings related to running tasks.
@@ -1495,7 +1505,7 @@
         // * Zed task from history (e.g. one-off task was spawned before)
         //
         // Default: true
-        "prefer_lsp": true
+        "prefer_lsp": true,
     },
     // An object whose keys are language names, and whose values
     // are arrays of filenames or extensions of files that should
@@ -1514,9 +1524,11 @@
             "**/.zed/**/*.json",
             "**/zed/**/*.json",
             "**/Zed/**/*.json",
-            "**/.vscode/**/*.json"
+            "**/.vscode/**/*.json",
         ],
-        "Shell Script": [".env.*"]
+        "Shell Script": [
+            ".env.*"
+        ],
     },
     // Settings for which version of Node.js and NPM to use when installing
     // language servers and Copilot.
@@ -1532,14 +1544,14 @@
         // `path`, but not `npm_path`, Zed will assume that `npm` is located at
         // `${path}/../npm`.
         "path": null,
-        "npm_path": null
+        "npm_path": null,
     },
     // The extensions that Zed should automatically install on startup.
     //
     // If you don't want any of these extensions, add this field to your settings
     // and change the value to `false`.
     "auto_install_extensions": {
-        "html": true
+        "html": true,
     },
     // Controls how completions are processed for this language.
     "completions": {
@@ -1590,7 +1602,7 @@
         // 4. "replace_suffix"
         //   Behaves like `"replace"` if the text after the cursor is a suffix of the completion, and like
         //   `"insert"` otherwise.
-        "lsp_insert_mode": "replace_suffix"
+        "lsp_insert_mode": "replace_suffix",
     },
     // Different settings for specific languages.
     "languages": {
@@ -1610,20 +1622,20 @@
             "format_on_save": "off",
             "use_on_type_format": false,
             "prettier": {
-                "allowed": true
-            }
+                "allowed": true,
+            },
         },
         "C++": {
             "format_on_save": "off",
             "use_on_type_format": false,
             "prettier": {
-                "allowed": true
-            }
+                "allowed": true,
+            },
         },
         "CSS": {
             "prettier": {
-                "allowed": true
-            }
+                "allowed": true,
+            },
         },
         //        "Dart": {
         //            "tab_size": 2
@@ -1631,7 +1643,7 @@
         "Diff": {
             "show_edit_predictions": false,
             "remove_trailing_whitespace_on_save": false,
-            "ensure_final_newline_on_save": false
+            "ensure_final_newline_on_save": false,
         },
         //        "Elixir": {
         //            "language_servers": [
@@ -1651,13 +1663,15 @@
         "Git Commit": {
             "allow_rewrap": "anywhere",
             "soft_wrap": "editor_width",
-            "preferred_line_length": 72
+            "preferred_line_length": 72,
         },
         "Go": {
             "code_actions_on_format": {
-                "source.organizeImports": true
+                "source.organizeImports": true,
             },
-            "debuggers": ["Delve"]
+            "debuggers": [
+                "Delve"
+            ],
         },
         //        "GraphQL": {
         //            "prettier": {
@@ -1675,8 +1689,8 @@
         //        },
         "HTML": {
             "prettier": {
-                "allowed": true
-            }
+                "allowed": true,
+            },
         },
         //        "Java": {
         //            "prettier": {
@@ -1685,22 +1699,30 @@
         //            }
         //        },
         "JavaScript": {
-            "language_servers": ["!typescript-language-server", "vtsls", "..."],
+            "language_servers": [
+                "!typescript-language-server",
+                "vtsls",
+                "..."
+            ],
             "prettier": {
-                "allowed": true
-            }
+                "allowed": true,
+            },
         },
         "JSON": {
             "prettier": {
-                "allowed": true
+                "allowed": true,
             },
-            "language_servers": ["..."]
+            "language_servers": [
+                "..."
+            ],
         },
         "JSONC": {
             "prettier": {
-                "allowed": true
+                "allowed": true,
             },
-            "language_servers": ["..."]
+            "language_servers": [
+                "..."
+            ],
         },
         //        "Kotlin": {
         //            "language_servers": ["kotlin-language-server", "!kotlin-lsp", "..."]
@@ -1719,8 +1741,8 @@
             "allow_rewrap": "anywhere",
             "soft_wrap": "editor_width",
             "prettier": {
-                "allowed": true
-            }
+                "allowed": true,
+            },
         },
         //        "PHP": {
         //            "language_servers": ["phpactor", "!intelephense", "..."],
@@ -1731,17 +1753,25 @@
         //            }
         //        },
         "Plain Text": {
-            "allow_rewrap": "anywhere"
+            "allow_rewrap": "anywhere",
         },
         "Python": {
-            "debuggers": ["Debugpy", "PyRight", "python-lsp-server"],
-            "language_servers": ["basedpyright", "ty", "..."],
+            "debuggers": [
+                "Debugpy",
+                "PyRight",
+                "python-lsp-server"
+            ],
+            "language_servers": [
+                "basedpyright",
+                "ty",
+                "..."
+            ],
             "code_actions_on_format": {
                 // Organize imports
                 "source.organizeImports.ruff": true,
                 // Fix all auto-fixable lint violations
-                "source.fixAll.ruff": true
-            }
+                "source.fixAll.ruff": true,
+            },
         },
         //        "Ruby": {
         //            "language_servers": [
@@ -1754,13 +1784,15 @@
         //            ]
         //        },
         "Rust": {
-            "debuggers": ["CodeLLDB"]
+            "debuggers": [
+                "CodeLLDB"
+            ],
         },
-        "SCSS": {
-            "prettier": {
-                "allowed": true
-            }
-        },
+        //        "SCSS": {
+        //            "prettier": {
+        //                "allowed": true,
+        //            },
+        //        },
         //        "Starlark": {
         //            "language_servers": ["starpls", "!buck2-lsp", "..."]
         //        },
@@ -1772,10 +1804,14 @@
         //            }
         //        },
         "TSX": {
-            "language_servers": ["!typescript-language-server", "vtsls", "..."],
+            "language_servers": [
+                "!typescript-language-server",
+                "vtsls",
+                "..."
+            ],
             "prettier": {
-                "allowed": true
-            }
+                "allowed": true,
+            },
         },
         //        "Twig": {
         //            "prettier": {
@@ -1783,10 +1819,14 @@
         //            }
         //        },
         "TypeScript": {
-            "language_servers": ["!typescript-language-server", "vtsls", "..."],
+            "language_servers": [
+                "!typescript-language-server",
+                "vtsls",
+                "..."
+            ],
             "prettier": {
-                "allowed": true
-            }
+                "allowed": true,
+            },
         },
         //        "SystemVerilog": {
         //            "format_on_save": "off",
@@ -1798,17 +1838,19 @@
         //                "allowed": true
         //            }
         //        },
-        "XML": {
-            "prettier": {
-                "allowed": true,
-                "plugins": ["@prettier/plugin-xml"]
-            }
-        },
+        //        "XML": {
+        //            "prettier": {
+        //                "allowed": true,
+        //                "plugins": [
+        //                    "@prettier/plugin-xml"
+        //                ],
+        //            },
+        //        },
         "YAML": {
             "prettier": {
-                "allowed": true
-            }
-        }
+                "allowed": true,
+            },
+        },
         //        "Zig": {
         //            "language_servers": ["zls", "..."]
         //        }
@@ -1831,7 +1873,7 @@
                     "supports_tools": true,
                     "supports_thinking": true,
                     "keep_alive": 600,
-                    "supports_images": false
+                    "supports_images": false,
                 },
                 {
                     "name": "QWEN-3-4B:latest",
@@ -1840,7 +1882,7 @@
                     "supports_tools": true,
                     "supports_thinking": true,
                     "keep_alive": 600,
-                    "supports_images": false
+                    "supports_images": false,
                 },
                 {
                     "name": "GPT-OSS-20B:latest",
@@ -1849,10 +1891,10 @@
                     "supports_tools": true,
                     "supports_thinking": true,
                     "keep_alive": 600,
-                    "supports_images": false
-                }
-            ]
-        }
+                    "supports_images": false,
+                },
+            ],
+        },
         //        },
         //        "openai": {
         //            "api_url": "https://api.openai.com/v1"
@@ -1876,7 +1918,7 @@
     // and configure default Prettier, used when no project-level Prettier installation is found.
     "prettier": {
         // // Whether to consider prettier formatter or not when attempting to format a file.
-        "allowed": true
+        "allowed": false,
         //
         // // Use regular Prettier json configuration.
         // // If Prettier is allowed, Zed will use this for its Prettier instance for any applicable file, if
@@ -1893,7 +1935,7 @@
     },
     // Settings for auto-closing of JSX tags.
     "jsx_tag_auto_close": {
-        "enabled": true
+        "enabled": true,
     },
     // LSP Specific settings.
     "lsp": {
@@ -1905,36 +1947,36 @@
                     "diagnosticMode": "workspace",
                     "typeCheckingMode": "all",
                     "inlayHints": {
-                        "callArgumentNamesMatching": true
-                    }
-                }
-            }
+                        "callArgumentNamesMatching": true,
+                    },
+                },
+            },
         },
         "ruff": {
             "initialization_options": {
                 "settings": {
                     "format": {
-                        "preview": true
+                        "preview": true,
                     },
                     "lint": {
-                        "preview": true
-                    }
-                }
-            }
+                        "preview": true,
+                    },
+                },
+            },
         },
         "ty": {
             "settings": {
                 "experimental": {
-                    "rename": true
+                    "rename": true,
                 },
-                "diagnosticMode": "workspace"
-            }
-        }
+                "diagnosticMode": "workspace",
+            },
+        },
     },
     // Common language server settings.
     "global_lsp_settings": {
         // Whether to show the LSP servers button in the status bar.
-        "button": true
+        "button": true,
     },
     // Jupyter settings
     "jupyter": {
@@ -1957,7 +1999,7 @@
         // Specify the mode as the key and the shape as the value.
         // The mode can be one of the following: "normal", "replace", "insert", "visual".
         // The shape can be one of the following: "block", "bar", "underline", "hollow".
-        "cursor_shape": {}
+        "cursor_shape": {},
     },
     // The server to connect to. If the environment variable
     // ZED_SERVER_URL is set, it will override this setting.
@@ -2039,8 +2081,8 @@
         "dock": "left",
         "log_dap_communications": true,
         "format_dap_log_messages": true,
-        "button": true
-    }
+        "button": true,
+    },
     // Configures any number of settings profiles that are temporarily applied on
     // top of your existing user settings when selected from
     // `settings profile selector: toggle`.
