@@ -49,4 +49,4 @@ alias sudogui='pkexec env WAYLAND_DISPLAY="$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" XD
 
 alias signoff='ARCHWEB_PASSWORD="$(sudo \cat /root/.arch-signoff-password)" signoff '
 
-alias getsdf='vared -p "Enter compound name: " compound && echo "$compound" && curl -o "${compound}.sdf" "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/${compound}/SDF"'
+alias getsdf='vared -p "Enter compound name: " compound && echo "$compound" && curl -o "/mnt/Data/Avogadro2/Imports/${compound}.sdf" "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/${compound}/SDF"'
