@@ -1,6 +1,7 @@
 export HYPRCURSOR_THEME=Bibata-Modern-Ice
 export XCURSOR_THEME=Bibata-Modern-Ice
 export XCURSOR_SIZE=28
+export XCURSOR_PATH=/usr/share/icons:~/.local/share/icons
 export HYPRCURSOR_SIZE=28
 
 export GDK_BACKEND=wayland
@@ -9,12 +10,12 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=1
 export SDL_VIDEODRIVER=wayland
 export CLUTTER_BACKEND=wayland
 
-export LIBVA_DRIVER_NAME=iHD
+export LIBVA_DRIVER_NAME=nvidia
+export GBM_BACKEND=nvidia-drm
+export __GLX_VENDOR_LIBRARY_NAME=nvidia
 export ELECTRON_OZONE_PLATFORM_HINT=auto
 export NVD_BACKEND=direct
-export VDPAU_DRIVER=va_gl
-export VDPAU_QUIRKS=XCloseDisplay,ShowWatermark
-export ANV_DEBUG=video-decode,video-encode
+export VDPAU_DRIVER=nvidia
 
 export XDG_CURRENT_DESKTOP=Hyprland
 export XDG_SESSION_TYPE=wayland
@@ -29,6 +30,8 @@ export VISUAL=nano
 
 export HOMEBREW_NO_ANALYTICS=1
 
-export RUSTICL_ENABLE=iris
+export MOZ_DISABLE_RDD_SANDBOX=1
+
+export GST_PLUGIN_FEATURE_RANK=nvmpegvideodec:MAX,nvmpeg2videodec:MAX,nvmpeg4videodec:MAX,nvh264sldec:MAX,nvh264dec:MAX,nvjpegdec:MAX,nvh265sldec:MAX,nvh265dec:MAX,nvvp9dec:MAX,avdec_av1:NONE,av1dec:NONE
 
 export ARCHWEB_USERNAME=EntityDeletr
