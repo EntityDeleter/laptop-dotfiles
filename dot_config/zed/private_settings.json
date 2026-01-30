@@ -1,4 +1,15 @@
 {
+    "completion_menu_scrollbar": "auto",
+    "which_key": {
+        "enabled": false,
+    },
+    "sticky_scroll": {
+        "enabled": true,
+    },
+    "minimum_contrast_for_highlights": 60.0,
+    "ui_font_size": 15.0,
+    "text_rendering_mode": "platform_default",
+    "buffer_font_size": 13.0,
     "colorize_brackets": true,
     "project_name": null,
     // The name of the Zed theme to use for the UI.
@@ -7,11 +18,7 @@
     // - "system": Use the theme that corresponds to the system's appearance
     // - "light": Use the theme indicated by the "light" field
     // - "dark": Use the theme indicated by the "dark" field
-    "theme": {
-        "mode": "system",
-        "light": "One Light",
-        "dark": "One Dark",
-    },
+    "theme": "One Dark",
     "icon_theme": "Zed (Default)",
     // The name of a base set of key bindings to use.
     // This setting can take six values, each named after another
@@ -51,7 +58,6 @@
         "cv19": true,
     },
     // The default font size for text in the editor
-    "buffer_font_size": 13,
     // The weight of the editor font in standard CSS units from 100 to 900.
     "buffer_font_weight": 400,
     // Set the buffer's line height.
@@ -64,9 +70,7 @@
     //         "buffer_line_height": {
     //           "custom": 2
     //         },
-    "buffer_line_height": {
-        "custom": 1.2,
-    },
+    "buffer_line_height": "comfortable",
     // The name of a font to use for rendering text in the UI
     // You can set this to ".SystemUIFont" to use the system font
     // ".ZedSans" currently aliases to "IBM Plex Sans", but this may
@@ -90,9 +94,7 @@
         "cv19": true,
     },
     // The weight of the UI font in standard CSS units from 100 to 900.
-    "ui_font_weight": 400,
     // The default font size for text in the UI
-    "ui_font_size": 16,
     // The default font size for text in the agent panel. Falls back to the UI font size if unset.
     "agent_ui_font_size": null,
     // How much to fade out unused code.
@@ -132,7 +134,7 @@
     //    "alt"
     // 2. Maps `Control` on Linux and Windows and to `Command` on MacOS:
     //    "cmd_or_ctrl" (alias: "cmd", "ctrl")
-    "multi_cursor_modifier": "alt",
+    "multi_cursor_modifier": "cmd_or_ctrl",
     // Whether to enable vim modes and key bindings.
     "vim_mode": false,
     // Whether to enable helix mode and key bindings.
@@ -163,7 +165,7 @@
     // Default: true
     "restore_on_file_reopen": true,
     // Whether to automatically close files that have been deleted on disk.
-    "close_on_file_delete": false,
+    "close_on_file_delete": true,
     // Relative size of the drop target in the editor that will open dropped file as a split pane (0-0.5)
     // E.g. 0.25 == If you drop onto the top/bottom quarter of the pane a new vertical split will be used
     //              If you drop onto the left/right quarter of the pane a new horizontal split will be used
@@ -263,7 +265,6 @@
     // - 90: Preferred for body text
     //
     // This only affects text drawn over highlight backgrounds in the editor.
-    "minimum_contrast_for_highlights": 90,
     // Whether to pop the completions menu while typing in an editor without
     // explicitly requesting it.
     "show_completions_on_input": true,
@@ -305,7 +306,6 @@
     //  - "info"
     //  - "hint"
     //  - "all" — allow all diagnostics (default)
-    "diagnostics_max_severity": "hint",
     // Whether to show wrap guides (vertical rulers) in the editor.
     // Setting this to true will show a guide at the 'preferred_line_length' value
     // if 'soft_wrap' is set to 'preferred_line_length', and will show any
@@ -479,7 +479,7 @@
         //    "always"
         // 3. Never show the minimap:
         //    "never" (default)
-        "show": "never",
+        "show": "auto",
         // Where to show the minimap in the editor.
         // This setting can take two values:
         // 1. Show the minimap on the focused editor only:
@@ -538,7 +538,6 @@
         // Whether to show fold buttons in the gutter.
         "folds": true,
         // Minimum number of characters to reserve space for in the gutter.
-        "min_line_number_digits": 4,
     },
     "indent_guides": {
         // Whether to show indent guides in the editor.
@@ -566,7 +565,7 @@
     // The number of lines to keep above/below the cursor when scrolling with the keyboard
     "vertical_scroll_margin": 3,
     // Whether to scroll when clicking near the edge of the visible text area.
-    "autoscroll_on_clicks": false,
+    "autoscroll_on_clicks": true,
     // The number of characters to keep on either side when scrolling with the mouse
     "horizontal_scroll_margin": 5,
     // Scroll sensitivity multiplier. This multiplier is applied
@@ -582,11 +581,12 @@
     // Search options to enable by default when opening new project and buffer searches.
     "search": {
         // Whether to show the project search button in the status bar.
+        "center_on_match": true,
         "button": true,
-        "whole_word": true,
-        "case_sensitive": true,
-        "include_ignored": true,
-        "regex": true,
+        "whole_word": false,
+        "case_sensitive": false,
+        "include_ignored": false,
+        "regex": false,
     },
     // When to populate a new search's query based on the text under the cursor.
     // This setting can take the following three values:
@@ -633,9 +633,7 @@
     },
     // Whether to resize all the panels in a dock when resizing the dock.
     // Can be a combination of "left", "right" and "bottom".
-    "resize_all_panels_in_dock": [
-        "left"
-    ],
+    "resize_all_panels_in_dock": ["left"],
     "project_panel": {
         // Whether to show the project panel button in the status bar
         "button": true,
@@ -767,7 +765,7 @@
         // Whether to show the collaboration panel button in the status bar.
         "button": true,
         // Where to dock the collaboration panel. Can be 'left' or 'right'.
-        "dock": "left",
+        "dock": "right",
         // Default width of the collaboration panel.
         "default_width": 240,
     },
@@ -775,7 +773,7 @@
         // Whether to show the git panel button in the status bar.
         "button": true,
         // Where to dock the git panel. Can be 'left' or 'right'.
-        "dock": "left",
+        "dock": "right",
         // Default width of the git panel.
         "default_width": 360,
         // Style of the git status indicator in the panel.
@@ -825,7 +823,7 @@
         // Whether to show the agent panel button in the status bar.
         "button": true,
         // Where to dock the agent panel. Can be 'left', 'right' or 'bottom'.
-        "dock": "right",
+        "dock": "left",
         // Default width when the agent panel is docked to the left or right.
         "default_width": 640,
         // Default height when the agent panel is docked to the bottom.
@@ -835,7 +833,7 @@
             // The provider to use.
             "provider": "ollama",
             // The model to use.
-            "model": "QWEN-3-4B:latest",
+            "model": "GPT-OSS-20B:latest",
         },
         // Additional parameters for language model requests. When making a request to a model, parameters will be taken
         // from the last entry in this list that matches the model's provider and name. In each entry, both provider
@@ -863,7 +861,7 @@
         //
         // Note: This setting has no effect on external agents that support permission modes, such as Claude Code.
         //       You can set `agent_servers.claude.default_mode` to `bypassPermissions` to skip all permission requests.
-        "always_allow_tool_actions": false,
+        "always_allow_tool_actions": true,
         // When enabled, the agent will stream edits.
         //        "stream_edits": true,
         // When enabled, agent edits will be displayed in single-file editors for review
@@ -928,6 +926,7 @@
         "notify_when_agent_waiting": "primary_screen",
         // Whether to play a sound when the agent has either completed
         // its response, or needs user input.
+
         // Default: false
         "play_sound_when_agent_done": true,
         /// Whether to have edit cards in the agent panel expanded, showing a preview of the full diff.
@@ -957,9 +956,7 @@
     // The list of language servers to use (or disable) for all languages.
     //
     // This is typically customized on a per-language basis.
-    "language_servers": [
-        "..."
-    ],
+    "language_servers": ["..."],
     // When to automatically save edited buffers. This setting can
     // take four values.
     //
@@ -1082,7 +1079,7 @@
     // before saving it.
     "remove_trailing_whitespace_on_save": true,
     // Whether to start a new line with a comment when a previous line is a comment as well.
-    "extend_comment_on_newline": true,
+    "extend_comment_on_newline": false,
     // Removes any lines containing only whitespace at the end of the file and
     // ensures just one newline at the end.
     "ensure_final_newline_on_save": true,
@@ -1105,7 +1102,7 @@
     // 4. Default. Format files using Zed's Prettier integration (if applicable),
     //    or falling back to formatting via language server:
     //     "formatter": "auto"
-    "formatter": "language_server",
+    "formatter": "auto",
     // How to soft-wrap long lines of text.
     // Possible values:
     //
@@ -1207,9 +1204,7 @@
     // for files that are not tracked by git, but are still important to your project. Note that globs
     // that are overly broad can slow down Zed's file scanning. `file_scan_exclusions` takes
     // precedence over these inclusions.
-    "file_scan_inclusions": [
-        ".env*"
-    ],
+    "file_scan_inclusions": [".env*"],
     // Git gutter behavior configuration.
     "git": {
         // Control whether the git gutter is shown. May take 2 values:
@@ -1424,12 +1419,7 @@
                 // Default directories to search for virtual environments, relative
                 // to the current working directory. We recommend overriding this
                 // in your project's settings, rather than globally.
-                "directories": [
-                    ".env",
-                    "env",
-                    ".venv",
-                    "venv"
-                ],
+                "directories": [".env", "env", ".venv", "venv"],
                 // Can also be `csh`, `fish`, `nushell` and `power_shell`
                 "activate_script": "default",
             },
@@ -1526,9 +1516,7 @@
             "**/Zed/**/*.json",
             "**/.vscode/**/*.json",
         ],
-        "Shell Script": [
-            ".env.*"
-        ],
+        "Shell Script": [".env.*"],
     },
     // Settings for which version of Node.js and NPM to use when installing
     // language servers and Copilot.
@@ -1568,7 +1556,7 @@
         //   (Word-based completions can still be queried via a separate action)
         //
         // Default: fallback
-        "words": "fallback",
+        "words": "enabled",
         // Minimum number of characters required to automatically trigger word-based completions.
         // Before that value, it's still possible to trigger the words-based completion manually with the corresponding editor command.
         //
@@ -1669,9 +1657,7 @@
             "code_actions_on_format": {
                 "source.organizeImports": true,
             },
-            "debuggers": [
-                "Delve"
-            ],
+            "debuggers": ["Delve"],
         },
         //        "GraphQL": {
         //            "prettier": {
@@ -1699,11 +1685,7 @@
         //            }
         //        },
         "JavaScript": {
-            "language_servers": [
-                "!typescript-language-server",
-                "vtsls",
-                "..."
-            ],
+            "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
                 "allowed": true,
             },
@@ -1712,17 +1694,13 @@
             "prettier": {
                 "allowed": true,
             },
-            "language_servers": [
-                "..."
-            ],
+            "language_servers": ["..."],
         },
         "JSONC": {
             "prettier": {
                 "allowed": true,
             },
-            "language_servers": [
-                "..."
-            ],
+            "language_servers": ["..."],
         },
         //        "Kotlin": {
         //            "language_servers": ["kotlin-language-server", "!kotlin-lsp", "..."]
@@ -1756,21 +1734,19 @@
             "allow_rewrap": "anywhere",
         },
         "Python": {
-            "debuggers": [
-                "Debugpy",
-                "PyRight",
-                "python-lsp-server"
-            ],
-            "language_servers": [
-                "basedpyright",
-                "ty",
-                "..."
-            ],
+            "completions": {
+                "words": "enabled",
+            },
+            "debuggers": ["Debugpy", "PyRight", "python-lsp-server"],
+            "language_servers": ["basedpyright", "ty", "..."],
             "code_actions_on_format": {
                 // Organize imports
                 "source.organizeImports.ruff": true,
                 // Fix all auto-fixable lint violations
                 "source.fixAll.ruff": true,
+            },
+            "prettier": {
+                "allowed": false,
             },
         },
         //        "Ruby": {
@@ -1784,9 +1760,7 @@
         //            ]
         //        },
         "Rust": {
-            "debuggers": [
-                "CodeLLDB"
-            ],
+            "debuggers": ["CodeLLDB"],
         },
         //        "SCSS": {
         //            "prettier": {
@@ -1804,11 +1778,7 @@
         //            }
         //        },
         "TSX": {
-            "language_servers": [
-                "!typescript-language-server",
-                "vtsls",
-                "..."
-            ],
+            "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
                 "allowed": true,
             },
@@ -1819,11 +1789,7 @@
         //            }
         //        },
         "TypeScript": {
-            "language_servers": [
-                "!typescript-language-server",
-                "vtsls",
-                "..."
-            ],
+            "language_servers": ["!typescript-language-server", "vtsls", "..."],
             "prettier": {
                 "allowed": true,
             },
@@ -1838,19 +1804,17 @@
         //                "allowed": true
         //            }
         //        },
-        //        "XML": {
         //            "prettier": {
         //                "allowed": true,
-        //                "plugins": [
-        //                    "@prettier/plugin-xml"
-        //                ],
-        //            },
+        //        "XML": {
+        //                "plugins": ["@prettier/plugin-xml"]
+        //            }
         //        },
-        "YAML": {
-            "prettier": {
-                "allowed": true,
-            },
-        },
+        //        "YAML": {
+        //            "prettier": {
+        //                "allowed": true
+        //            }
+        //        }
         //        "Zig": {
         //            "language_servers": ["zls", "..."]
         //        }
@@ -1867,8 +1831,8 @@
             "api_url": "http://100.69.242.6:11434",
             "available_models": [
                 {
-                    "name": "QWEN-3-30B:latest",
-                    "display_name": "QWEN-3-30B",
+                    "name": "QWEN-3-4B:latest",
+                    "display_name": "QWEN-3-4B",
                     "max_tokens": 32768,
                     "supports_tools": true,
                     "supports_thinking": true,
@@ -1876,8 +1840,8 @@
                     "supports_images": false,
                 },
                 {
-                    "name": "QWEN-3-4B:latest",
-                    "display_name": "QWEN-3-4B",
+                    "name": "QWEN-3-30B:latest",
+                    "display_name": "QWEN-3-30B",
                     "max_tokens": 32768,
                     "supports_tools": true,
                     "supports_thinking": true,
@@ -1918,7 +1882,7 @@
     // and configure default Prettier, used when no project-level Prettier installation is found.
     "prettier": {
         // // Whether to consider prettier formatter or not when attempting to format a file.
-        "allowed": false,
+        "allowed": true,
         //
         // // Use regular Prettier json configuration.
         // // If Prettier is allowed, Zed will use this for its Prettier instance for any applicable file, if
