@@ -15,7 +15,7 @@ pre_sudo = true
 sudo_command = "sudo"
 
 # Disable specific steps - same options as the command line flag
-disable = ["system", "conda", "nix", "hyprpm"]
+disable = ["system", "conda", "nix"]
 
 # Ignore failures for these steps
 # ignore_failures = ["powershell"]
