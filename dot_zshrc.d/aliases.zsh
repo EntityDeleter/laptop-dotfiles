@@ -51,4 +51,4 @@ getsdf() {
   curl -o "/mnt/Data/Avogadro2/Imports/${1}.sdf" "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/${1}/SDF"
 }
 
-alias scan='scanimage -d "pixma:G3000_192.168.1.12" -p --resolution=600 -o "
+alias scan='scanimage -d "pixma:G3000_192.168.1.12" -p --resolution=600 -o '
