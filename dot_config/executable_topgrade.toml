@@ -15,7 +15,7 @@ pre_sudo = true
 sudo_command = "sudo"
 
 # Disable specific steps - same options as the command line flag
-disable = ["system", "conda", "nix", "hyprpm"]
+disable = ["system", "hyprpm"]
 
 # Ignore failures for these steps
 # ignore_failures = ["powershell"]
@@ -83,8 +83,6 @@ cleanup = true
 
 # Commands to run before anything
 [pre_commands]
-"Conda Update" = "conda update --all"
-#"Hyprpm Update" = "hyprpm update"
 
 # Commands to run after anything
 [post_commands]
