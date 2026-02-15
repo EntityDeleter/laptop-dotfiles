@@ -1,2 +1,3 @@
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(zoxide init zsh)"
+eval $(zoxide init zsh)
+eval $(thefuck --alias oops)
+eval $(mcat --generate zsh)
