@@ -15,7 +15,7 @@ alias tailssh="ssh "
 alias mosh="mosh --ssh='ssh -p 39901' "
 
 alias cat="mcat -t vscode -s --report --opts 'center=true,inline=false' --hyprlink -a "
-alias icat="mcat -t vscode -s --report --opts 'center=true,inline=false' -a -o --hyprlink interactive "
+alias icat="mcat -t vscode -s --report --opts 'center=true,inline=false' -a --hyprlink -o interactive "
 
 cl() {
   z "$1"
