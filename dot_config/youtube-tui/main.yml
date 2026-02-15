@@ -23,8 +23,8 @@ shell: zsh
 legacy_input_handling: false
 env:
   terminal-emulator: kitty
-  download-path: ~/Videos/Downloads/%(title)s-%(id)s.%(ext)s
   browser: xdg-open
   youtube-downloader: yt-dlp
-  save-path: ~/Videos/youtube-tui
   video-player: mpv
+  save-path: ~/Videos/youtube-tui
+  download-path: ~/Videos/Downloads/%(title)s-%(id)s.%(ext)s
