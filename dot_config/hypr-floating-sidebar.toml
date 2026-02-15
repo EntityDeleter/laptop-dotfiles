@@ -1,0 +1,7 @@
+win_w = 550
+base_slots = 2
+gap_between = 15
+bottom_margin = 10
+top_margin = 59
+side_margin = 20
+visible_sliver = 70
