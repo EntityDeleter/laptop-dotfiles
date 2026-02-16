@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Path to swayosd-server log file
-SERVER_LOG="$HOME/.cache/swayosd-server.log"
+SERVER_LOG="/run/user/1000/swayosd.log"
 
 # Unique flag file for this instance
 FLAG_FILE="/tmp/swayosd_check_$$"
