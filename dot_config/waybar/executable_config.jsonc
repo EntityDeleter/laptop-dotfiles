@@ -2,7 +2,7 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "output": "",
+    "output": "eDP-1",
     // "height": 10, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
@@ -19,6 +19,7 @@
         "memory",
         "backlight",
         "battery",
+        "custom/wpm",
         "clock",
         //        "bluetooth",
         "tray",
@@ -125,8 +126,15 @@
         "format-charging": "{capacity}%\n",
         "format-plugged": "{capacity}%\n",
         "format-tooltip": "{time}\n{icon}",
-        "on-click": "io.github.v81d.Wattage",
+        "format-alt": "{power}W\n{icon}",
         "format-icons": ["", "", "", "", ""],
+        "justify": "center",
+    },
+        "custom/wpm": {
+        "format": "KPM\n{}",
+        "exec": "python3 /home/sudar/.local/bin/wpm_tracker.py",
+        "return-type": "json",
+        "restart-interval": 5,
         "justify": "center",
     },
     "network": {

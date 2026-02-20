@@ -9,7 +9,7 @@ window#waybar {
     background-color: transparent;
     color: #ffffff;
     transition-property: background-color;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
     padding: 0px 10px;
     margin: 7px 3px 0px 5px;
 }
@@ -31,31 +31,36 @@ button {
     padding: 0px 10px;
     margin: 7px 5px 0px 5px;
     background-color: #000000;
-    border: 3px solid #33CCFF; border-radius: 10px;
+    border: 3px solid #33ccff;
+    border-radius: 10px;
 }
 
 #workspaces button {
     background-color: #000000;
     color: #ffffff;
     margin: 0px 0px;
-    border: 0px solid #33CCFF; border-radius: 6px;
+    border: 0px solid #33ccff;
+    border-radius: 6px;
 }
 
 #workspaces button.active {
     background: #ffffff;
     color: #000000;
-    border: 0px solid #33CCFF; border-radius: 6px;
+    border: 0px solid #33ccff;
+    border-radius: 6px;
 }
 
 #workspaces button:hover {
     background: rgba(255, 255, 255, 0.5);
-    border: 0px solid #33CCFF; border-radius: 6px;
+    border: 0px solid #33ccff;
+    border-radius: 6px;
 }
 
 #workspaces {
     padding: 0px 0px;
     margin: 7px 5px 0px 5px;
-    border: 3px solid #33CCFF; border-radius: 10px;
+    border: 3px solid #33ccff;
+    border-radius: 10px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -69,24 +74,27 @@ button {
 }
 
 #clock {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
 #battery {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
-#battery.charging, #battery.plugged {
+#battery.charging,
+#battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
+    background-color: #26a65b;
 }
 
 @keyframes blink {
@@ -108,48 +116,53 @@ button {
 }
 
 #bluetooth {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     font-size: 27px;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
 #bluetooth.connected {
-    background-color: #26A65B;
+    background-color: #26a65b;
 }
 
 #cpu {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
 #memory {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
 #backlight {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
 #network {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
 #network.disconnected {
@@ -157,19 +170,21 @@ button {
 }
 
 #privacy {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
 #wireplumber {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
 
 #wireplumber.muted {
@@ -177,11 +192,12 @@ button {
 }
 
 #tray {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 0px 10px 10px 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px 10px 10px 0px;
 }
 
 #tray > .passive {
@@ -194,11 +210,12 @@ button {
 }
 
 #idle_inhibitor {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     padding: 0px 10px;
     margin: 7px 0px 0px 0px;
-    border: 2px solid #33CCFF; border-radius: 10px 0px 0px 10px;
+    border: 2px solid #33ccff;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #idle_inhibitor.activated {
@@ -206,7 +223,16 @@ button {
 }
 
 #custom-power {
-     font-size: 27px;
-     padding: 0px 10px;
-     margin: 7px 0px 0px 0px;
+    font-size: 27px;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+}
+
+#custom-wpm {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 7px 0px 0px 0px;
+    border: 2px solid #33ccff;
+    border-radius: 0px;
 }
