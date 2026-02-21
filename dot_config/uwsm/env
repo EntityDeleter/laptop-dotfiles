@@ -22,3 +22,5 @@ export EDITOR=nano
 export VISUAL=nano
 
 export ARCHWEB_USERNAME=EntityDeletr
+
+export PATH=/home/sudar/.local/bin:$PATH
