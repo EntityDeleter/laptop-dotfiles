@@ -117,65 +117,119 @@
     },
     "modules": [
         {
-            "type": "custom", // HardwareStart
-            // {#1} is equivalent to `\u001b[1m`. {#} is equivalent to `\u001b[m`
+            "type": "custom",
             "format": "┌───────────────── Software Information ─────────────────┐"
+            // HardwareStart: Defines header for software information section
+            // Uses box-drawing characters for visual separation
+            // The title is formatted with consistent spacing and alignment
         },
-        "os",
-        //        "bios",
-        "bootmgr",
-        "kernel",
-        "initsystem",
-        "shell",
-        "vulkan",
-
         {
-            "type": "custom", // InformationEnd
+            "type": "os",
+            "format": ""
+        },
+        {
+            "type": "bootmgr",
+            "format": ""
+        },
+        {
+            "type": "kernel",
+            "format": ""
+        },
+        {
+            "type": "initsystem",
+            "format": ""
+        },
+        {
+            "type": "shell",
+            "format": ""
+        },
+        {
+            "type": "vulkan",
+            "format": ""
+        },
+        {
+            "type": "custom",
             "format": "├────────────────────────────────────────────────────────┤"
+            // InformationEnd: Footer for software information section
+            // Creates visual separation between sections using box-drawing characters
         },
-
-        "uptime",
-        //        "loadavg",
-        //        "processes",
-        "btrfs",
-        "packages",
-
         {
-            "type": "custom", // InformationEnd
+            "type": "uptime",
+            "format": ""
+        },
+        {
+            "type": "btrfs",
+            "format": ""
+        },
+        {
+            "type": "packages",
+            "format": ""
+        },
+        {
+            "type": "custom",
             "format": "├────────────────────────────────────────────────────────┤"
+            // InformationEnd: Separates next information section
+            // Maintains consistent visual structure
         },
-
-        "lm",
-        "wm",
-        "version",
-        "cursor",
-        "terminal",
-        "terminalfont",
-        //        "terminalsize",
-        //        "terminaltheme",
-
         {
-            "type": "custom", // InformationEnd
+            "type": "lm",
+            "format": ""
+        },
+        {
+            "type": "wm",
+            "format": ""
+        },
+        {
+            "type": "version",
+            "format": ""
+        },
+        {
+            "type": "cursor",
+            "format": ""
+        },
+        {
+            "type": "terminal",
+            "format": ""
+        },
+        {
+            "type": "terminalfont",
+            "format": ""
+        },
+        {
+            "type": "custom",
             "format": "├────────────────────────────────────────────────────────┤"
+            // InformationEnd: Separates next information section
         },
-
-        "publicip",
-        "localip",
-        //        "dns",
-        //        "datetime",
-        "locale",
-        "users",
-
         {
-            "type": "custom", // InformationEnd
+            "type": "publicip",
+            "format": ""
+        },
+        {
+            "type": "localip",
+            "format": ""
+        },
+        {
+            "type": "locale",
+            "format": ""
+        },
+        {
+            "type": "users",
+            "format": ""
+        },
+        {
+            "type": "custom",
             "format": "├────────────────────────────────────────────────────────┤"
+            // InformationEnd: Separates next information section
         },
-
-        "weather",
-
         {
-            "type": "custom", // InformationEnd
+            "type": "weather",
+            "format": ""
+        },
+        {
+            "type": "custom",
             "format": "└────────────────────────────────────────────────────────┘"
+            // InformationEnd: Final footer for complete output
+            // Uses box-drawing characters to close the visual structure
         },
         {
             "type": "colors",

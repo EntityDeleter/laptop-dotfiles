@@ -1,8 +1,12 @@
+// Fastfetch configuration for left-aligned hardware information display
+// Displays system information in a formatted box without logo
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    // Logo configuration - disabled (type: none) to show only system information
     "logo": {
         "type": "none",
         "source": "",
+        // Color palette - unused since logo is disabled
         "color": {
             "1": "",
             "2": "",
@@ -16,6 +20,7 @@
         },
         "width": null,
         "height": null,
+        // Padding around logo (left position means left side of terminal)
         "padding": {
             "top": 1,
             "left": 2,
@@ -25,18 +30,21 @@
         "preserveAspectRatio": false,
         "recache": true,
         "position": "left",
+        // Chafa settings: Control terminal graphics rendering
         "chafa": {
             "fgOnly": false,
             "symbols": "block+border+space-wide-inverted"
         }
     },
+    // Display formatting options for module output
     "display": {
         "stat": false,
         "pipe": false,
         "showErrors": false,
         "disableLinewrap": true,
         "hideCursor": false,
-        "separator": "    ",
+        "separator": "    ", // 4 spaces between label and value
+        // These color settings are left empty to use terminal defaults unless overridden elsewhere
         "color": {
             "keys": "",
             "title": "",
@@ -55,7 +63,8 @@
             "spaceBeforeUnit": "default"
         },
         "temp": {
-            "unit": "D",
+            // Temperature display settings
+            "unit": "D", // Fahrenheit (C for Celsius)
             "ndigits": 2,
             "color": {
                 "green": "32",
@@ -65,6 +74,7 @@
             "spaceBeforeUnit": "default"
         },
         "percent": {
+            // Percentage display with color coding
             "type": ["num", "num-color"],
             "ndigits": 0,
             "color": {
@@ -76,6 +86,7 @@
             "width": 0
         },
         "bar": {
+            // Progress bar styling
             "char": {
                 "elapsed": "■",
                 "total": "-"
@@ -108,22 +119,24 @@
         },
         "constants": ["─────────────────"]
     },
+    // General fastfetch behavior settings
     "general": {
         "thread": true,
-        "processingTimeout": 5000,
+        "processingTimeout": 5000, // 5 second timeout for module detection
         "detectVersion": true,
-        "preRun": "clear",
-        "dsForceDrm": true
+        "preRun": "clear", // Clear terminal before displaying output
+        "dsForceDrm": true // Force DRM usage for framebuffer rendering
     },
+    // Module display order and configuration
     "modules": [
         {
-            "type": "custom", // HardwareStart
-            // {#1} is equivalent to `\u001b[1m`. {#} is equivalent to `\u001b[m`
+            "type": "custom", // Header separator
+            // Format codes: {#1} = bold, {#} = reset formatting
             "format": "┌───────────────── Hardware Information ─────────────────┐"
         },
         "board",
         "host",
-        //        "chassis",
+        // "chassis", // Disabled - redundant with board/host info
         "tpm",
 
         {
@@ -132,7 +145,9 @@
         },
 
         "display",
+        // Disabled: "brightness" - display brightness control
         //        "brightness",
+        // Disabled: "monitor" - monitor resolution and refresh rate
         //        "monitor",
         "gpu",
 
@@ -143,6 +158,7 @@
 
         "cpu",
         "cpucache",
+        // Disabled: "cpuusage" - real-time CPU usage percentage
         //        "cpuusage",
 
         {
@@ -150,36 +166,46 @@
             "format": "├────────────────────────────────────────────────────────┤"
         },
 
+        // Disabled: "memory" - RAM usage information
         //        "memory",
+        // Disabled: "swap" - swap space usage
         //        "swap",
         "disk",
         "physicaldisk",
-        //
         {
             "type": "custom", // InformationEnd
             "format": "├────────────────────────────────────────────────────────┤"
         },
 
+        // Disabled: "battery" - battery status and charge level
         //        "battery",
 
+        // Disabled: Battery section separator
         //        {
-        //            "type": "custom", // InformationEnd
+        //            "type": "custom",
         //            "format": "├────────────────────────────────────────────────────────┤"
         //        },
 
+        // Disabled: "sound" - audio device information
         //        "sound",
         "camera",
+        // Disabled: "mouse" - mouse device information
         //        "mouse",
+        // Disabled: "keyboard" - keyboard device information
         //        "keyboard",
 
+        // Disabled: "wifi" - wireless network information
         //        "wifi",
+        // Disabled: "netio" - network I/O statistics
         //        "netio",
+        // Disabled: "diskio" - disk I/O statistics
         //        "diskio",
 
         {
             "type": "custom", // InformationEnd
             "format": "└────────────────────────────────────────────────────────┘"
         },
+        // Display system color palette
         {
             "type": "colors",
             "paddingLeft": 2,
