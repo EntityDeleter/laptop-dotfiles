@@ -1,5 +1,5 @@
+/* Global styling for all elements */
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
     font-family: "Jetbrains Mono";
     font-feature-settings: '"zero", "calt", "ss02", "cv03", "cv04", "cv09", "cv12", "cv18", "cv19"';
     font-size: 13px;
@@ -7,6 +7,7 @@
     background-color: transparent;
 }
 
+/* Text elements styling */
 text {
     min-height: 20px;
     padding: 0px 10px;
@@ -14,10 +15,12 @@ text {
     border-bottom: 1px solid black;
 }
 
+/* Window background */
 window {
     background-color: transparent;
 }
 
+/* Main content box */
 box.main {
     padding: 5px;
     margin: 10px;
@@ -27,6 +30,7 @@ box.main {
     box-shadow: 0 0 5px black;
 }
 
+/* Match results box */
 box.matches {
     background-color: #555555;
     padding: 5px;
@@ -34,36 +38,41 @@ box.matches {
     border: 2px transparent;
 }
 
+/* Plugin information box */
 box.plugin.info {
     min-width: 150px;
     border-right: 1px solid black;
 }
 
+/* Description labels */
 label.match.description {
     font-size: 10px;
 }
 
+/* Plugin info labels */
 label.plugin.info {
     font-size: 14px;
     margin-left: 10px;
 }
 
+/* Selected match styling */
 .match:selected {
     border-right: 4px solid blue;
     background-color: transparent;
     animation: fade 0.1s linear;
 }
 
+/* Match container */
 box.match {
     padding: 1px;
     margin: 1px;
 }
 
+/* Fade animation */
 @keyframes fade {
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
