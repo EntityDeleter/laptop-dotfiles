@@ -1,0 +1,8 @@
+[sie][RNNoise#0]
+enableVad=true
+modelName=
+release=45
+vadThres=80
+
+[soe][RNNoise#0]
+modelName=
