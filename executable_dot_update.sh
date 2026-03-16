@@ -5,9 +5,6 @@ yay
 
 # Update Repositories Recursively:
 sudo-rs pacman -Syu --config ~/.pacmanrepofiles/cachyos.conf --noconfirm |& grep -v "is newer than"
-sudo-rs pacman -Syu --config ~/.pacmanrepofiles/core-testing.conf --noconfirm |& grep -v "is newer than"
-sudo-rs pacman -Syu --config ~/.pacmanrepofiles/extra-testing.conf --noconfirm |& grep -v "is newer than"
-sudo-rs pacman -Syu --config ~/.pacmanrepofiles/multilib-testing.conf --noconfirm |& grep -v "is newer than"
 sudo-rs pacman -Syu --config ~/.pacmanrepofiles/core.conf --noconfirm |& grep -v "is newer than"
 sudo-rs pacman -Syu --config ~/.pacmanrepofiles/extra.conf --noconfirm |& grep -v "is newer than"
 sudo-rs pacman -Syu --config ~/.pacmanrepofiles/multilib.conf --noconfirm |& grep -v "is newer than"
