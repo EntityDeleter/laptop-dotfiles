@@ -1,3 +1,0 @@
-graphics.conf --> laptop has no nvidia graphics card
-input.conf --> sensitivity changed for touchpad
-env.conf --> added nvidia enviroment variables
