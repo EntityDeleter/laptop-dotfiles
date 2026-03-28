@@ -1,0 +1,115 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "server": {
+        "port": 28282,
+        "hostname": "localhost",
+        "mdns": false,
+        "mdnsDomain": "opencode.local",
+        "cors": ["https://arch-desktop.stern-adelie.ts.net"]
+    },
+    "tools": {
+        "write": true,
+        "bash": true
+    },
+    "provider": {
+        "llama.cpp": {
+            "npm": "@ai-sdk/openai-compatible",
+            "name": "llama.cpp",
+            "options": {
+                "baseURL": "http://100.69.242.6:11434/v1",
+                "apiKey": "{file:/home/sudar/.config/opencode/apikey.txt}"
+            },
+            "models": {
+                "Qwen3.5-4B-Q8_0": {
+                    "id": "Qwen3.5-4B-Q8_0",
+                    "name": "Qwen3.5 4B Q8_0",
+                    "family": "qwen35",
+                    "attachment": true,
+                    "reasoning": true,
+                    "temperature": true,
+                    "tool_call": true,
+                    "interleaved": true,
+                    "modalities": {
+                        "output": ["text", "image"],
+                        "input": ["text"]
+                    }
+                },
+                "Qwen3.5-9B-UD-Q5_K_XL": {
+                    "id": "Qwen3.5-9B-UD-Q5_K_XL",
+                    "name": "Qwen3.5 9B UD Q5_K_XL",
+                    "family": "qwen35",
+                    "attachment": true,
+                    "reasoning": true,
+                    "temperature": true,
+                    "tool_call": true,
+                    "interleaved": true,
+                    "modalities": {
+                        "output": ["text", "image"],
+                        "input": ["text"]
+                    }
+                },
+                "GLM-4.7-Flash-REAP-23B-A3B-UD-Q5_K_XL": {
+                    "id": "GLM-4.7-Flash-REAP-23B-A3B-UD-Q5_K_XL",
+                    "name": "GLM 4.7 Flash REAP 23B A3B UD Q5_K_XL",
+                    "family": "glm4moelite",
+                    "attachment": true,
+                    "reasoning": true,
+                    "temperature": true,
+                    "tool_call": true,
+                    "interleaved": true,
+                    "modalities": {
+                        "output": ["text", "image"],
+                        "input": ["text"]
+                    }
+                },
+                "Nemotron-3-Nano-30B-A3B-IQ4_NL": {
+                    "id": "Nemotron-3-Nano-30B-A3B-IQ4_NL",
+                    "name": "Nemotron 3 Nano 30B A3B IQ4_NL",
+                    "family": "nemotron_h_moe",
+                    "attachment": false,
+                    "reasoning": true,
+                    "temperature": true,
+                    "tool_call": true,
+                    "interleaved": true,
+                    "modalities": {
+                        "output": ["text"],
+                        "input": ["text"]
+                    }
+                },
+                "Qwen3.5-35B-A3B-UD-IQ4_XS": {
+                    "id": "Qwen3.5-35B-A3B-UD-IQ4_XS",
+                    "name": "Qwen3.5 35B A3B UD IQ4_XS",
+                    "family": "qwen35moe",
+                    "attachment": true,
+                    "reasoning": true,
+                    "temperature": true,
+                    "tool_call": true,
+                    "interleaved": true,
+                    "modalities": {
+                        "output": ["text", "image"],
+                        "input": ["text"]
+                    }
+                }
+            }
+        }
+    },
+    "default_agent": "build",
+    "mcp": {
+        "DeepWiki": {
+            "type": "remote",
+            "url": "https://mcp.deepwiki.com/mcp",
+            "enabled": true
+        },
+        "BrowserOS": {
+            "type": "remote",
+            "url": "http://127.0.0.1:9000/mcp",
+            "enabled": true
+        }
+    },
+    "experimental": {
+        "batch_tool": true,
+        "continue_loop_on_deny": true,
+        "mcp_timeout": 1000
+    },
+    "username": "EntityDeletr"
+}
